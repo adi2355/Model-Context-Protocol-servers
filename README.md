@@ -1,11 +1,12 @@
-<<<<<<< HEAD
-# Model-Context-Protocol-servers
+# Model-Context-Protocol Servers
 
-# Leafly Cannabis Strain Data Scraper
+A collection of specialized MCP (Model Context Protocol) servers for different use cases.
 
-This project implements a specialized scraper for collecting structured cannabis strain data from Leafly.com, following a standardized schema and methodology. It is implemented as a tool for the Firecrawl MCP server and can also be run as a standalone script.
+## 1. Leafly Cannabis Strain Data Scraper
 
-## Installation
+This MCP server implements a specialized scraper for collecting structured cannabis strain data from Leafly.com, following a standardized schema and methodology.
+
+### Installation
 
 1. Ensure you have Node.js 18+ installed
 2. Clone the repository
@@ -28,7 +29,7 @@ This project implements a specialized scraper for collecting structured cannabis
    npm run build
    ```
 
-## API Key Requirement
+### API Key Requirement
 
 **Important**: This scraper requires a valid Firecrawl API key to function. If you try to run the scraper without a valid API key, you will receive a 401 Unauthorized error.
 
@@ -44,36 +45,7 @@ You can set the API key in one of two ways:
    FIRECRAWL_API_KEY=your_api_key_here
    ```
 
-If you don't have an API key, you'll need to sign up for one at the Firecrawl website.
-
-## Important TypeScript Notes
-
-If you modify the code and encounter TypeScript errors during compilation, note the following:
-
-1. **Import Extensions**: When importing local modules, you must include the `.js` extension (not `.ts`) due to ES modules requirements:
-   ```typescript
-   // Correct (with ES modules)
-   import { myFunction } from './my-module.js';
-   
-   // Incorrect (will cause errors)
-   import { myFunction } from './my-module';
-   ```
-
-2. **Type Assertions**: When working with external APIs, you may need to add type assertions:
-   ```typescript
-   // Add type assertions for parameters
-   const { strains, exportFormat = 'csv' } = args as { strains: string[], exportFormat?: string };
-   ```
-
-3. **Null Checking**: Add null/undefined checks before using potentially undefined values:
-   ```typescript
-   if (!alternativeUrl) {
-     console.log(`No valid URL found in search results`);
-     return;
-   }
-   ```
-
-## Features
+### Features
 
 - Scrapes 66 standardized data points for each cannabis strain from Leafly.com
 - Follows a consistent methodology for data extraction and normalization
@@ -81,7 +53,7 @@ If you modify the code and encounter TypeScript errors during compilation, note 
 - Exports data in CSV or JSON format
 - Built-in fallback mechanisms for strains that aren't directly accessible
 
-## Data Structure
+### Data Structure
 
 The scraper collects the following categories of data for each strain:
 
@@ -94,9 +66,9 @@ The scraper collects the following categories of data for each strain:
 - **Interactions**: Sedatives, Anti-anxiety (benzodiazepines), Antidepressants (SSRIs), Opioid analgesics, Anticonvulsants, Anticoagulants, other
 - **Flavors**: Berry, Sweet, Earthy, Pungent, Pine, Vanilla, Minty, Skunky, Citrus, Spicy, Herbal, Diesel, Tropical, Fruity, Grape, other
 
-## Usage
+### Usage
 
-### As a Firecrawl MCP Tool
+#### As a Firecrawl MCP Tool
 
 Once integrated with the Firecrawl MCP server, the tool can be called with the following parameters:
 
@@ -110,7 +82,7 @@ Once integrated with the Firecrawl MCP server, the tool can be called with the f
 }
 ```
 
-### Using the CLI Script
+#### Using the CLI Script
 
 You can also use the included CLI script to run the scraper directly:
 
@@ -125,7 +97,7 @@ npm run scrape-leafly -- output.csv "Blue Dream,OG Kush,Sour Diesel"
 node dist/leafly-scraper-cli.js output.csv "Blue Dream,OG Kush,Sour Diesel"
 ```
 
-## Methodology
+### Methodology
 
 The scraper follows a rigorous methodology for extracting and normalizing data:
 
@@ -133,24 +105,11 @@ The scraper follows a rigorous methodology for extracting and normalizing data:
 2. **Consistent Normalization**: When exact values aren't available, standardized normalization is applied:
    - For terpenes: dominant = 0.008, second = 0.005, third = 0.003, others = 0.001
    - For effects and flavors: Values are normalized to a 0.0-1.0 scale
-3. **Default Values**: Standard defaults are applied for commonly missing fields:
-   - onset_minutes = 5
-   - duration_hours = 3
-4. **Data Validation**: Outliers and inconsistencies are identified and corrected
+3. **Default Values**: Standard defaults are applied for commonly missing fields
 
-## Implementation Details
+### Troubleshooting
 
-The scraper is implemented in TypeScript and consists of several key components:
-
-1. **URL Formation and Parsing**: Converts strain names to Leafly URL format
-2. **Content Extraction**: Uses regex patterns to extract structured data from page content
-3. **Fallback Mechanisms**: If a strain isn't found directly, uses search to find alternative URLs
-4. **Rate Limiting**: Implements concurrency control to respect website rate limits
-5. **Data Normalization**: Applies the standardized methodology to normalize data
-
-## Troubleshooting
-
-### TypeScript Errors
+#### TypeScript Errors
 
 If you encounter TypeScript compilation errors:
 
@@ -161,21 +120,146 @@ If you encounter TypeScript compilation errors:
    npm install --save-dev @types/node
    ```
 
-### API Key Issues
+## 2. Python Codebase MCP Server
 
-The Firecrawl API requires a valid API key. If you get authentication errors:
+This MCP server provides code analysis capabilities and file system access for codebase navigation.
 
-1. Obtain a valid API key from Firecrawl
-2. Set it in your environment: `export FIRECRAWL_API_KEY=your_key_here`
-3. Or pass it directly in the code
+### Installation
 
-## Dependencies
+1. Ensure you have Python 3.7+ installed
+2. Install dependencies:
+   ```bash
+   pip install mcp-python-sdk watchdog
+   ```
 
-- FirecrawlApp: For web scraping and search functionality
-- p-queue: For managing concurrent requests
-- fs/path: For file operations in the CLI script
+### Features
+
+- File system navigation and file reading
+- Code search functionality
+- Project structure analysis
+- Real-time file change monitoring
+- Function and component discovery
+- Dependency analysis
+
+### Usage
+
+Start the server:
+
+```bash
+python mcp_server.py
+```
+
+The server provides tools for code analysis:
+
+- **search_function**: Find function definitions in code files
+- **search_code**: Search for text across all code files
+- **get_project_structure**: Generate a tree-like structure of the project
+- **analyze_dependencies**: Analyze project dependencies
+- **find_components**: Discover React/React Native components
+
+### Resources
+
+- **/file/list/{directory}**: List files in a directory
+- **/file/read/{filepath}**: Read file contents
+- **/file/info/{filepath}**: Get file metadata
+- **/file/changes/{directory}**: Get recently modified files
+
+## 3. DeepSeek R1 MCP Server
+
+This MCP server provides access to DeepSeek AI models for text generation, summarization, and document processing.
+
+### Installation
+
+1. Ensure you have Node.js 14+ installed
+2. Install dependencies:
+   ```bash
+   npm install @modelcontextprotocol/sdk openai dotenv
+   ```
+3. Set up environment variables:
+   ```bash
+   # Create a .env file
+   echo "DEEPSEEK_API_KEY=your_api_key_here" > .env
+   ```
+
+### Features
+
+- Text generation using DeepSeek R1 model
+- Text summarization
+- Streaming text generation
+- Multi-model support
+- Document processing (summarize, extract entities, analyze sentiment)
+- File operations for saving outputs
+
+### Usage
+
+Start the server:
+
+```bash
+node deepseek_mcp.js
+```
+
+The server provides the following tools:
+
+- **deepseek_r1**: Generate text using DeepSeek R1 model
+- **deepseek_summarize**: Summarize text
+- **deepseek_stream**: Stream text generation
+- **deepseek_multi**: Generate text using different DeepSeek models
+- **deepseek_document**: Process documents (summarize, extract entities, analyze sentiment)
+
+### Resources
+
+- **/model/info**: Get information about supported models
+- **/server/status**: Check server status
+- **/file/save/{filename}**: Save content to a file
+- **/file/list**: List saved files
+- **/file/read/{filename}**: Read saved file contents
+
+## 4. JSON MCP Server
+
+This MCP server provides advanced JSON querying and manipulation capabilities.
+
+### Installation
+
+1. Ensure you have Node.js 14+ installed
+2. Install dependencies:
+   ```bash
+   npm install @modelcontextprotocol/sdk node-fetch jsonpath
+   ```
+
+### Features
+
+- Query JSON data using JSONPath
+- Advanced filtering
+- String operations
+- Numeric operations
+- Date operations
+- Array transformations
+- Complex data comparisons
+- Result caching
+- Save and manage query results
+
+### Usage
+
+Start the server:
+
+```bash
+node json_mcp.js
+```
+
+The server provides the following tools:
+
+- **query**: Query JSON data using JSONPath expressions
+- **filter**: Filter JSON data based on conditions
+- **save_query**: Save query results to a file
+- **compare_json**: Compare two JSON datasets
+
+### Resources
+
+- **/saved_queries/list**: List saved queries
+- **/saved_queries/get/{filename}**: Retrieve a saved query
+- **/cache/status**: Check cache status
+- **/cache/clear**: Clear the cache
 
 ## License
 
-This project is intended for research and educational purposes only. Use responsibly and in accordance with Leafly's terms of service. 
->>>>>>> 61e09e2 (Added submodules for Model-Context-Protocol-servers and firecrawl-mcp-server)
+This project is intended for research and educational purposes only. Use responsibly and in accordance with the respective terms of service for any external APIs or websites.
