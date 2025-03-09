@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-03-09T18:41:35.040Z",
+  "total_strains": 1522,
+  "kept_strains": 1154,
+  "removed_strains": 368,
+  "kept_percentage": 0.7582128777923784,
+  "examples_removed": [
+    "$100 OG",
+    "1:1 Buddha's Smile",
+    "ACDC Cake",
+    "ACDC Dream",
+    "ACDC Gelato",
+    "ACDC Kush",
+    "ACDC OG",
+    "ACDC Punch",
+    "Ace Killer OG",
+    "Afghan Gelato"
+  ],
+  "field_completeness": {
+    "name": {
+      "count": 1154,
+      "percentage": 1
+    },
+    "classification": {
+      "count": 1154,
+      "percentage": 1
+    },
+    "thc_percent": {
+      "count": 1150,
+      "percentage": 0.9965337954939342
+    },
+    "cbd_percent": {
+      "count": 238,
+      "percentage": 0.20623916811091855
+    },
+    "cbg_percent": {
+      "count": 119,
+      "percentage": 0.10311958405545928
+    },
+    "average_rating": {
+      "count": 1154,
+      "percentage": 1
+    },
+    "rating_count": {
+      "count": 1154,
+      "percentage": 1
+    },
+    "effects": {
+      "count": 1150,
+      "percentage": 0.9965337954939342
+    },
+    "medical": {
+      "count": 1148,
+      "percentage": 0.9948006932409013
+    },
+    "flavors": {
+      "count": 1154,
+      "percentage": 1
+    },
+    "terpenes": {
+      "count": 1072,
+      "percentage": 0.92894280762565
+    },
+    "lineage": {
+      "count": 1099,
+      "percentage": 0.9523396880415944
+    },
+    "awards": {
+      "count": 113,
+      "percentage": 0.09792027729636049
+    },
+    "description": {
+      "count": 1154,
+      "percentage": 1
+    }
+  }
+}
