@@ -74,7 +74,7 @@ function extractCannabinoids(content: string, strainData: StrainData): void {
 }
 ```
 
-#### LLM-Powered Extraction (Recommended)
+#### LLM-Powered Extraction
 
 The repository also includes an advanced LLM-powered extraction method that uses structured schemas and AI to extract information more accurately:
 
