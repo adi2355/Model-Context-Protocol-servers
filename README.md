@@ -349,5 +349,4 @@ The server provides the following tools:
 - **/cache/clear**: Clear the cache
 
 ## License
-
-This project is intended for research and educational purposes only. Use responsibly and in accordance with the respective terms of service for any external APIs or websites.
+MIT License
