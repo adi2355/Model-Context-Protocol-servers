@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/master-bubba",
+  "name": "Master Bubba",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Hungry",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Skunk",
+    "Earthy",
+    "Pungent"
+  ],
+  "lineage": [
+    "Bubba Kush",
+    "Master Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": 0,
+  "description": "Master Bubba is the perfect strain for those looking for true indica effects. Bred from Master Kush and Bubba Kush, it’s popular for the treatment of pain, stress and insomnia thanks to the strong body sedation it provides. Master Bubba plants flower at 8 to 9 weeks with smaller, dense buds that can have a fruity, musky aroma. Kush earthiness is the main note in its smooth flavor. This strain can be very potent, making it best in the evening or as a nightcap.",
+  "thc_percent": 24,
+  "rating_count": 114,
+  "average_rating": 4,
+  "classification": "Indica"
+}

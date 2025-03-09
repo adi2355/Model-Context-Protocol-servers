@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/orange-dream",
+  "name": "Orange Dream",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Focused",
+    "Happy"
+  ],
+  "flavors": [
+    "Orange",
+    "Vanilla",
+    "Citrus"
+  ],
+  "lineage": [
+    "Orange Crush",
+    "Blue Dream"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Terpinolene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Orange Dream is a sativa-dominant hybrid that crosses Orange Crush with Blue Dream, each of which bring a unique dimension to this strain. Inviting aromas of citrus and vanilla combine to create a distinct flavor profile that can only be compared to orange creamsicles. Mellow euphoria lightly settles in, easing you into a relaxed but alert state of mind that lets creativity roam free. Depression and stress sink away while your mood is lifted to new heights, and its lightweight effects make Orange Dream the perfect choice for any time of the day.",
+  "thc_percent": 18,
+  "rating_count": 100,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

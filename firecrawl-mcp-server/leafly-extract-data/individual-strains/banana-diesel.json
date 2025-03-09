@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/banana-diesel",
+  "name": "Banana Diesel",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Talkative",
+    "Creative"
+  ],
+  "flavors": [
+    "Diesel",
+    "Chemical",
+    "Tree fruit"
+  ],
+  "lineage": [
+    "Banana Kush",
+    "Super Sour Diesel"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Banana Diesel balances the polar effects of its parent strains, Banana Kush and Super Sour Diesel. A slightly energizing kick followed by intense focus makes this a perfect strain for daytime consumption with effects that steer clear of undesirable lethargy. These thick, pale green buds reek a sweet, fruity aroma and preface the tangy taste to come. Banana Diesel is a potent appetite stimulant and stress combatant, suitable for either weight or mood disorders.",
+  "thc_percent": 21,
+  "rating_count": 88,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

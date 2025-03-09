@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/love-potion",
+  "name": "Love Potion",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Creative",
+    "Happy"
+  ],
+  "flavors": [
+    "Citrus",
+    "Flowery",
+    "Lemon"
+  ],
+  "lineage": [
+    "G13",
+    "Colombian Gold"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Love Potion #1 is a 70% sativa strain bred by Reeferman Seeds. G13 was crossed with a Santa Marta Colombian Gold, and crossed with the Colombian Gold again to achieve this lemon and floral tinged sativa hybrid.",
+  "thc_percent": null,
+  "rating_count": 143,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

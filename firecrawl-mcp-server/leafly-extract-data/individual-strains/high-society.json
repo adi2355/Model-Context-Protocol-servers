@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/high-society",
+  "name": "High Society",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Euphoric",
+    "Focused"
+  ],
+  "flavors": [
+    "Ammonia",
+    "Coffee",
+    "Diesel"
+  ],
+  "lineage": [
+    "Biscotti",
+    "Jet Fuel Gelato"
+  ],
+  "medical": [
+    "Anxiety",
+    "Insomnia",
+    "Pain"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "High Society is a hybrid weed strain made by crossing Biscotti and Jet Fuel Gelato. Reviewers on Leafly say this strain makes them feel relaxed, euphoric, and focused. High Society has 18% THC. The dominant terpene in this strain is limonene.",
+  "thc_percent": 18,
+  "rating_count": 39,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

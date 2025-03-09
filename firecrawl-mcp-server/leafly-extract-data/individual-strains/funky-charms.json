@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/funky-charms",
+  "name": "Funky Charms",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Grapefruit",
+    "Apple",
+    "Cheese"
+  ],
+  "lineage": [
+    "Grease Monkey",
+    "Rainbow Chip"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Funky Charms is a hybrid weed strain made by crossing Grease Monkey and Rainbow Chip. Reviewers on Leafly say this strain makes them feel relaxed, sleepy, and euphoric. Funky Charms has 18% THC. The dominant terpene in this strain is caryophyllene.",
+  "thc_percent": 18,
+  "rating_count": 35,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

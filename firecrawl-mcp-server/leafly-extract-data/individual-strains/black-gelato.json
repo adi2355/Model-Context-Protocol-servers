@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Sweet, Berry, Earthy, Citrus",
+  "medical": "Stress, Pain, Depression, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Black Gelato is a hybrid strain known for its sweet berry flavor and relaxing effects.",
+  "strain_name": "Black Gelato",
+  "rating_count": 100,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Black Cherry Gelato x Sunset Sherbet",
+  "strain_classification": "Hybrid"
+}

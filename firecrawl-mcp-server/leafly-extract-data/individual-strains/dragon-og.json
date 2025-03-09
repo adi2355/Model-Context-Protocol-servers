@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/dragon-og",
+  "name": "Dragon OG",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Chemical",
+    "Diesel",
+    "Berry"
+  ],
+  "lineage": [
+    "Red Dragon",
+    "OG Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Dragon OG (or Red Dragon OG) is a sativa-dominant hybrid cross between Red Dragon and OG Kush. Red Dragon adds gentle invigoration to OG Kush’s mid-level sedation and pleasant euphoria. This heady hybrid offers mood-boosting mental stimulation and relaxing body effects that stick to the bones. Enjoy this strain throughout the day to boost creativity and combat moderate pain, but beware: this potent combination can be overstimulating in large doses.",
+  "thc_percent": 19,
+  "rating_count": 42,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

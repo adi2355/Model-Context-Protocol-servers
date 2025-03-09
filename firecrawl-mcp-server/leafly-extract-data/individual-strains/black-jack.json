@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/black-jack",
+  "name": "Black Jack",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Pepper",
+    "Tobacco",
+    "Pine"
+  ],
+  "lineage": [
+    "Black Domina",
+    "Jack Herer"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Ocimene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Sweet Seeds, Black Jack is a cross of Black Domina and Jack Herer. This strain produces thick buds with huge calyxes that are completely encrusted with trichomes. It has a heavy and flavorful taste and it produces exceptionally long-lasting effects. Because of its high THC levels, Black Jack is popular among medical marijuana patients.",
+  "thc_percent": 19,
+  "rating_count": 568,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

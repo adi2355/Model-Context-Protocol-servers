@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/oregon-diesel",
+  "name": "Oregon Diesel",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Diesel",
+    "Pungent",
+    "Berry"
+  ],
+  "lineage": [
+    "NYC Diesel",
+    "Blackberry"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Oregon Diesel is an indica-dominant hybrid that combines NYC Diesel and Blackberry genetics in a blend bred by Homegrown Natural Wonders specifically for the Pacific Northwest climate. This strain was popularized by Oregrown as they hunted for quality genetics. Oregon Diesel is recommended for nighttime pain relief and its relaxing yet clear-headed effects will calm stress and help you avoid sleepless nights.",
+  "thc_percent": 14,
+  "rating_count": 102,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

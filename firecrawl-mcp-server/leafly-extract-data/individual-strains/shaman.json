@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/shaman",
+  "name": "Shaman",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Uplifted",
+    "Energetic"
+  ],
+  "flavors": [
+    "Grape",
+    "Blueberry",
+    "Pine"
+  ],
+  "lineage": [
+    "Purple #1",
+    "Skunk"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Terpinolene",
+    "Ocimene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Shaman is a sativa-dominant strain bred from Purple #1 and Skunk. This stinky, uplifting strain, originally crafted by Dutch Passion, is a welcome complement to patients seeking assistance with depression, anxiety, and chronic pain. Some also experience moderate psychedelic effects at higher dosages, speaking to the strong heady effects inherent in this stimulating genetic cross.",
+  "thc_percent": 11,
+  "rating_count": 41,
+  "average_rating": 4.3,
+  "classification": "Sativa"
+}

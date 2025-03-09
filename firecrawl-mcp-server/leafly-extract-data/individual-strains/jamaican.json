@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "Jamaican Red",
+  "effects": "Giggly, Creative, Happy",
+  "flavors": "Earthy, Coffee, Pungent",
+  "medical": "Depression, Lack of appetite, Stress",
+  "terpenes": {
+    "pinene": "Dominant",
+    "myrcene": "Present",
+    "ocimene": "",
+    "humulene": "",
+    "limonene": "Present",
+    "linalool": "",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": null,
+    "difficulty": "Easy",
+    "flowering_weeks": null
+  },
+  "description": "Jamaican refers to the indigenous varieties of cannabis (or landraces) that grow natively in this region of the world. Because of Jamaica's latitude and climate, these varieties tend to be sativa in structure and effect.",
+  "strain_name": "Jamaican",
+  "rating_count": 74,
+  "cbd_percentage": 0,
+  "cbg_percentage": null,
+  "rating_average": 4.3,
+  "thc_percentage": 10,
+  "lineage_parents": "",
+  "strain_classification": "Sativa"
+}

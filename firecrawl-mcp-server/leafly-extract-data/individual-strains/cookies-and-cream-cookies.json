@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "Cookies & Cream, Cookies n Cream",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Sweet, Vanilla, Earthy, Nutty",
+  "medical": "Stress, Depression, Pain, Insomnia, Fatigue",
+  "terpenes": {
+    "pinene": "0.1%",
+    "myrcene": "0.3%",
+    "ocimene": "0.1%",
+    "humulene": "0.1%",
+    "limonene": "0.1%",
+    "linalool": "0.1%",
+    "terpinolene": "0.1%",
+    "caryophyllene": "0.2%"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Cookies and Cream is a delicious hybrid strain that offers a balanced high, combining the best of both Indica and Sativa effects.",
+  "strain_name": "Cookies and Cream",
+  "rating_count": 200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 24,
+  "lineage_parents": "Starfighter, Girl Scout Cookies",
+  "strain_classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/orange-julius",
+  "name": "Orange Julius",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Euphoric",
+    "Happy"
+  ],
+  "flavors": [
+    "Orange",
+    "Citrus",
+    "Sweet"
+  ],
+  "lineage": [
+    "Agent Orange",
+    "Keebler Cookies"
+  ],
+  "medical": [
+    "Stress",
+    "Nausea",
+    "Appetite loss"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "Orange Julius is a sativa-dominant hybrid weed strain made by crossing a proprietary “Blockhead cut” of Agent Orange with Keebler Cookies. The effects of Orange Julius are believed to be cerebral, creative and uplifting. Buds are big and bright green with neon orange hairs.",
+  "thc_percent": 22,
+  "rating_count": 3,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

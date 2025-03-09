@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/purple-afghani",
+  "name": "Purple Afghani",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Woody",
+    "Sage",
+    "Rose"
+  ],
+  "lineage": [
+    "Purple Kush",
+    "Afghani"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "A strong plant that is easy to grow. This Afghani is a mostly Indica inbred to produce thick and heavy buds. This variety has dark green leaves and calyxes that turn purple at flowering. Medium-high leaf to flower ratio with a subtle aroma and a very good high.",
+  "thc_percent": 19,
+  "rating_count": 108,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

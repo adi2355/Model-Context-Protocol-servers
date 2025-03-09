@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/forbidden-zkittlez",
+  "name": "Forbidden Z",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Uplifted",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Tree fruit",
+    "Pine",
+    "Grape"
+  ],
+  "lineage": [
+    "Forbidden Fruit",
+    "Mendo Royal",
+    "California Black Rozé"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "A compilation of legendary California genetics, Forbidden Z crosses Forbidden Fruit, Mendo Royal, and California Black Rozé. The result is a strain with two distinct phenotypes: one, short and stacked with fruity flavors and bright purple buds; the other, tall with a gas profile followed by grape undertones.",
+  "thc_percent": 13,
+  "rating_count": 50,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

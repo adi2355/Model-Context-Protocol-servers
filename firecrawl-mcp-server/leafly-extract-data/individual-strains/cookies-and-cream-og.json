@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric",
+  "flavors": "Sweet, Earthy, Vanilla",
+  "medical": "Stress, Pain, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Cookies and Cream OG is a hybrid strain known for its sweet and earthy flavors, providing a relaxing and euphoric experience.",
+  "strain_name": "Cookies and Cream OG",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 22,
+  "lineage_parents": "Cookies and Cream x OG Kush",
+  "strain_classification": "Hybrid"
+}

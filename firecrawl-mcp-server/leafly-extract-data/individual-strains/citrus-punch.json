@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/citrus-punch",
+  "name": "Citrus Punch",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Focused",
+    "Energetic"
+  ],
+  "flavors": [
+    "Citrus",
+    "Orange",
+    "Grapefruit"
+  ],
+  "lineage": [
+    "Sour Tangie",
+    "Clementine"
+  ],
+  "medical": [
+    "Depression",
+    "Fatigue",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Citrus Punch by Potbox is a tangy splash of bright citrus and good vibes. This sativa-dominant strain smells of ripening oranges and tangerines with notes of grapefruit and lime. The uplifting aroma speaks to this strain’s Sour Tangie and Clementine genetics, but the sizzling cerebral effects tell of a mystery parent nestled just below the top layer of this heady fruit smoothie. Enjoy this strain outside, as the bright terpene profile begs for activities like coloring, singing, or gardening.",
+  "thc_percent": 17,
+  "rating_count": 33,
+  "average_rating": 4.3,
+  "classification": "Sativa"
+}

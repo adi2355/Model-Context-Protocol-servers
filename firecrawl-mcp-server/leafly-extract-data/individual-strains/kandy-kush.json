@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/kandy-kush",
+  "name": "Kandy Kush",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Hungry",
+    "Happy"
+  ],
+  "flavors": [
+    "Pear",
+    "Sweet",
+    "Honey"
+  ],
+  "lineage": [
+    "OG Kush",
+    "Trainwreck"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Kandy Kush, also known as \"Candy Kush,\" is a hybrid marijuana strain and a favorite of DNA Genetics’ Reserva Privada line that combines two California classics, OG Kush (thought to be the “Christopher Wallace” cut) and Trainwreck, to make a tasty indica-dominant hybrid (although sativa phenotypes displaying more of the Trainwreck structure have been noted). Like the name suggests, the flavor is sweet like candy with a strong lemon-Kush scent. Popular with medicinal growers, Kandy Kush provides a potent body high with pronounced pain relief.",
+  "thc_percent": 18,
+  "rating_count": 613,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/a-train",
+  "name": "A-Train",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Giggly",
+    "Happy"
+  ],
+  "flavors": [
+    "Ammonia",
+    "Earthy",
+    "Flowery"
+  ],
+  "lineage": [
+    "Mazar I Sharif",
+    "Trainwreck"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Terpinolene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "A-Train is a hybrid cross between Mazar I Sharif and the clone-only Arcata e-32 Trainwreck. This hybrid gives you the classic stoned feeling, imbuing the mind and body with warm euphoria. Be ready for smiles and munchies when you jump on the A-Train.",
+  "thc_percent": 16,
+  "rating_count": 89,
+  "average_rating": 4,
+  "classification": "Hybrid"
+}

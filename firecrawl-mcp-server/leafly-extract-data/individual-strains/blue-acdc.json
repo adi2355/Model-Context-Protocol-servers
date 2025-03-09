@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,focused",
+  "flavors": "sweet,fruity,earthy",
+  "medical": "stress relief,pain relief,anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Short to Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue ACDC is a hybrid strain known for its high CBD content and low THC levels, making it ideal for medical users seeking relief without the psychoactive effects.",
+  "strain_name": "Blue ACDC",
+  "rating_count": 150,
+  "cbd_percentage": 15,
+  "cbg_percentage": null,
+  "rating_average": 4.5,
+  "thc_percentage": 1,
+  "lineage_parents": "ACDC x Blueberry",
+  "strain_classification": "Hybrid"
+}

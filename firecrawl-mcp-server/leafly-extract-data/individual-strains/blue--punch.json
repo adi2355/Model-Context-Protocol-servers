@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Berry, Sweet, Grape, Earthy",
+  "medical": "Stress, Pain, Depression, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue Punch is a hybrid strain known for its sweet berry flavor and relaxing effects.",
+  "strain_name": "Blue Punch",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Blueberry x Purple Punch",
+  "strain_classification": "Hybrid"
+}

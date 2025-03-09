@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/cbd-critical-cure",
+  "name": "Critical Cure",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Happy"
+  ],
+  "flavors": [
+    "Earthy",
+    "Woody",
+    "Berry"
+  ],
+  "lineage": [
+    "Critical Kush",
+    "Ruderalis"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 10,
+  "description": "From Barney’s Farm comes CBD Critical Cure (or simply “Critical Cure”), an indica-dominant strain that’s said to combine Critical Kush with a ruderalis variety. With a balanced amount of CBD and THC, Critical Cure can annihilate pain, stress, and inflammation with little psychoactive interference. The indica influence in CBD Critical Cure gives rise to deeply relaxing effects delivered alongside a sweet, earthy flavor.",
+  "thc_percent": 6,
+  "rating_count": 126,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

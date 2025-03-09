@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/tropicana-punch",
+  "name": "Tropicana Punch",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Talkative",
+    "Focused"
+  ],
+  "flavors": [
+    "Tropical",
+    "Berry",
+    "Cheese"
+  ],
+  "lineage": [
+    "Tropicana Cookies",
+    "Purple Punch"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Bred by Oni Seed Co., Tropicana Punch crosses Tropicana Cookies with Purple Punch. This hybrid carries tasty notes of orange and passionfruit.",
+  "thc_percent": 18,
+  "rating_count": 46,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

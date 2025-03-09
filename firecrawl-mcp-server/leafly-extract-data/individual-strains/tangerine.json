@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/tangerine",
+  "name": "Tangerine",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Happy",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Orange",
+    "Citrus",
+    "Mango"
+  ],
+  "lineage": [
+    "Ch9 Aroma"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Tangerine is a sativa-dominant hybrid, a 4th generation daughter of Ch9 Aroma. The fruity tangerine aroma is accompanied with notes of mango and pineapple.",
+  "thc_percent": 14,
+  "rating_count": 229,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

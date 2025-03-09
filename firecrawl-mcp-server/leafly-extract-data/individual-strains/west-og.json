@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/west-og",
+  "name": "West OG",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Energetic",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Woody",
+    "Lemon",
+    "Earthy"
+  ],
+  "lineage": [
+    "Chemdawg",
+    "Humboldt"
+  ],
+  "medical": [
+    "Anxiety",
+    "ADD/ADHD",
+    "Asthma"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "A heavy-handed indica, West OG descends from the famous Chemdawg and a backcrossed Humboldt. West OG’s fluffy, purple-hued buds release a musky diesel aroma reminiscent of the long line of OG strains. This indica is typically chosen by patients for treatment of pain and by those in need of some serious relaxation.",
+  "thc_percent": null,
+  "rating_count": 11,
+  "average_rating": 3.8,
+  "classification": "Indica"
+}

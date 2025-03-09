@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/candy-jack",
+  "name": "Candy Jack",
+  "awards": [
+    "Cannabis Cup"
+  ],
+  "effects": [
+    "Energetic",
+    "Focused",
+    "Creative"
+  ],
+  "flavors": [
+    "Sweet",
+    "Citrus",
+    "Pine"
+  ],
+  "lineage": [
+    "Jack Herer",
+    "Skunk #1"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Candy Jack is a mostly sativa strain that provides a swift boost to your mood alongside a sweet, citrus aroma. The fragrant smell is inherited from its Skunk #1 parent, while creative and focused effects stem from the Jack Herer side of the family. While its complex terpene profile may impress even the most hardened connoisseur, patients typically appreciate Candy Jack’s ability to counter stress, depression, and appetite loss. With a few Cannabis Cup wins already under its belt, Candy Jack’s potency, flavor, and effects have won this sativa a sterling reputation in the cannabis world.",
+  "thc_percent": 19,
+  "rating_count": 285,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

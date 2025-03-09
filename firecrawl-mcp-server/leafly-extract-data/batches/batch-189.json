@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-03-09T15:29:14.988Z",
+  "batch_index": 189,
+  "strains": [
+    "rose-bud",
+    "royal",
+    "royal-haze",
+    "rs11",
+    "rs54"
+  ],
+  "processedCount": 0,
+  "failedCount": 5
+}

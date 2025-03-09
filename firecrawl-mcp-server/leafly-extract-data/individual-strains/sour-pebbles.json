@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/sour-pebbles",
+  "name": "Sour Pebbles",
+  "awards": [
+    "3rd place in the 2014 High Times Washington Cannabis Cup"
+  ],
+  "effects": [
+    "Talkative",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Berry",
+    "Sweet",
+    "Flowery"
+  ],
+  "lineage": [
+    "Alien Diesel",
+    "Fruity Pebbles"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Sour Pebbles, grown by Fire Bros. in Washington state, is a sativa cross between Alien Diesel and Fruity Pebbles. Its aroma balances sweet and sour, passing on flavors from both sides of its family.",
+  "thc_percent": 18,
+  "rating_count": 58,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

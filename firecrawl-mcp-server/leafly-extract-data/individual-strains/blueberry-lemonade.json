@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blueberry-lemonade",
+  "name": "Blueberry Lemonade",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Lemon",
+    "Diesel"
+  ],
+  "lineage": [
+    "Blueberry Fuel",
+    "Lemon Skunk"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Blueberry Lemonade is a hybrid weed strain made from a genetic cross between Blueberry Fuel and Lemon Skunk. This strain is 30% sativa and 70% indica. Blueberry Lemonade is 14% THC, making this strain an ideal choice for experienced cannabis consumers.",
+  "thc_percent": 14,
+  "rating_count": 7,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

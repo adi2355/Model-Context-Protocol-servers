@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/kens-kush",
+  "name": "Ken's Kush",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Relaxed",
+    "Focused"
+  ],
+  "flavors": [
+    "Skunk",
+    "Berry",
+    "Grape"
+  ],
+  "lineage": [
+    "Granddaddy Purple",
+    "OG Kush",
+    "Sour Diesel"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Ken’s Kush is a potent hybrid cannabis strain bred by Ken Estes that crosses his famous Granddaddy Purple with the equally esteemed OG Kush and Sour Diesel. Together these parents pass on a flavor profile of sweet berries, sour skunk, and grassy earth. Dreamy relaxation pours over the mind and body, helping you feel serene without the sedation typically associated with heavy indica varieties.",
+  "thc_percent": 19,
+  "rating_count": 38,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Earthy, Sweet, Spicy, Berry",
+  "medical": "Stress, Pain, Insomnia, Depression, Anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Black Dream is a hybrid strain that combines the relaxing effects of Black Domina with the uplifting qualities of Dream Star.",
+  "strain_name": "Black Dream",
+  "rating_count": null,
+  "cbd_percentage": null,
+  "cbg_percentage": null,
+  "rating_average": null,
+  "thc_percentage": null,
+  "lineage_parents": "Black Domina x Dream Star",
+  "strain_classification": "Hybrid"
+}

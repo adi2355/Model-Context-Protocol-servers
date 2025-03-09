@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/flavour-pack",
+  "name": "Flavour Pack",
+  "awards": [],
+  "effects": [
+    "Euphoric",
+    "Happy",
+    "Hungry"
+  ],
+  "flavors": [
+    "Flowery",
+    "Chemical",
+    "Pine"
+  ],
+  "lineage": [
+    "Hollywood Pure Kush",
+    "Moonbow"
+  ],
+  "medical": [
+    "Anxiety",
+    "Arthritis",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Archive Seed Bank, Flavour Pack is a cross between the notoriously tasty and powerful Hollywood Pure Kush (HPK) and Moonbow. The strain takes the hefty flavor from HPK and adds a delicious fruity lining thanks to Moonbow. Flavour Pack will make even experienced consumers do a double take, as this strain packs a high-THC percentage and an impressive terpene profile.",
+  "thc_percent": 23,
+  "rating_count": 3,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

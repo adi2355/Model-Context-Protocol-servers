@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/black-dog",
+  "name": "Black Dog",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Tingly"
+  ],
+  "flavors": [
+    "Tar",
+    "Berry",
+    "Earthy"
+  ],
+  "lineage": [
+    "Blackberry Kush",
+    "Emerald Headband"
+  ],
+  "medical": [
+    "Stress",
+    "Insomnia",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Black Dog by Humboldt Seed Organization is a weighty mixture of two northern California favorites, Blackberry Kush and Emerald Headband. This medium-sized plant expresses dark, nearly black leaves that give way to sticky, dense buds. Its aroma is a mixture of grape, berries, and oil while the effects tend to be relaxing with just a touch of cerebral stimulation. Black Dog has a rapid flowering time of 48-55 days.",
+  "thc_percent": 19,
+  "rating_count": 91,
+  "average_rating": 4.6,
+  "classification": "Indica"
+}

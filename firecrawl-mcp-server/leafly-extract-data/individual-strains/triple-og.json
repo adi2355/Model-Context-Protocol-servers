@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/triple-og",
+  "name": "Triple OG",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Pineapple",
+    "Diesel",
+    "Chemical"
+  ],
+  "lineage": [
+    "Unknown cross"
+  ],
+  "medical": [
+    "Anxiety",
+    "Insomnia",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Not to be confused with III OG by Humboldt Seed Organization, Triple OG comes from an unknown cross and is celebrated for its gassy profile, quality bud structure, and phenomenal yields. Consumers can expect additional floral and citrus notes backed by a body buzz that will drop you into a state of stoned bliss.",
+  "thc_percent": 16,
+  "rating_count": 24,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/black-velvet",
+  "name": "Black Velvet",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Sleepy",
+    "Happy"
+  ],
+  "flavors": [
+    "Rose",
+    "Flowery",
+    "Blue Cheese"
+  ],
+  "lineage": [
+    "The Black",
+    "Burmese Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "This 50/50 hybrid strain is a cross of The Black and Burmese Kush that yields a potent flower with both cerebral and physical effects. The flower gets its density and purple-black hue from its Black indica parent but takes on a fruity, citrus aroma thanks to the Burmese sativa. With its high THC levels, Black Velvet is optimal for intermediate to experienced patients and is favored for its well-balanced effects.",
+  "thc_percent": 19,
+  "rating_count": 33,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "citrus, sweet, earthy",
+  "medical": "stress, anxiety, depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Dominant",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Green Mimosa is a hybrid strain that combines the uplifting effects of Clementine with the relaxing qualities of Purple Punch.",
+  "strain_name": "Green Mimosa",
+  "rating_count": 100,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Clementine, Purple Punch",
+  "strain_classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-goo",
+  "name": "Blue Goo",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Creative",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Berry",
+    "Blueberry",
+    "Tea"
+  ],
+  "lineage": [
+    "Blue Dream",
+    "Afgoo"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Blue Goo is a sativa-dominant hybrid that's a cross between the famous hybrid Blue Dream and indica Afgoo. A moderate to high potency yields uplifting effects that are standard for sativas, but not excessively energetic thanks to Afgoo’s contribution as well as the mellow nature of Blue Dream. This strain is appropriate for day or nighttime consumption and is good for treating depression and nausea. Smooth smoke and berry taste.",
+  "thc_percent": 16,
+  "rating_count": 116,
+  "average_rating": 3.9,
+  "classification": "Hybrid"
+}

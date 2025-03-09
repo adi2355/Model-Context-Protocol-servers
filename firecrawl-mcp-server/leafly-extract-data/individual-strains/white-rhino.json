@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/white-rhino",
+  "name": "White Rhino",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Woody",
+    "Earthy",
+    "Pungent"
+  ],
+  "lineage": [
+    "White Widow",
+    "North American Indica"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Terpinolene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": "7 - 9"
+  },
+  "cbd_percent": null,
+  "description": "White Rhino is a hybrid marijuana strain bred from White Widow and North American Indica, resulting in a bushy and stout plant. This strain is said to descend from cultivars sourced from Afghanistan, Brazil, and India. White Rhino's high THC content makes it a popular choice among consumers looking for heavy-handed relaxation and symptom relief.",
+  "thc_percent": 21,
+  "rating_count": 1255,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

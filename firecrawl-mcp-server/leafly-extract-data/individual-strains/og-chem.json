@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/og-chem",
+  "name": "OG Chem",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Talkative",
+    "Focused"
+  ],
+  "flavors": [
+    "Chemical",
+    "Diesel",
+    "Pine"
+  ],
+  "lineage": [
+    "Chemdawg",
+    "OG Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "OG Chem, also known as \"Chemdog OG,\" \"Chem OG,\" and \"Chemdawg OG\" is a sativa-dominant hybrid marijuana strain crossed between two legendary strains: Chemdawg and OG Kush. The diesel notes of Chemdawg combine with the sour, piney scent of OG Kush to create a pungent skunky aroma that fills the room. Uplifting and euphoric, OG Chem invites the mind to indulge in its creative side while elevating the mood to a light and carefree state. Medical marijuana patients use OG Chem to treat symptoms associated with stress, fatigue, and in some cases nerve pain.",
+  "thc_percent": 24,
+  "rating_count": 231,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

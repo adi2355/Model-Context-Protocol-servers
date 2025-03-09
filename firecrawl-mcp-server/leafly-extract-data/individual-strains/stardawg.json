@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/stardawg",
+  "name": "Stardawg",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Tingly",
+    "Focused"
+  ],
+  "flavors": [
+    "Chemical",
+    "Diesel",
+    "Pepper"
+  ],
+  "lineage": [
+    "Chemdog 4",
+    "Tres Dawg"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": 0,
+  "description": "Stardawg, also known as \"Stardog,\" is a hybrid marijuana strain believed to be named after the bright, sparkling crystal trichomes that blanket the strain like stars. Made from a cross between Chemdog 4 and Tres Dawg, Stardawg is beloved for its earthy pine flavors with sour undertones of diesel. The effects of Stardawg are uplifting and may help medical marijuana patients treating symptoms associated with stress, fatigue, and anxiety disorders. Stardawg flowers in 67 days indoors and produces moderate yields.",
+  "thc_percent": 22,
+  "rating_count": 829,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

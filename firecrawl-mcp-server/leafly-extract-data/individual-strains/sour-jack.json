@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sour-jack",
+  "name": "Sour Jack",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Focused",
+    "Creative"
+  ],
+  "flavors": [
+    "Citrus",
+    "Diesel",
+    "Lemon"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Jack Herer"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 10
+  },
+  "cbd_percent": null,
+  "description": "Sour Jack, one-half Sour Diesel one-half and Jack Herer, takes its name from its parents. It has developed a solid reputation and is highlighted by an intense aroma and profound cerebral effects. After combining the two sativa-dominant strains, we are left with an amazing combination of tropical, sweet flavors that mix with pungent tones of citrus and diesel. The uplifting effects can provide a spark of energy and minimize body fatigue. Sour Jack is a great strain to fight off depression and to help you stay active.",
+  "thc_percent": 16,
+  "rating_count": 240,
+  "average_rating": 4.5,
+  "classification": "Sativa"
+}

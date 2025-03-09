@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,euphoric",
+  "flavors": "fruity,sweet,citrus",
+  "medical": "stress relief,pain relief,insomnia",
+  "terpenes": {
+    "pinene": "0.2%",
+    "myrcene": "0.5%",
+    "ocimene": "0.1%",
+    "humulene": "0.1%",
+    "limonene": "0.4%",
+    "linalool": "0.1%",
+    "terpinolene": "0.1%",
+    "caryophyllene": "0.3%"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Sherbert is a hybrid strain known for its sweet and fruity flavor profile, providing a balanced high that is both relaxing and uplifting.",
+  "strain_name": "Sherbert",
+  "rating_count": 200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Sunset Sherbet x Pink Panties",
+  "strain_classification": "Hybrid"
+}

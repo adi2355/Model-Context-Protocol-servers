@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/big-sur-holy-bud",
+  "name": "Big Sur Holy Weed",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Menthol",
+    "Pine",
+    "Spicy/Herbal",
+    "Woody"
+  ],
+  "lineage": [
+    "Jurassic Purp",
+    "Holy Crack"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Big Sur Holy Bud is a sativa bred by Bodhi Seeds. This plant has an indica structure, with purple/pink hued buds that offer a blueberry, menthol aroma and effects true to its sativa heritage. This strain can be grown indoors and outdoors.",
+  "thc_percent": 18,
+  "rating_count": 35,
+  "average_rating": 4.1,
+  "classification": "Sativa"
+}

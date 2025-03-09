@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/fucking-incredible",
+  "name": "Fucking Incredible",
+  "awards": [],
+  "effects": [
+    "Tingly",
+    "Relaxed",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Earthy",
+    "Skunk",
+    "Spicy/Herbal"
+  ],
+  "lineage": [
+    "Unknown Indica"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Ocimene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Fucking Incredible is a pure indica that was created in 1990 by combining two unknown indicas. Seven generations of breeding for stabilization has given us the present-day version.",
+  "thc_percent": 17,
+  "rating_count": 249,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/master-kush",
+  "name": "Master Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Earthy",
+    "Pungent",
+    "Flowery"
+  ],
+  "lineage": [
+    "Hindu Kush",
+    "Platinum OG",
+    "Lemon Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Master Kush, also known as \"High Rise,\" \"Grandmaster Kush,\" and \"Purple SoCal Master Kush\" is a popular indica marijuana strain crossed from two landrace strains from different parts of the Hindu Kush region by the Dutch White Label Seed Company in Amsterdam. The plant produces a subtle earthy, citrus smell with a hint of incense, which is often described as a vintage flavor. The taste of Master Kush is reminiscent of the famous hard-rubbed charas hash. This strain holds a superb balance of full-body relaxation without mind-numbing effects. Instead, Master Kush offers a sharpened sensory awareness that can bring out the best of any activity.",
+  "thc_percent": 17,
+  "rating_count": 1814,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

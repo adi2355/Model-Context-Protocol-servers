@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/cheese",
+  "name": "Cheese",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Relaxed",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Cheese",
+    "Pungent",
+    "Skunk"
+  ],
+  "lineage": [
+    "Skunk #1",
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Cheese, also known as \"Dinafem Cheese,\" is an indica-dominant hybrid marijuana strain from the U.K. named for its sharply sour aroma. Cheese has achieved widespread popularity for its unique flavor and consistent potency. With origins that stretch back to the late 1980s, Cheese is said to descend from a Skunk #1 phenotype whose pungent aroma made it stand out. Breeders like Big Buddha Seeds later introduced Afghani indica genetics to increase Cheese’s trichome production and yields. The resulting strain is now well-known for its relaxed, happy effects that gently ease you into a blissful state of mind.",
+  "thc_percent": 18,
+  "rating_count": 1614,
+  "average_rating": 4,
+  "classification": "Hybrid"
+}

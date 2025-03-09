@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/g13-haze",
+  "name": "G13 Haze",
+  "awards": [],
+  "effects": [
+    "Euphoric",
+    "Happy",
+    "Giggly"
+  ],
+  "flavors": [
+    "Pepper",
+    "Pine",
+    "Sage"
+  ],
+  "lineage": [
+    "G13",
+    "Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "This hybrid of G13 has been crossed with Haze, creating a strain that provides uplifting sensations alongside heavy-hitting body effects. G13 was bred for maximum potency and renowned for its medical utility, and it's definitely not recommended for beginners.",
+  "thc_percent": 21,
+  "rating_count": 221,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

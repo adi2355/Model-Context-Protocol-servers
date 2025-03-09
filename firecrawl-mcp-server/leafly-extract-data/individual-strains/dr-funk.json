@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/dr-funk",
+  "name": "Dr. Funk",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Euphoric",
+    "Tingly"
+  ],
+  "flavors": [
+    "Berry",
+    "Blueberry",
+    "Blue Cheese"
+  ],
+  "lineage": [
+    "Bubba Kush",
+    "Blueberry"
+  ],
+  "medical": [
+    "Stress",
+    "Insomnia",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Dr. Funk is a mostly indica strain that balances genetics from Blueberry and Bubba Kush. You can taste this strain’s lineage as flavors of sweet berry and earthy sharpness activate on the exhale. Its tight, compact buds and orange hair-like pistils are obscured under a thick dusting of crystal trichomes, which hint at Dr. Funk’s potency.",
+  "thc_percent": 16,
+  "rating_count": 49,
+  "average_rating": 4.6,
+  "classification": "Indica"
+}

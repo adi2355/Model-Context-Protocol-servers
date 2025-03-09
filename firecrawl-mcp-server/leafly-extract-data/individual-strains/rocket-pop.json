@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/rocket-pop",
+  "name": "Rocket Pop",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Happy",
+    "Creative"
+  ],
+  "flavors": [
+    "Berry",
+    "Sweet",
+    "Blueberry"
+  ],
+  "lineage": [
+    "Blueberry Cookies",
+    "Cherry OG"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Rocket Pop is a hybrid weed strain made from a genetic cross between Blueberry Cookies and Cherry OG. This strain is 40% sativa and 60% indica. Rocket Pop is 20% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by unknown breeders, the average price of Rocket Pop typically ranges from $10-$15 per gram. We are still learning about Rocket Pop’s effects, flavors, and medical uses.",
+  "thc_percent": 20,
+  "rating_count": 20,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

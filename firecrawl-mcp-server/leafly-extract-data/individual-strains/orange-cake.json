@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/orange-cake",
+  "name": "Orange Cake",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Happy",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Orange",
+    "Citrus",
+    "Pepper"
+  ],
+  "lineage": [
+    "California Orange",
+    "Mimosa"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Orange Cake is an indica-dominant hybrid marijuana strain made by crossing California Orange with Mimosa. This strain produces heady and hazy effects that leave the consumer in a state of bliss. Like the name suggests, Orange Cake features a tart and tangy citrus-based flavor profile. Medical marijuana patients choose this strain to help relieve symptoms associated with anxiety, depression and pain.",
+  "thc_percent": 19,
+  "rating_count": 22,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

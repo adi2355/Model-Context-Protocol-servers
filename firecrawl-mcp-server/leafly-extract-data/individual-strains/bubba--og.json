@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "Bubba Kush, Bubba OG Kush",
+  "effects": "Relaxed, Happy, Sleepy",
+  "flavors": "Earthy, Sweet, Pine",
+  "medical": "Stress, Pain, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Short to Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Bubba OG is a potent indica strain known for its relaxing effects and sweet, earthy flavors.",
+  "strain_name": "Bubba OG",
+  "rating_count": 1200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Bubba Kush x OG Kush",
+  "strain_classification": "Indica"
+}

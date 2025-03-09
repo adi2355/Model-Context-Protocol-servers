@@ -1,0 +1,36 @@
+{
+  "url": "https://www.leafly.com/strains/afghani-cbd",
+  "name": "Afghani CBD",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Flowery",
+    "Spicy/Herbal",
+    "Grape"
+  ],
+  "lineage": [
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Inflammation"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Afghani CBD is a high-CBD variant of the landrace indica Afghani grown by Canadian LP Tilray. Named after its geographic origin, Afghani CBD has relaxing, therapeutic properties that have shown potential to help those suffering with insomnia, chronic pain, and stress disorders.",
+  "thc_percent": null,
+  "rating_count": 51,
+  "average_rating": 4.6,
+  "classification": "Indica"
+}

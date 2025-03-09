@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/walker-kush",
+  "name": "Walker Kush",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Woody",
+    "Butter",
+    "Diesel"
+  ],
+  "lineage": [
+    "Albert Walker",
+    "Rare Dankness #1"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Walker Kush is the Rare Dankness cross of Albert Walker and Rare Dankness #1. These stimulating genetics blend Afghan Skunk, Ghost OG, and Chemdawg into a multifaceted indica-dominant hybrid that uplifts while remaining grounded in soothing body effects. Happy yet laidback, this strain is preferred for ADD/ADHD, depression, and PTSD.",
+  "thc_percent": 20,
+  "rating_count": 49,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

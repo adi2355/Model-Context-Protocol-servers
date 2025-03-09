@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-03-09T13:44:52.143Z",
+  "batch_index": 123,
+  "strains": [
+    "lambo-og",
+    "lantz",
+    "larry-bird-kush",
+    "larry-cake",
+    "larry-og"
+  ],
+  "processedCount": 5,
+  "failedCount": 0
+}

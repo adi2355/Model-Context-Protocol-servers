@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Sweet, Earthy, Spicy, Herbal",
+  "medical": "Stress, Anxiety, Depression, Pain",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Durban Poison Cookies is a hybrid strain that combines the uplifting effects of Durban Poison with the sweet and earthy flavors of Girl Scout Cookies.",
+  "strain_name": "Durban Poison Cookies",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Durban Poison, Girl Scout Cookies",
+  "strain_classification": "Hybrid"
+}

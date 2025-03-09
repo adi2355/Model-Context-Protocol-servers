@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/bubba-kush",
+  "name": "Bubba Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Coffee",
+    "Earthy",
+    "Pungent"
+  ],
+  "lineage": [
+    "OG Kush",
+    "Northern Lights",
+    "Bubba"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "short",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Bubba Kush, also known as \"BK,\" \"Bubba,\" and \"Bubba OG Kush\" is an indica marijuana strain from Florida that has gained notoriety in the US and beyond for its heavy tranquilizing effects. Sweet hashish flavors with subtle notes of chocolate and coffee come through on the exhale, delighting the palate as powerful relaxation takes over. From head to toe, muscles ease with heaviness as dreamy euphoria blankets the mind, crushing stress while bringing happy moods. Bubba Kush exhibits a distinctive, bulky bud structure with hues that range from forest green to pale purple.",
+  "thc_percent": 17,
+  "rating_count": 3621,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

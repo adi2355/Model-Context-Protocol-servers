@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leafly Strain Dataset Analysis</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .chart-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto 40px;
+    }
+    .chart-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .chart-card {
+      flex: 1;
+      min-width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      background: #fff;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    .stats {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+    .stat-card {
+      flex: 1;
+      min-width: 200px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 32px;
+      font-weight: bold;
+      color: #3498db;
+      margin: 10px 0;
+    }
+    .stat-label {
+      font-size: 14px;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Leafly Strain Dataset Analysis</h1>
+    <p>Generated on 3/9/2025, 10:58:12 AM</p>
+  </div>
+  
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-label">Total Strains</div>
+      <div class="stat-number">1227</div>
+    </div>
+    
+    <div class="stat-card">
+      <div class="stat-label">Categories Processed</div>
+      <div class="stat-number">58</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Duplicates Skipped</div>
+      <div class="stat-number">1985</div>
+    </div>
+    
+  </div>
+  
+  <div class="chart-row">
+    <div class="chart-card">
+      <h2>Strain Types</h2>
+      <div class="chart-container">
+        <canvas id="strainTypesChart"></canvas>
+      </div>
+    </div>
+    
+    <div class="chart-card">
+      <h2>THC Levels</h2>
+      <div class="chart-container">
+        <canvas id="thcLevelsChart"></canvas>
+      </div>
+    </div>
+  </div>
+  
+  <div class="chart-row">
+    <div class="chart-card">
+      <h2>Top Effects</h2>
+      <div class="chart-container">
+        <canvas id="effectsChart"></canvas>
+      </div>
+    </div>
+    
+    <div class="chart-card">
+      <h2>Top Medical Uses</h2>
+      <div class="chart-container">
+        <canvas id="medicalChart"></canvas>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="chart-card">
+    <h2>Category Type Distribution</h2>
+    <div class="chart-container">
+      <canvas id="categoryTypeChart"></canvas>
+    </div>
+  </div>
+  
+  
+  <script>
+    // Prepare the data
+    const distribution = {"total":1227,"strainTypes":{"indica":186,"sativa":112,"hybrid":606,"unknown":342},"effectCounts":{"creative":192,"euphoric":268,"focused":204,"giggly":105,"tingly":148,"relaxed":475,"talkative":99,"happy":280,"uplifted":265,"energetic":256,"sleepy":216,"aroused":89,"hungry":139,"sedated":2},"medicalCounts":{"stress":775,"anxiety":679,"pain":404,"depression":547,"insomnia":123,"fatigue":44,"inflammation":19,"lack of appetite":24,"cramps":11,"eye pressure":4,"arthritis":10,"muscle spasms":14,"nausea":10,"seizures":1,"gastrointestinal disorder":2,"sleep":1,"ptsd":9,"migraines":3,"fibromyalgia":2,"bipolar disorder":6,"headaches":19,"chronic pain":2,"multiple sclerosis":1,"parkinson’s":1,"appetite loss":3,"add/adhd":1},"terpeneCounts":{"myrcene":518,"caryophyllene":600,"terpinolene":94,"pinene":256,"limonene":412,"linalool":68,"ocimene":36,"bubblegum":1,"gas":1,"humulene":68,"pine":3,"dough":1,"apricot":1,"honey":1,"humelene":1,"earthy":2,"nutty":1,"diesel":2,"funk":1,"a-pinene":1,"menthol":1,"ß-caryophyllene":1,"ß-myrcene":1,"savory":1,"funky":1,"spicy":1,"lavender":1,"berry":1,"earth":1,"skunky":1},"flavorCounts":{"coffee":13,"earthy":235,"pungent":96,"grape":70,"citrus":174,"skunky":1,"spice":3,"gas":3,"orange":50,"lemon":92,"sweet":193,"tropical":77,"grapefruit":25,"pine":118,"sage":20,"woody":109,"skunk":75,"flowery":106,"lime":35,"berry":197,"cheese":30,"chemical":59,"hashy":1,"strawberry":21,"ammonia":28,"honey":23,"chestnut":10,"diesel":148,"pineapple":31,"light":1,"tar":11,"menthol":18,"spicy/herbal":47,"tobacco":17,"pepper":64,"blueberry":111,"mint":36,"tea":25,"vanilla":55,"apricot":21,"blue cheese":29,"nutty":18,"apple":29,"butter":27,"pear":9,"tree fruit":42,"peppery":1,"earth":2,"sour gas":1,"banana":2,"lavender":26,"fruity":11,"gassy":4,"floral":10,"creamy":3,"rose":12,"violet":15,"plum":13,"spicy":6,"mango":18,"savory":1,"cocoa":1,"fruit":1,"citrusy":1,"cherry":2,"wood":1,"flower":1,"cream":2,"sour":1,"tangy":1,"garlic":1,"berries":2,"fruity citrus":1,"peach":4,"creamy berries":1,"savory nuts":1,"cheesy":1,"herbal":2,"woodsy":1,"grapes":1,"hash":1,"candy":1,"hashish":1},"thcLevels":{"low":23,"medium":361,"high":375,"unknown":487},"categoryDistribution":{"all":54,"indica":51,"sativa":54,"hybrid":33,"relaxed":28,"happy":35,"euphoric":36,"uplifted":27,"creative":33,"energetic":3,"focused":27,"giggly":25,"aroused":34,"talkative":25,"hungry":29,"sleepy":19,"tingly":25,"stress":18,"anxiety":34,"depression":27,"pain":30,"insomnia":0,"inflammation":14,"headaches":2,"fatigue":17,"nausea":0,"migraines":13,"muscle-spasms":0,"seizures":27,"arthritis":12,"PTSD":26,"low-thc":0,"medium-thc":0,"high-thc":0,"myrcene":0,"caryophyllene":0,"limonene":2,"terpinolene":0,"pinene":0,"ocimene":0,"linalool":0,"sweet":27,"earthy":3,"citrus":7,"berry":31,"pine":35,"woody":28,"spicy-herbal":29,"pungent":37,"diesel":27,"tropical":26,"flowery":30,"lemon":26,"skunk":27,"blueberry":41,"grape":25,"orange":33,"chemical":35},"typeDistribution":{"base":54,"strain-type":138,"effect":346,"medical":220,"thc":0,"terpene":2,"flavor":467},"topEffects":{"relaxed":475,"happy":280,"euphoric":268,"uplifted":265,"energetic":256,"sleepy":216,"focused":204,"creative":192,"tingly":148,"hungry":139},"topMedical":{"stress":775,"anxiety":679,"depression":547,"pain":404,"insomnia":123,"fatigue":44,"lack of appetite":24,"inflammation":19,"headaches":19,"muscle spasms":14},"topTerpenes":{"caryophyllene":600,"myrcene":518,"limonene":412,"pinene":256,"terpinolene":94,"linalool":68,"humulene":68,"ocimene":36,"pine":3,"earthy":2},"topFlavors":{"earthy":235,"berry":197,"sweet":193,"citrus":174,"diesel":148,"pine":118,"blueberry":111,"woody":109,"flowery":106,"pungent":96},"extractionDetails":{"timestamp":"2025-03-09T14:56:09.077Z","processedCategories":58,"duplicatesSkipped":1985}};
+    
+    // Helper function to generate colors
+    function generateColors(count) {
+      const colors = [
+        '#3498db', '#2ecc71', '#e74c3c', '#f39c12', '#9b59b6',
+        '#1abc9c', '#d35400', '#c0392b', '#16a085', '#8e44ad',
+        '#27ae60', '#2980b9', '#f1c40f', '#e67e22', '#95a5a6'
+      ];
+      
+      if (count <= colors.length) {
+        return colors.slice(0, count);
+      }
+      
+      // If we need more colors, repeat and vary them
+      const result = [];
+      for (let i = 0; i < count; i++) {
+        result.push(colors[i % colors.length]);
+      }
+      return result;
+    }
+    
+    // Create strain types chart if data exists
+    if (distribution.strainTypes) {
+      const typesData = Object.values(distribution.strainTypes);
+      const typesLabels = Object.keys(distribution.strainTypes).map(t => t.charAt(0).toUpperCase() + t.slice(1));
+      
+      new Chart(document.getElementById('strainTypesChart'), {
+        type: 'pie',
+        data: {
+          labels: typesLabels,
+          datasets: [{
+            data: typesData,
+            backgroundColor: generateColors(typesLabels.length)
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: 'right' },
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  const value = context.raw;
+                  const percentage = ((value / distribution.total) * 100).toFixed(1);
+                  return `${context.label}: ${value} (${percentage}%)`;
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+    
+    // Create THC levels chart if data exists
+    if (distribution.thcLevels) {
+      const thcData = Object.values(distribution.thcLevels);
+      const thcLabels = Object.keys(distribution.thcLevels).map(t => t.charAt(0).toUpperCase() + t.slice(1));
+      
+      new Chart(document.getElementById('thcLevelsChart'), {
+        type: 'pie',
+        data: {
+          labels: thcLabels,
+          datasets: [{
+            data: thcData,
+            backgroundColor: generateColors(thcLabels.length)
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: 'right' },
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  const value = context.raw;
+                  const percentage = ((value / distribution.total) * 100).toFixed(1);
+                  return `${context.label}: ${value} (${percentage}%)`;
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+    
+    // Create effects chart if data exists
+    if (distribution.topEffects) {
+      const effectsData = Object.values(distribution.topEffects);
+      const effectsLabels = Object.keys(distribution.topEffects).map(e => e.charAt(0).toUpperCase() + e.slice(1));
+      
+      new Chart(document.getElementById('effectsChart'), {
+        type: 'bar',
+        data: {
+          labels: effectsLabels,
+          datasets: [{
+            label: 'Number of Strains',
+            data: effectsData,
+            backgroundColor: '#3498db'
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  const value = context.raw;
+                  const percentage = ((value / distribution.total) * 100).toFixed(1);
+                  return `${value} strains (${percentage}%)`;
+                }
+              }
+            }
+          },
+          scales: {
+            y: { beginAtZero: true }
+          }
+        }
+      });
+    }
+    
+    // Create medical chart if data exists
+    if (distribution.topMedical) {
+      const medicalData = Object.values(distribution.topMedical);
+      const medicalLabels = Object.keys(distribution.topMedical).map(m => m.charAt(0).toUpperCase() + m.slice(1));
+      
+      new Chart(document.getElementById('medicalChart'), {
+        type: 'bar',
+        data: {
+          labels: medicalLabels,
+          datasets: [{
+            label: 'Number of Strains',
+            data: medicalData,
+            backgroundColor: '#2ecc71'
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  const value = context.raw;
+                  const percentage = ((value / distribution.total) * 100).toFixed(1);
+                  return `${value} strains (${percentage}%)`;
+                }
+              }
+            }
+          },
+          scales: {
+            y: { beginAtZero: true }
+          }
+        }
+      });
+    }
+    
+    // Create category type distribution chart if data exists
+    if (distribution.typeDistribution) {
+      const typeData = Object.values(distribution.typeDistribution);
+      const typeLabels = Object.keys(distribution.typeDistribution);
+      
+      new Chart(document.getElementById('categoryTypeChart'), {
+        type: 'pie',
+        data: {
+          labels: typeLabels,
+          datasets: [{
+            data: typeData,
+            backgroundColor: generateColors(typeLabels.length)
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { position: 'right' },
+            tooltip: {
+              callbacks: {
+                label: function(context) {
+                  const value = context.raw;
+                  const total = typeData.reduce((a, b) => a + b, 0);
+                  const percentage = ((value / total) * 100).toFixed(1);
+                  return `${context.label}: ${value} (${percentage}%)`;
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>
+  

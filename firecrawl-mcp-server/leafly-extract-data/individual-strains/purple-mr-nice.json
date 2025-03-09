@@ -1,0 +1,41 @@
+{
+  "name": "Purple Mr. Nice Guy",
+  "url": "https://www.leafly.com/strains/purple-mr-nice",
+  "classification": "Indica",
+  "thc_percent": 14,
+  "cbd_percent": 0,
+  "effects": [
+    "Sleepy",
+    "Hungry",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Grape",
+    "Pungent",
+    "Earthy"
+  ],
+  "medical": [
+    "Insomnia",
+    "Pain",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "difficulty": "moderate",
+    "flowering_time_weeks": null,
+    "yield": "medium",
+    "height": "medium"
+  },
+  "lineage": [
+    "Granddaddy Purple",
+    "Mr. Nice"
+  ],
+  "awards": [],
+  "average_rating": 4.1,
+  "rating_count": 155,
+  "description": "Granddaddy Purple crossed with Mr. Nice. This strain captures the purple color of GDP and the smell and taste of Mr. Nice. A very powerful indica that has a high probability of fuzzy couch-lock."
+}

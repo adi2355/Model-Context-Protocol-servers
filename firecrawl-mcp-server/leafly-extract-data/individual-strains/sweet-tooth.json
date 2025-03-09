@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/sweet-tooth",
+  "name": "Sweet Tooth",
+  "awards": [
+    "1st place at the Cannabis Cup in 2001"
+  ],
+  "effects": [
+    "Relaxed",
+    "Euphoric",
+    "Happy"
+  ],
+  "flavors": [
+    "Flowery",
+    "Sweet",
+    "Honey"
+  ],
+  "lineage": [
+    "Hawaiian",
+    "Nepali"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Sweet Tooth is an indica marijuana strain made by crossing Hawaiian and Nepali. Sweet Tooth provides uplifting and euphoric effects that are great for combating stress and headaches.",
+  "thc_percent": 19,
+  "rating_count": 644,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

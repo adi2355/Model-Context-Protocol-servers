@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/raspberry-cough",
+  "name": "Raspberry Cough",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Uplifted",
+    "Energetic"
+  ],
+  "flavors": [
+    "Berry",
+    "Sweet",
+    "Strawberry"
+  ],
+  "lineage": [
+    "ICE",
+    "Cambodian"
+  ],
+  "medical": [
+    "Depression",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Raspberry Cough is a 70% sativa strain bred by Nirvana Seeds. A cross between a Cambodian landrace and ICE, Raspberry Cough exhibits clear-headed uplifting effects good for productivity.",
+  "thc_percent": 16,
+  "rating_count": 135,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

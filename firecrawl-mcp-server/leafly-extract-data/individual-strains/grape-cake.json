@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/grape-cake",
+  "name": "Grape Cake",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Energetic"
+  ],
+  "flavors": [
+    "Chemical",
+    "Grape",
+    "Grapefruit"
+  ],
+  "lineage": [
+    "Grape Stomper",
+    "Cherry Pie",
+    "Wedding Cake"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Seed Junky, Grape Cake crosses Grape Stomper, Cherry Pie, and Wedding Cake F4. This indica-dominant hybrid carries grape flavors with gassy undertones.",
+  "thc_percent": 24,
+  "rating_count": 57,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

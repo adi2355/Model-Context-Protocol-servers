@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/hempstar",
+  "name": "Hempstar",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Woody",
+    "Earthy",
+    "Tea"
+  ],
+  "lineage": [
+    "Skunk",
+    "Oasis",
+    "Haze",
+    "Northern Lights #5"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Hempstar, now known as \"Brainstorm,\" was developed by Dutch Passion Seeds as a tribute to all the hempsters and the international hemp movement. This sativa-dominant strain was originally a three-way cross between Skunk, Oasis, and Haze, but Dutch Passion later brought Northern Lights #5 and Haze together to create the modern Brainstorm strain. It has a mild taste and traditional sativa effects.",
+  "thc_percent": 18,
+  "rating_count": 126,
+  "average_rating": 4.2,
+  "classification": "Sativa"
+}

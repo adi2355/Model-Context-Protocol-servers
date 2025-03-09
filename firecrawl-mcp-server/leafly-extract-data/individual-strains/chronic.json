@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/chronic",
+  "name": "Chronic",
+  "awards": [],
+  "effects": [
+    "Giggly",
+    "Happy",
+    "Talkative"
+  ],
+  "flavors": [
+    "Sweet",
+    "Honey",
+    "Flower",
+    "Spice"
+  ],
+  "lineage": [
+    "Northern Lights",
+    "Skunk",
+    "AK-47"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Terpinolene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": null,
+  "description": "Chronic is a hybrid marijuana strain made by crossing Northern Lights with Skunk and AK-47. This balanced strain produces energizing and uplifting effects. Chronic features a flavor profile of sweet honey, flower, and spice. Medical marijuana patients choose this strain to help relieve symptoms associated with stress and depression.",
+  "thc_percent": 13,
+  "rating_count": 199,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

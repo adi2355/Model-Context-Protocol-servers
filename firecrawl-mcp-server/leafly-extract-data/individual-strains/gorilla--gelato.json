@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Sweet, Earthy, Fruity, Spicy",
+  "medical": "Stress, Pain, Depression, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Gorilla Gelato is a potent hybrid strain that combines the best of both worlds, offering a sweet and fruity flavor profile with relaxing effects.",
+  "strain_name": "Gorilla Gelato",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Gorilla Glue #4 x Gelato",
+  "strain_classification": "Hybrid"
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/pink-mango",
+  "name": "Pink Mango",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Euphoric",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Mango",
+    "Tropical",
+    "Diesel"
+  ],
+  "lineage": [
+    "Blackberry",
+    "Blueberry",
+    "Grapefruit"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Headaches"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Pink Mango, a 60% sativa-dominant hybrid, is a cross between Blackberry, Blueberry, and Grapefruit. The dense buds are indica in structure with a rosy hue, offering fruity flavors of mango and berry with earthy undertones. The uplifting effects are a balanced combination of euphoria, relaxation, and physical arousal, useful for alleviating depression, pain, and nausea.",
+  "thc_percent": 16,
+  "rating_count": 19,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

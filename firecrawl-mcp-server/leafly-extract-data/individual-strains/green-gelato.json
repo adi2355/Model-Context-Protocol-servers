@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Focused, Happy",
+  "flavors": "Grape, Citrus, Mint",
+  "medical": "Depression, Anxiety, Stress",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Green Gelato is an indica-dominant hybrid weed strain made from a genetic cross between Thin Mint Girl Scout Cookies and Sunset Sherbet. This strain is 40% sativa and 60% indica. Green Gelato has a rare and exotic lineage, as it is the only strain cultivated by Grow West in Maryland. Green Gelato is 18-22% THC, making this strain an ideal choice for experienced cannabis consumers.",
+  "strain_name": "Green Gelato",
+  "rating_count": 16,
+  "cbd_percentage": 0,
+  "cbg_percentage": null,
+  "rating_average": 4.6,
+  "thc_percentage": 20,
+  "lineage_parents": "Thin Mint Girl Scout Cookies, Sunset Sherbet",
+  "strain_classification": "Hybrid"
+}

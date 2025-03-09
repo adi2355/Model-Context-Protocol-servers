@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/purple-thai",
+  "name": "Purple Thai",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Focused",
+    "Happy"
+  ],
+  "flavors": [
+    "Earthy",
+    "Flowery",
+    "Violet"
+  ],
+  "lineage": [
+    "Highland Oaxacan Gold",
+    "Chocolate Thai"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Purple Thai, also known as \"Oregon Purple Thai\" and \"OPT,\" is a mostly sativa marijuana strain that crosses Highland Oaxacan Gold with Chocolate Thai.",
+  "thc_percent": 17,
+  "rating_count": 69,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,sleepy",
+  "flavors": "earthy,sweet,spicy",
+  "medical": "stress relief,pain relief,insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Short",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Afghan Kush is a pure indica strain that originates from the Hindu Kush mountain range. It is known for its heavy resin production and earthy, sweet flavors.",
+  "strain_name": "Afghan Kush",
+  "rating_count": 200,
+  "cbd_percentage": 1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Afghan",
+  "strain_classification": "Indica"
+}

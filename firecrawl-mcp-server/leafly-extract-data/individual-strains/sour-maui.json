@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/sour-maui",
+  "name": "Sour Maui",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Energetic",
+    "Happy"
+  ],
+  "flavors": [
+    "Tropical",
+    "Citrus",
+    "Pineapple"
+  ],
+  "lineage": [
+    "Maui Wowie",
+    "Sour Diesel"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Fatigue"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "null",
+    "height": "null",
+    "difficulty": "null",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Sour Maui is a sativa cross between Maui Wowie and Sour Diesel.",
+  "thc_percent": null,
+  "rating_count": 53,
+  "average_rating": 4.6,
+  "classification": "Sativa"
+}

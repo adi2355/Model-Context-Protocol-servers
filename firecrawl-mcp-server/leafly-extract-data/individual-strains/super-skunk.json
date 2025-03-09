@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/super-skunk",
+  "name": "Super Skunk",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Hungry"
+  ],
+  "flavors": [
+    "Skunk",
+    "Pungent",
+    "Earthy"
+  ],
+  "lineage": [
+    "Skunk #1",
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 1,
+  "description": "Super Skunk is an indica marijuana strain made by crossing Skunk #1 with Afghani. This strain produces bold, relaxing effects that you can feel through your entire body. Medical marijuana patients choose Super Skunk to help relieve symptoms associated with chronic stress and pain. Super Skunk is ideal for anyone who enjoys an extra skunky aroma.",
+  "thc_percent": 16,
+  "rating_count": 619,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

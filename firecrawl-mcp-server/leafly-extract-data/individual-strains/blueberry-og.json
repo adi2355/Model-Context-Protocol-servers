@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blueberry-og",
+  "name": "Blueberry OG",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Giggly",
+    "Hungry"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Berry",
+    "Earthy"
+  ],
+  "lineage": [
+    "DJ Short Blueberry",
+    "OG Kush"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Blueberry OG is a DJ Short Blueberry phenotype with exceptional CBD yielding qualities combined with the indica-dominant legend, OG Kush. This potent, award-winning union doesn’t pack much in the way of psychoactivity, but its anti-anxiety and anti-inflammatory effects make up for any lack of headiness. With flavors of sweet camphor and sandalwood, this strain elevates the consumer's mood and promotes an overall sense of well being.",
+  "thc_percent": 15,
+  "rating_count": 90,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/cracker-jack",
+  "name": "Cracker Jack",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Talkative"
+  ],
+  "flavors": [
+    "Butter",
+    "Woody",
+    "Pine"
+  ],
+  "lineage": [
+    "Jack Herer",
+    "Green Crack"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Ocimene"
+  ],
+  "grow_info": {
+    "yield": "null",
+    "height": "null",
+    "difficulty": "null",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "This cannabis sativa strain combines Jack Herer with Green Crack to produce a potent buzz.",
+  "thc_percent": 20,
+  "rating_count": 108,
+  "average_rating": 4,
+  "classification": "Sativa"
+}

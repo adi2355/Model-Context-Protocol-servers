@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/cherry-kush",
+  "name": "Cherry Kush",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Happy",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Berry",
+    "Sweet",
+    "Tree fruit"
+  ],
+  "lineage": [
+    "Purple Afghani",
+    "OG Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "A cross between Purple Afghani and OG Kush, Cherry Kush is a very potent indica-dominant hybrid that has become very popular with medical patients in the SF Bay Area. Sometimes called Cherry Pie, these flowers range from a bright, vibrant green to a darker, purple-tinged red color, and boast a dense coating of trichomes. The flavor is reminiscent of cherries with a woody, hashy undertone, and the high starts out as stimulating and cerebral before fading into a deep feeling of relaxation.",
+  "thc_percent": 20,
+  "rating_count": 355,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

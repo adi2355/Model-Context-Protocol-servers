@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "strawberry, sweet, earthy",
+  "medical": "stress relief, anxiety, depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Golden Strawberry Cough is a delightful Sativa strain known for its sweet strawberry flavor and uplifting effects.",
+  "strain_name": "Golden Strawberry Cough",
+  "rating_count": 120,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Strawberry Cough",
+  "strain_classification": "Sativa"
+}

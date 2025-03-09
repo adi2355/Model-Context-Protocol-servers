@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/purple-haze",
+  "name": "Purple Haze",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Euphoric",
+    "Giggly"
+  ],
+  "flavors": [
+    "Sweet",
+    "Earthy",
+    "Berry",
+    "Spicy"
+  ],
+  "lineage": [
+    "Purple Thai",
+    "Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Purple Haze is a sativa marijuana strain popularized by Jimi Hendrix’s 1967 classic song, Purple Haze. This strain delivers a dreamy burst of euphoria that brings veteran consumers back to their psychedelic heyday. This nostalgic sativa staple remains cherished for its high energy cerebral stimulation that awakens creativity and blissful contentment throughout the day. Purple Haze is believed to have descended from parent strains Purple Thai and Haze, which pass on a mix of sweet and earthy flavors underscored by notes of berry and sharp spice. Purple Haze buds typically acquire vibrant hues of lavender that further justify the naming of this strain.",
+  "thc_percent": 16,
+  "rating_count": 1234,
+  "average_rating": 4.2,
+  "classification": "Sativa"
+}

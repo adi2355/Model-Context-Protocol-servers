@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/kimbo-kush",
+  "name": "Kimbo Kush",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Happy"
+  ],
+  "flavors": [
+    "Earthy",
+    "Peach",
+    "Citrus"
+  ],
+  "lineage": [
+    "Blackberry Kush",
+    "Starfighter"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Kimbo Kush is a hybrid marijuana strain made by crossing Blackberry Kush with Starfighter. Kimbo Kush produces effects that are relaxing in small doses, sedating in larger doses. Because of its potency, Kimbo Kush is best enjoyed at the end of the day or before you head to bed. This strain is named after the late Kimbo Slice. Medical marijuana patients choose this strain to help relieve symptoms associated with insomnia.",
+  "thc_percent": 18,
+  "rating_count": 251,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

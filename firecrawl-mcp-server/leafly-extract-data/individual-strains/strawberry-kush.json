@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/strawberry-kush",
+  "name": "Strawberry Kush",
+  "awards": [],
+  "effects": [
+    "Tingly",
+    "Hungry",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Strawberry",
+    "Sweet",
+    "Flowery"
+  ],
+  "lineage": [
+    "Strawberry Cough",
+    "OG Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": "8-9"
+  },
+  "cbd_percent": null,
+  "description": "Strawberry Kush is a hybrid marijuana strain made by crossing Strawberry Cough with OG Kush. This strain produces sedating effects that can be felt in the body and mind. Strawberry Kush features a musky strawberry taste that lives up to its name. This strain is potent, so it's best reserved for consumers with a high THC tolerance. Growers say Strawberry Kush has a flowering time of 8-9 weeks.",
+  "thc_percent": 19,
+  "rating_count": 472,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

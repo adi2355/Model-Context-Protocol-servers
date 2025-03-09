@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/purple-punch",
+  "name": "Purple Punch",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Grape",
+    "Plum",
+    "Berry"
+  ],
+  "lineage": [
+    "Granddaddy Purple",
+    "Larry OG"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "short to medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Purple Punch is the sweet and sedating union of two indica-dominant classics. By breeding Larry OG with Granddaddy Purple, the astonishing trichome laden Purple Punch was born, smelling of grape candy, blueberry muffins, and tart Kool-Aid. The potency of this strain gives the consumer a one-two punch to the head and body, initially landing between the eyes and settling down into the limbs. Purple Punch is a delicious dessert strain that is best suited for after dinner. Its effects may help with managing nausea, stress, minor body aches, and sleeplessness.",
+  "thc_percent": 18,
+  "rating_count": 1713,
+  "average_rating": 4.6,
+  "classification": "Indica"
+}

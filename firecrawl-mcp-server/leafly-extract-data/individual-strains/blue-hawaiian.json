@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-hawaiian",
+  "name": "Blue Hawaiian",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Uplifted",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Tropical",
+    "Sweet",
+    "Blueberry"
+  ],
+  "lineage": [
+    "Blueberry",
+    "Hawaiian Sativa"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 10
+  },
+  "cbd_percent": 0,
+  "description": "Blue Hawaiian is known for being quite a looker—its light green to orange buds are covered in rich orange and red hairs and are coated with sparkling trichomes. Bred from Blueberry and Hawaiian Sativa, Blue Hawaiian is fruity and smooth. Flowers appear at about ten weeks and are described as giving a balanced high.",
+  "thc_percent": 21,
+  "rating_count": 193,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

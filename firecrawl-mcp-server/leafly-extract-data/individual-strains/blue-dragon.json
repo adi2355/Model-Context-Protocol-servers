@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-dragon",
+  "name": "Blue Dragon",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Euphoric",
+    "Happy"
+  ],
+  "flavors": [
+    "Berry",
+    "Blueberry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Blueberry",
+    "Sour Diesel"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Thought to have originated in California, Blue Dragon is a cross of two classic strains, the indica-dominant Blueberry and sativa-dominant Sour Diesel. The flowers of this strain often turn dark purple and are covered in bright orange pistils and white trichomes. Blue Dragon is usually potent, giving consumers an intensely euphoric feeling and heavy body buzz. Its aroma and flavor are what you might expect given its lineage: equal parts sour fuel and sweet berry.",
+  "thc_percent": 20,
+  "rating_count": 258,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

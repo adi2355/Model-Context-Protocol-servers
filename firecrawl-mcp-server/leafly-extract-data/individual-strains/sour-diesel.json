@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sour-diesel",
+  "name": "Sour Diesel",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Talkative",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Diesel",
+    "Chemical",
+    "Skunk"
+  ],
+  "lineage": [
+    "Chemdawg",
+    "Super Skunk"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": 0,
+  "description": "Sour Diesel, also known as \"Sour D\" and \"Sour Deez,\" is a popular hybrid marijuana strain made by crossing Chemdawg and Super Skunk. Sour Diesel effects are dreamy, cerebral, fast-acting and energizing. This strain features a pungent flavor profile that smells like diesel. Medical marijuana patients choose Sour Diesel to help relieve symptoms associated with depression, pain, and stress. Fun fact: Sour Diesel first became popular in the early 1990s and has been legendary ever since.",
+  "thc_percent": 19,
+  "rating_count": 8527,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

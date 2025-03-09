@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "strawberry, cherry, sweet",
+  "medical": "stress, depression, pain",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Black Strawberry Cough is a delightful Sativa strain known for its sweet berry flavors and uplifting effects.",
+  "strain_name": "Black Strawberry Cough",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Strawberry Cough x Black Cherry Soda",
+  "strain_classification": "Sativa"
+}

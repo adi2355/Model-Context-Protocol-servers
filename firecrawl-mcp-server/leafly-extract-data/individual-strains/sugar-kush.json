@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sugar-kush",
+  "name": "Sugar Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Hungry",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Sweet",
+    "Pine",
+    "Woody"
+  ],
+  "lineage": [
+    "Kandy Kush",
+    "Hash Plant"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "Sugar Kush is an indica-dominant cross between Kandy Kush and Hash Plant.",
+  "thc_percent": 14,
+  "rating_count": 90,
+  "average_rating": 4.1,
+  "classification": "Indica"
+}

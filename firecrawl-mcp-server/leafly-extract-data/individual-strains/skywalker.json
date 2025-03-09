@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/skywalker",
+  "name": "Skywalker",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Earthy",
+    "Flowery",
+    "Sweet"
+  ],
+  "lineage": [
+    "Mazar x Blueberry",
+    "Skywalker Kush",
+    "Blueberry x Mazar",
+    "Sky"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "short",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Skywalker is an indica-dominant hybrid strain that is renowned for its potent effects and distinct aroma. It typically has a THC percentage ranging from 15% to 23%, with low levels of CBD. The top effects of Skywalker include a deep relaxation and euphoria. It is an excellent choice for stress relief, pain management, and insomnia. The top flavors and aromas of Skywalker are earthy, woody, and spicy, with hints of sweetness and fruitiness. The dominant terpenes in Skywalker include myrcene, caryophyllene, and limonene.",
+  "thc_percent": 20,
+  "rating_count": 1093,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

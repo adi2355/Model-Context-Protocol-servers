@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Berry, Sweet, Earthy, Herbal",
+  "medical": "Stress, Pain, Depression, Insomnia, Headaches",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue Dream is a balanced hybrid strain that combines the best of both worlds, offering a sweet berry aroma and a euphoric high.",
+  "strain_name": "Blue Dream",
+  "rating_count": 2000,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 18,
+  "lineage_parents": "Blueberry, Haze",
+  "strain_classification": "Hybrid"
+}

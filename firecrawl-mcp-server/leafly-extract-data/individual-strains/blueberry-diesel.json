@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blueberry-diesel",
+  "name": "Blueberry Diesel",
+  "awards": [],
+  "effects": [
+    "Euphoric",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Diesel",
+    "Blueberry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Blueberry",
+    "Sour Diesel"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": null,
+  "description": "Blueberry Diesel is a cross of two favorite strains, Blueberry and Sour Diesel. It is probably best known for its strong blueberry smell with hints of fuel from its Diesel lineage. Blueberry flavors overwhelm its sticky flowers, which should have plenty of trichomes and long orange hairs. Effects tend to be happy and relaxing but not too overwhelming, making this a popular choice for many kinds of consumers.",
+  "thc_percent": 19,
+  "rating_count": 379,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

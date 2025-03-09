@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Sweet, Berry, Earthy, Vanilla",
+  "medical": "Stress, Pain, Depression, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue Cookies is a hybrid strain that combines the sweet and fruity flavors of Blueberry with the earthy and sweet notes of Girl Scout Cookies, creating a well-balanced and enjoyable experience.",
+  "strain_name": "Blue Cookies",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Blueberry x Girl Scout Cookies",
+  "strain_classification": "Hybrid"
+}

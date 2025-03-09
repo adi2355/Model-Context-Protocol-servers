@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/motorbreath",
+  "name": "Motorbreath",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Euphoric",
+    "Tingly"
+  ],
+  "flavors": [
+    "Chemical",
+    "Pepper",
+    "Diesel"
+  ],
+  "lineage": [
+    "Chemdog",
+    "SFV OG Kush"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Named after its excessively gassy flavor and smell, Motorbreath crosses Chemdog and SFV OG Kush. This award-winning strain produces a flavorful smoke with notes of fuel, earth, and citrus. If you’re an OG fan, Motorbreath is a must-try, but novices should be aware of its potent effects.",
+  "thc_percent": 26,
+  "rating_count": 341,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

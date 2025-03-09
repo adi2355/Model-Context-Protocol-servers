@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/medihaze",
+  "name": "MediHaze",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Spicy/Herbal",
+    "Pine",
+    "Pepper"
+  ],
+  "lineage": [
+    "Super Silver Haze",
+    "Neville's Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 9,
+  "description": "MediHaze (or CBD Medi Haze) is an 80/20 sativa-dominant strain bred by CBD Crew that crosses genetics from Super Silver Haze, Neville’s Haze, and an undisclosed CBD-rich parent. Its THC to CBD ratio typically comes out 1:1, but some seeds will offer a doubled CBD content. THC and CBD’s synergy provide relief to a variety of symptoms, some of which include pain, inflammation, and anxiety. Pine, mint, and spice aromas burst from MediHaze buds in a fragrant introduction to its clear-headed, uplifting effects.",
+  "thc_percent": 5,
+  "rating_count": 149,
+  "average_rating": 4.5,
+  "classification": "Sativa"
+}

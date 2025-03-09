@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/sour-flower",
+  "name": "Sour Flower",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Skunk",
+    "Earthy",
+    "Pungent"
+  ],
+  "lineage": [
+    "Super Silver Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Sour Flower provides an uplifting sativa high and is good for relieving pain and anxiety.",
+  "thc_percent": 11,
+  "rating_count": 46,
+  "average_rating": 4.2,
+  "classification": "Sativa"
+}

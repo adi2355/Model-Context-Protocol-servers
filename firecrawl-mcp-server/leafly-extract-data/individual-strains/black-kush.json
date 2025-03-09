@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,sleepy",
+  "flavors": "earthy,sweet,spicy",
+  "medical": "stress relief,pain relief,insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Short to Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Black Kush is a potent indica strain known for its relaxing effects and sweet, earthy flavors.",
+  "strain_name": "Black Kush",
+  "rating_count": 120,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Black Domina x Kush",
+  "strain_classification": "Indica"
+}

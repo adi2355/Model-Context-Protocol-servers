@@ -1,0 +1,38 @@
+{
+  "url": "https://www.leafly.com/strains/mexican",
+  "name": "Mexican",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Giggly",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Tar",
+    "Tobacco",
+    "Woody"
+  ],
+  "lineage": [
+    "Mexican",
+    "Acapulco Gold",
+    "Trainwreck"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Lack of appetite"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "null",
+    "height": "null",
+    "difficulty": "null",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Mexican refers to the indigenous varieties of cannabis (or landraces) that grow natively in this region of the world. Because of this region's latitude and climate, these native landrace strains tend to be sativa in structure and effect.",
+  "thc_percent": null,
+  "rating_count": 94,
+  "average_rating": 3.6,
+  "classification": "Sativa"
+}

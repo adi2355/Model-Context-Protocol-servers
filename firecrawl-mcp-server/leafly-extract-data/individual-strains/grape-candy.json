@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/grape-candy",
+  "name": "Grape Candy",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Creative",
+    "Happy"
+  ],
+  "flavors": [
+    "Grape",
+    "Berry",
+    "Sweet"
+  ],
+  "lineage": [
+    "White Lemon",
+    "Purple Pantera"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Fatigue"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "I&l Genetics of Colorado created the grape-flavored Grape Candy by crossing White Lemon and Purple Pantera. This tasty strain comes in multi-colored flowers with hues of purple and light green. The heavy high will leave you feeling content and blissed out while you chill out on your favorite couch for an afternoon nap.",
+  "thc_percent": 24,
+  "rating_count": 13,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

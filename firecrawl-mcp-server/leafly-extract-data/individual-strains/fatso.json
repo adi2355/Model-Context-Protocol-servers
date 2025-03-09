@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/fatso",
+  "name": "Fatso",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Ammonia",
+    "Diesel",
+    "Pungent"
+  ],
+  "lineage": [
+    "GMO Cookies",
+    "Legend OG"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "This cross of GMO Cookies and Legend OG comes from Colorado breeder Cannarado. Not for the faint of lungs, Fatso is a newer strain that caters to gas, Kush, and Cookies alike. This funky, fuel-tasting indica is high in THC and comes covered in trichomes, making it great for hash. Make sure you’re close to the couch for this one, you won’t want to get up.",
+  "thc_percent": 28,
+  "rating_count": 105,
+  "average_rating": 4.7,
+  "classification": "Indica"
+}

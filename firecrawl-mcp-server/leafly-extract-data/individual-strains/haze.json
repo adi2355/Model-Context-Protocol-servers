@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/haze",
+  "name": "Haze",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Spicy/Herbal",
+    "Tobacco",
+    "Earthy"
+  ],
+  "lineage": [
+    "Thai",
+    "South American"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 10
+  },
+  "cbd_percent": 0,
+  "description": "Haze, also known as \"Original Haze,\" \"OG Haze,\" \"Haze OG,\" and \"Haze Brothers,\" is a sativa marijuana strain. This strain provides high-energy and creative effects. Haze first took root in Santa Cruz, California during the 1960s where long growing seasons accommodated her lengthy flowering cycle. Since then, Haze has become the proud parent of countless hybrids around the globe, passing on its genetics from Colombia, Mexico, Thailand, and South India. Haze's aroma is typically characterized by a spicy scent accented by hints of citrus and earthy sweetness.",
+  "thc_percent": 18,
+  "rating_count": 495,
+  "average_rating": 4.1,
+  "classification": "Sativa"
+}

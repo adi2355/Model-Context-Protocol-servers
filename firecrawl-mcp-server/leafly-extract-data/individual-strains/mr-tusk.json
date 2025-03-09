@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/mr-tusk",
+  "name": "Mr. Tusk",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Happy",
+    "Tingly"
+  ],
+  "flavors": [
+    "Blue Cheese",
+    "Blueberry",
+    "Grape"
+  ],
+  "lineage": [
+    "Ken's OG Kush"
+  ],
+  "medical": [
+    "Anxiety",
+    "Insomnia",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "Mr. Tusk is a phenotype of Ken's OG Kush, grown specially by Kushman Veganics for the release of Kevin Smith's film Tusk. Available only for a limited time at Buds & Roses in Los Angeles, Mr. Tusk is an intensely potent indica-dominant hybrid released alongside its more mellow counterpart White Walrus. This strain has also gone by the name \"Purple Drank\" due to its flavor and aroma.",
+  "thc_percent": 15,
+  "rating_count": 13,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

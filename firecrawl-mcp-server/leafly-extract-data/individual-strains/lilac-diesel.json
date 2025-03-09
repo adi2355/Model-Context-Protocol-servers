@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/lilac-diesel",
+  "name": "Lilac Diesel",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Focused",
+    "Talkative"
+  ],
+  "flavors": [
+    "Lavender",
+    "Flowery",
+    "Violet"
+  ],
+  "lineage": [
+    "Silver Lemon Haze",
+    "Forbidden Fruit",
+    "NYC Cherry Pie",
+    "Citral Glue"
+  ],
+  "medical": [
+    "Anxiety",
+    "Depression",
+    "Stress"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Ethos Genetics, Lilac Diesel crosses numerous genetics to bring an entirely new strain to the market. A Silver Lemon Haze x Forbidden Fruit is crossed with NYC Cherry Pie and Citral Glue to bring out this flavorful chemy strain. Big buds have a complex terpene profile, including notes of citrus, sweet berries, earthy pine, and chem. Lilac Diesel is a great afternoon strain for a lackadaisical adventure.",
+  "thc_percent": 18,
+  "rating_count": 270,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

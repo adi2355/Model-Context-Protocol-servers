@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric",
+  "flavors": "Sweet, Earthy, Citrus",
+  "medical": "Stress, Pain, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": null,
+    "difficulty": "Moderate",
+    "flowering_weeks": null
+  },
+  "description": "",
+  "strain_name": "Do-Si-Dos Gelato",
+  "rating_count": 0,
+  "cbd_percentage": null,
+  "cbg_percentage": null,
+  "rating_average": null,
+  "thc_percentage": null,
+  "lineage_parents": "Do-Si-Dos x Gelato",
+  "strain_classification": "Hybrid"
+}

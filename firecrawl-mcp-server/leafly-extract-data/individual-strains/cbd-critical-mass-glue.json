@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,euphoric",
+  "flavors": "earthy,sweet,pine",
+  "medical": "stress relief,pain relief,anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "CBD Critical Mass Glue is a well-balanced hybrid strain known for its relaxing effects and sweet, earthy flavors.",
+  "strain_name": "CBD Critical Mass Glue",
+  "rating_count": 150,
+  "cbd_percentage": 10,
+  "cbg_percentage": 1,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Critical Mass, Gorilla Glue",
+  "strain_classification": "Hybrid"
+}

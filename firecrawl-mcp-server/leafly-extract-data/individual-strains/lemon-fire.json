@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/lemon-fire",
+  "name": "Lemon Fire",
+  "awards": [
+    "Best U.S. Concentrate in the 2014 Washington Cannabis Cup by Mr. B Extracts"
+  ],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Lemon",
+    "Apple",
+    "Mint"
+  ],
+  "lineage": [
+    "Frozen Lemons",
+    "Freezer Burn"
+  ],
+  "medical": [
+    "Depression",
+    "Lack of appetite",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "Lemon Fire is a hybrid that won Best U.S. Concentrate in the 2014 Washington Cannabis Cup by Mr. B Extracts.",
+  "thc_percent": 15,
+  "rating_count": 14,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

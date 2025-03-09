@@ -1,0 +1,36 @@
+{
+  "url": "https://www.leafly.com/strains/royal",
+  "name": "Royal",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Sleepy",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Diesel",
+    "Berry",
+    "Pine"
+  ],
+  "lineage": [
+    "Royal OG"
+  ],
+  "medical": [
+    "Anxiety",
+    "Lack of appetite",
+    "Headaches"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Royal is a hybrid strain known for its calming effects and pleasant flavors. It is often used to help with anxiety, lack of appetite, and headaches.",
+  "thc_percent": null,
+  "rating_count": 8,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,euphoric",
+  "flavors": "sweet,earthy,fruity",
+  "medical": "stress relief,pain relief,anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Golden Harlequin is a balanced hybrid strain known for its sweet and fruity flavor profile, providing a relaxing and euphoric experience.",
+  "strain_name": "Golden Harlequin",
+  "rating_count": 150,
+  "cbd_percentage": 15,
+  "cbg_percentage": null,
+  "rating_average": 4.5,
+  "thc_percentage": 10,
+  "lineage_parents": "Harlequin x Golden",
+  "strain_classification": "Hybrid"
+}

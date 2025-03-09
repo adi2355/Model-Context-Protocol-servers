@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/ko-kush",
+  "name": "KO Kush",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Sleepy",
+    "Hungry"
+  ],
+  "flavors": [
+    "Pine",
+    "Lemon",
+    "Flowery"
+  ],
+  "lineage": [
+    "Afghani",
+    "Hash Plant",
+    "Northern Lights"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "KO Kush from Heavyweight Seeds is a cross of Afghani, Hash Plant, and Northern Lights. The smoke is thick and potent with a spicy fuel and pine flavor, making it a tasty must-try for any kush lovers. The high can be very heavy and may drop you into a deep state of relaxation. Give KO Kush a try if it’s bedtime and you need help winding down.",
+  "thc_percent": 22,
+  "rating_count": 7,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

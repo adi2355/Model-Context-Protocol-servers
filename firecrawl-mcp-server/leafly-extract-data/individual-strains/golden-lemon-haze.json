@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, euphoric, relaxed",
+  "flavors": "citrus, lemon, sweet",
+  "medical": "stress relief, depression, fatigue",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Dominant",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Golden Lemon Haze is a vibrant Sativa strain known for its uplifting effects and citrusy flavor profile.",
+  "strain_name": "Golden Lemon Haze",
+  "rating_count": 120,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Lemon Haze, Super Silver Haze",
+  "strain_classification": "Sativa"
+}

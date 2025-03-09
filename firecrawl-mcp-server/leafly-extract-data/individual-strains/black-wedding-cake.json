@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Sweet, Berry, Earthy, Vanilla",
+  "medical": "Stress, Pain, Depression, Insomnia, Lack of Appetite",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Black Wedding Cake is a hybrid strain that combines the sweet and earthy flavors of Wedding Cake with the fruity notes of Black Cherry Pie, creating a deliciously balanced experience.",
+  "strain_name": "Black Wedding Cake",
+  "rating_count": null,
+  "cbd_percentage": null,
+  "cbg_percentage": null,
+  "rating_average": null,
+  "thc_percentage": null,
+  "lineage_parents": "Wedding Cake x Black Cherry Pie",
+  "strain_classification": "Hybrid"
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/pine-tar-kush",
+  "name": "Pine Tar",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Sleepy",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Tar",
+    "Pine",
+    "Skunk"
+  ],
+  "lineage": [
+    "Pine Tar",
+    "Purple Monster",
+    "Oregon Noble"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": 0,
+  "description": "Pine Tar Kush stems from a family of pure indica genetics native to Pakistan. This cannabis strain is nearly unaltered from its original genetic form and expresses itself with bright green hues and a skunky aroma. The rich Kush flavor of pine mixes with sweet undertones that give way to Pine Tar Kush’s calming yet talkative buzz.",
+  "thc_percent": 23,
+  "rating_count": 61,
+  "average_rating": 4.4,
+  "classification": "Indica"
+}

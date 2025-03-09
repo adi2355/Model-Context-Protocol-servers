@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/moonshine-haze",
+  "name": "Moonshine Haze",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Energetic",
+    "Creative"
+  ],
+  "flavors": [
+    "Flowery",
+    "Woody",
+    "Sage"
+  ],
+  "lineage": [
+    "Nevil's Wreck",
+    "Amnesia Haze"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Moonshine Haze by Rare Dankness Seeds is a mostly sativa strain bred by combining Nevil's Wreck and Amnesia Haze.",
+  "thc_percent": 20,
+  "rating_count": 200,
+  "average_rating": 4.3,
+  "classification": "Sativa"
+}

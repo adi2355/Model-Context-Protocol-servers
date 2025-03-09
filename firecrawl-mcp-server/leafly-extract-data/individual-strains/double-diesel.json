@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/double-diesel",
+  "name": "Double Diesel",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Creative",
+    "Energetic"
+  ],
+  "flavors": [
+    "Grapefruit",
+    "Diesel",
+    "Pungent"
+  ],
+  "lineage": [
+    "NYC Diesel",
+    "Sour Diesel"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Humulene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Double Diesel is the sativa-dominant result of a cross between award-winning NYC Diesel and Sour Diesel. These plants are easy to grow and their lime green buds will give off a strong diesel-y odor with some grapefruit added in. The grapefruit notes overpower the taste, giving this strain a unique musky fruit flavor. Its effects are happy and uplifting, but not usually as energetic as some other sativas. Overall, it’s a good choice for a laid-back medicated time.",
+  "thc_percent": 16,
+  "rating_count": 44,
+  "average_rating": 4,
+  "classification": "Sativa"
+}

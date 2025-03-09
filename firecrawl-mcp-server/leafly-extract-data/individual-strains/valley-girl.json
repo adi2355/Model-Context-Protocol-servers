@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/valley-girl",
+  "name": "Valley Girl",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Creative",
+    "Talkative"
+  ],
+  "flavors": [
+    "Pine",
+    "Sweet",
+    "Lemon"
+  ],
+  "lineage": [
+    "SFV OG",
+    "Face Off OG"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "From Archive Seed Bank comes Valley Girl, a balanced hybrid strain that descends from SFV OG and Face Off OG. Resin-packed buds mark this strain’s elevated THC potential, and consumers with a high tolerance may look to Valley Girl for new euphoric heights.",
+  "thc_percent": 21,
+  "rating_count": 56,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

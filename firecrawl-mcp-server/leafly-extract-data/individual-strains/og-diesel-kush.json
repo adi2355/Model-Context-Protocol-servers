@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/og-diesel-kush",
+  "name": "OG Diesel Kush",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Happy",
+    "Creative"
+  ],
+  "flavors": [
+    "Diesel",
+    "Skunk",
+    "Pine"
+  ],
+  "lineage": [
+    "Brooklyn Sunrise",
+    "Kalijah"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "OG Diesel Kush is a hybrid marijuana strain with frosty dark green buds. It has a THC content of up to 19.5% and CBD levels of up to 0.36%.",
+  "thc_percent": 23,
+  "rating_count": 100,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

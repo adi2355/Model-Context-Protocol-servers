@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/guava-kush",
+  "name": "Guava Kush",
+  "awards": [
+    "2014 L.A. Cannabis Cup"
+  ],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Tingly"
+  ],
+  "flavors": [
+    "Tree fruit",
+    "Tropical",
+    "Citrus"
+  ],
+  "lineage": [],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Guava Kush is a hybrid strain that competed in the 2014 L.A. Cannabis Cup.",
+  "thc_percent": 17,
+  "rating_count": 112,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

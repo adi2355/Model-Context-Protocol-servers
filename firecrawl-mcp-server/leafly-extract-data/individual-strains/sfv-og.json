@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/sfv-og",
+  "name": "SFV OG",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Pine",
+    "Earthy",
+    "Woody"
+  ],
+  "lineage": [
+    "OG Kush",
+    "Motorbreath",
+    "Larry OG"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "SFV OG, also known as \"San Fernando Valley OG,\" \"San Fernando Valley Kush,\" and \"San Fernando Valley\" is a sativa-dominant hybrid marijuana strain from Cali Connection that is great for patients who need strong pain relief but don’t want to be stuck on the couch. As the name indicates, this OG Kush relative originates from California’s San Fernando Valley. Although their names are barely distinguishable, SFV OG Kush is actually the Afghani-crossed child to SFV OG. Leading with aromatic notes of earthy pine and lemon, its body effects take a little longer to feel than the initial head haziness.",
+  "thc_percent": 20,
+  "rating_count": 968,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

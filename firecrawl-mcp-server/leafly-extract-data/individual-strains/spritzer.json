@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/spritzer",
+  "name": "Spritzer",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Apricot",
+    "Ammonia",
+    "Grapefruit"
+  ],
+  "lineage": [
+    "Runtz",
+    "Grape Pie",
+    "MAC"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Spritzer is a hybrid marijuana strain made by crossing Runtz with Grape Pie and MAC. We're still learning about the flavors and effects of Spritzer - if you've smoked this strain before, tell us about it by leaving a review.",
+  "thc_percent": 32,
+  "rating_count": 142,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

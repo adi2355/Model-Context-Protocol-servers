@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/orange-juice",
+  "name": "Orange Juice",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Relaxed",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Orange",
+    "Citrus",
+    "Diesel",
+    "Sweet",
+    "Earthy"
+  ],
+  "lineage": [
+    "OG Kush",
+    "California Orange"
+  ],
+  "medical": [
+    "Anxiety",
+    "Depression",
+    "Stress"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Orange Juice, bred by Gage Green Genetics, mixes one of their staple strains Joseph (Underdog OG bag seed) with a cross of California Orange and OG Kush. An indica-driven hybrid, Orange Juice erupts with a blast of orange and lemon notes that combine with diesel undertones to create an inviting aroma and a mouthful of sweet earthy citrus. The effects of Orange Juice are relatively balanced, producing a relaxed body with a happy and uplifted head buzz.",
+  "thc_percent": 19,
+  "rating_count": 61,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

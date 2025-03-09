@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/jr",
+  "name": "Jager",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Happy"
+  ],
+  "flavors": [
+    "Earthy",
+    "Pungent",
+    "Spicy/Herbal"
+  ],
+  "lineage": [
+    "LA Confidential",
+    "Blue Dream"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Jager, also known as \"Jagermeister,\" \"Jager Kush,\" and \"JGR\" is an indica marijuana strain made by crossing LA Confidential and Blue Dream. This strain produces full-body effects that are relaxing but not sedating. Jager tastes and smells like black licorice. This strain was named after the dark alcoholic beverage from Germany. Jager is best enjoyed during the evening hours.",
+  "thc_percent": 21,
+  "rating_count": 367,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

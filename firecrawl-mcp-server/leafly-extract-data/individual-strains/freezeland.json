@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/freezeland",
+  "name": "Freezeland",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Happy",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Fruity",
+    "Citrus",
+    "Pine"
+  ],
+  "lineage": [
+    "Pluton",
+    "Friesland"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Pine",
+    "Menthol"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "A celebrity cannabis strain in Quebec, Freezeland is an indica cross between Pluton and Friesland. These lavender-tipped buds have a fruity citrus flavor with pine undertones and potent full-body indica effects. Chronic pain and insomnia are the most common symptoms treated with this strain, and anyone looking for relaxation or rest will find it in Freezeland. Outdoor gardens will grow impressive harvests after an 8 week flowering period, an operation suitable for novice and expert growers alike.",
+  "thc_percent": null,
+  "rating_count": 44,
+  "average_rating": 3.5,
+  "classification": "Indica"
+}

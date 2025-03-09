@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "D-Line",
+  "effects": "Energetic, Uplifted, Focused",
+  "flavors": "Coffee, Nutty, Chestnut",
+  "medical": "Stress, Depression, Anxiety",
+  "terpenes": {
+    "pinene": "",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "",
+    "limonene": "",
+    "linalool": "",
+    "terpinolene": "Dominant",
+    "caryophyllene": ""
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Average",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Chocolope, also known as 'D-Line,' is a popular sativa marijuana strain made by crossing Chocolate Thai with Cannalope Haze. The result is a delicious homage to the chocolate strains that were popular in the 1980s. Chocolope's hefty buds give earthy, sweet coffee flavors that provide a dreamy, cerebral effect. Consumers report a strong, euphoric mental shift that is great when coping with depression or stress.",
+  "strain_name": "Chocolope",
+  "rating_count": 1404,
+  "cbd_percentage": 0,
+  "cbg_percentage": 3,
+  "rating_average": 4.3,
+  "thc_percentage": 22,
+  "lineage_parents": "Chocolate Thai, Cannalope Haze",
+  "strain_classification": "Sativa"
+}

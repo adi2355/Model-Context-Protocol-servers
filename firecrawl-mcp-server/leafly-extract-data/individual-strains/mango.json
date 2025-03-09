@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/mango",
+  "name": "Mango",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Relaxed",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Mango",
+    "Tropical",
+    "Sweet"
+  ],
+  "lineage": [
+    "KC 33",
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": 0,
+  "description": "Mango, also known as \"Mango OG,\" is an indica marijuana strain made by crossing KC 33 with Afghani. This strain produces euphoric and uplifting effects that are sure to boost your mood. Mango is known to be a creeper strain, meaning that the effects come on slowly. This strain smells and tastes like its namesake, a bright juicy mango.",
+  "thc_percent": 17,
+  "rating_count": 557,
+  "average_rating": 4.1,
+  "classification": "Indica"
+}

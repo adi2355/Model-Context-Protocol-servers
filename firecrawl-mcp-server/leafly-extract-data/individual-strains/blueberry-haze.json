@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blueberry-haze",
+  "name": "Blueberry Haze",
+  "awards": [],
+  "effects": [
+    "Euphoric",
+    "Tingly",
+    "Giggly"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Berry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Blueberry",
+    "Haze"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "A hybrid cross of Blueberry and Haze, this strain provides a sweet flavor and pleasant, euphoric high. Pace yourself with this one—overdoing it can send you to dreamland.",
+  "thc_percent": 18,
+  "rating_count": 365,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

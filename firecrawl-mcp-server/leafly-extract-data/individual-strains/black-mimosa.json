@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "citrus, sweet, earthy",
+  "medical": "stress, anxiety, depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Dominant",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Black Mimosa is a hybrid strain that combines the uplifting effects of Mimosa with the relaxing qualities of Black Domina.",
+  "strain_name": "Black Mimosa",
+  "rating_count": null,
+  "cbd_percentage": null,
+  "cbg_percentage": null,
+  "rating_average": null,
+  "thc_percentage": null,
+  "lineage_parents": "Mimosa x Black Domina",
+  "strain_classification": "Hybrid"
+}

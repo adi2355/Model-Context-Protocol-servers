@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,euphoric",
+  "flavors": "sweet,earthy,spicy",
+  "medical": "stress relief,pain relief,anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Cannatonic Cookies is a balanced hybrid strain known for its calming effects and sweet, earthy flavors.",
+  "strain_name": "Cannatonic Cookies",
+  "rating_count": 150,
+  "cbd_percentage": 12,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 10,
+  "lineage_parents": "Cannatonic x Cookies",
+  "strain_classification": "Hybrid"
+}

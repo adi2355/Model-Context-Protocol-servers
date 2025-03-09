@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/white-kush",
+  "name": "White Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Hungry",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Nutty",
+    "Pungent",
+    "Earthy"
+  ],
+  "lineage": [
+    "Afghan Kush",
+    "White Widow"
+  ],
+  "medical": [
+    "Insomnia",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": null,
+  "description": "White Kush is the dreamy daughter of Afghan Kush and White Widow. A powerful indica, this strain will put you to sleep in a hurry. Taking after its kush heritage, White Kush features a strong and incredibly pungent aroma and is the perfect strain for relaxation and stress relief, great for winding down at the end of the day. Typically flowering between 8-10 weeks, this strain is good for both indoor and outdoor cultivation.",
+  "thc_percent": 22,
+  "rating_count": 101,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

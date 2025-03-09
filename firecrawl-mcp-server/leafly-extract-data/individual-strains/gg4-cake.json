@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Sweet, Earthy, Vanilla, Pine",
+  "medical": "Stress, Pain, Depression, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "GG4 Cake is a delicious hybrid strain that combines the potent effects of Gorilla Glue #4 with the sweet flavors of Wedding Cake.",
+  "strain_name": "GG4 Cake",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Gorilla Glue #4 x Wedding Cake",
+  "strain_classification": "Hybrid"
+}

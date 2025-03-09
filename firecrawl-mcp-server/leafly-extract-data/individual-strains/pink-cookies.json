@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/pink-cookies",
+  "name": "Pink Cookies",
+  "awards": [],
+  "effects": [
+    "Tingly",
+    "Relaxed",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Pepper",
+    "Earthy",
+    "Sweet"
+  ],
+  "lineage": [
+    "Girl Scout Cookies",
+    "Cherry Pie"
+  ],
+  "medical": [
+    "Anxiety",
+    "Depression",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Pink Cookies, also known as Wedding Cake, is the familial genetic cross of Girl Scout Cookies and Cherry Pie. This delectable treat is rich with tangy sweet earth and pepper, taking notes and dimension from its OG and Durban Poison parentage.",
+  "thc_percent": 20,
+  "rating_count": 156,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

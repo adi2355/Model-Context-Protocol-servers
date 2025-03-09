@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "citrus, berry, sweet",
+  "medical": "stress relief, depression, pain",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Dominant",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue Lemon Haze is a refreshing sativa strain known for its uplifting effects and citrusy flavor.",
+  "strain_name": "Blue Lemon Haze",
+  "rating_count": 150,
+  "cbd_percentage": 0.5,
+  "cbg_percentage": 0.1,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Lemon Haze, Blueberry",
+  "strain_classification": "Sativa"
+}

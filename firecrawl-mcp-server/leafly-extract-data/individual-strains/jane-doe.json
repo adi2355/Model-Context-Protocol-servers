@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/jane-doe",
+  "name": "Jane Doe",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Giggly",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Berry",
+    "Lemon",
+    "Sweet"
+  ],
+  "lineage": [
+    "OG"
+  ],
+  "medical": [
+    "Pain",
+    "Depression",
+    "Stress"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Pinene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Jane Doe is perfectly named because this strain is a bit of a mystery girl, though her genetics most likely include some OG. The strain is well-balanced, with effects that provide euphoria and relief without sleepiness. This Jane is anything but plain, with a crisp lemon aroma and big, trichome-covered flowers that make her a beauty.",
+  "thc_percent": 20,
+  "rating_count": 18,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

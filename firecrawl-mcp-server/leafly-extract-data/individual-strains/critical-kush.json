@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/critical-kush",
+  "name": "Critical Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Woody",
+    "Earthy",
+    "Spicy/Herbal"
+  ],
+  "lineage": [
+    "OG Kush",
+    "Critical Mass"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 1,
+  "description": "Critical Kush is a potent indica marijuana strain. Bred by Barney’s Farm, this popular strain blends together two famed cannabis staples, Critical Mass and OG Kush. Aromatic notes of earthiness and spice usher in a calming sensation that relaxes the mind and body. Critical Kush pairs a staggeringly high THC content with a moderate dose of CBD, making this strain a perfect nighttime medication for pain, stress, insomnia, and muscle spasms.",
+  "thc_percent": 18,
+  "rating_count": 729,
+  "average_rating": 4.4,
+  "classification": "Indica"
+}

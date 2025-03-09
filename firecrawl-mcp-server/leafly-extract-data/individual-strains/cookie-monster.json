@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/cookie-monster",
+  "name": "Cookie Monster",
+  "awards": [
+    "2014 Seattle Cannabis Cup"
+  ],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Hungry"
+  ],
+  "flavors": [
+    "Sweet",
+    "Pine",
+    "Earthy"
+  ],
+  "lineage": [
+    "Girl Scout Cookies",
+    "OG Kush"
+  ],
+  "medical": [
+    "Pain",
+    "Anxiety",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Cookie Monster is a 2014 Seattle Cannabis Cup winner that blends the West Coast royalty, Girl Scout Cookies, and the legendary powerhouse, OG Kush. This combination yields dense frosted buds with hints of purple and orange hairs throughout. Cookie Monster pushes the boundaries of Cookies’ medical uses and leans toward medium-to-full sedation. Use Cookie Monster to reduce physical discomfort, indigestion, or before bed to jumpstart your dream machine.",
+  "thc_percent": 17,
+  "rating_count": 175,
+  "average_rating": 4.4,
+  "classification": "Indica"
+}

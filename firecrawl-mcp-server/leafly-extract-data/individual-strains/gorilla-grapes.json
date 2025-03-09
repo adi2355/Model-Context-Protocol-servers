@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/gorilla-grapes",
+  "name": "Gorilla Grapes",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Focused"
+  ],
+  "flavors": [
+    "Grape",
+    "Diesel",
+    "Pungent"
+  ],
+  "lineage": [
+    "Original Glue",
+    "Vino OG"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Bred by Dungeon Vault Genetics, Gorilla Grapes is a cross of Original Glue and Vino OG. It is a THC-dominant hybrid with a sweet grape flavor and diesel undertones. Medium-sized buds are olive-colored with deep purple and red hues, all covered with a sticky layer of white trichomes.",
+  "thc_percent": 17,
+  "rating_count": 75,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

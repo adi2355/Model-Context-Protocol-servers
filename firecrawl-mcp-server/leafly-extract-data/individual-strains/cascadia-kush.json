@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/cascadia-kush",
+  "name": "Cascadia Kush",
+  "awards": [
+    "Best Indica at the 2015 DOPE Cup"
+  ],
+  "effects": [
+    "Sleepy",
+    "Tingly",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Flowery",
+    "Blueberry",
+    "Berry"
+  ],
+  "lineage": [
+    "Alien Kush",
+    "Frankenstein"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Pain"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Cascadia Kush is an 80/20 indica bred by Hesperides Gardens in Washington. It combines Alien Kush and Frankenstein genetics to create a powerhouse of relaxing, pain-relieving effects.",
+  "thc_percent": 18,
+  "rating_count": 15,
+  "average_rating": 4.6,
+  "classification": "Indica"
+}

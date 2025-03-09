@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/melonade",
+  "name": "Melonade",
+  "awards": [
+    "Award-winning"
+  ],
+  "effects": [
+    "Aroused",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Tropical",
+    "Lemon",
+    "Citrus"
+  ],
+  "lineage": [
+    "Watermelon Zkittlez",
+    "Lemon Tree"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "The award-winning Melonade was created by breeder Midwest Best from Watermelon Zkittlez x Lemon Tree. This strain puts out a very sweet flavor profile, offering notes of citrus and melon. The high tends to be euphoric and cerebral, making Melonade a great choice for anyone looking for an energizing afternoon treat.",
+  "thc_percent": 21,
+  "rating_count": 80,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

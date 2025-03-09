@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/lemon-thai",
+  "name": "Lemon Thai",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Talkative",
+    "Focused"
+  ],
+  "flavors": [
+    "Lemon",
+    "Citrus",
+    "Lime"
+  ],
+  "lineage": [
+    "Thai sativa",
+    "Hawaiian strain"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Myrcene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 10
+  },
+  "cbd_percent": null,
+  "description": "Lemon Thai is great for those looking for a little extra creative spark. Originally produced by Dutch Flowers, Lemon Thai is a cross between a Thai sativa and a Hawaiian strain. Taking after its Thai parentage, the effects of this strain are extremely cerebral, allowing users to feel introspective, focused, and thoughtful. This strain features a pleasant lemony-mint taste and typically flowers in 10 weeks. Lemon Thai produces high yields both indoors and outdoors but appreciates a lot of space to grow.",
+  "thc_percent": 22,
+  "rating_count": 149,
+  "average_rating": 4.1,
+  "classification": "Sativa"
+}

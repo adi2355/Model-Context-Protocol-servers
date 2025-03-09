@@ -1,0 +1,38 @@
+{
+  "url": "https://www.leafly.com/strains/orange-fuel",
+  "name": "Orange Fuel",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Focused"
+  ],
+  "flavors": [
+    "Diesel",
+    "Chemical",
+    "Citrus"
+  ],
+  "lineage": [],
+  "medical": [
+    "Depression",
+    "Fatigue",
+    "Pain"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Myrcene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Orange Fuel is a hybrid weed strain. Reviewers on Leafly say this strain makes them feel energetic, creative, and focused. Orange Fuel has 18% THC and 1% CBG. The dominant terpene in this strain is terpinolene.",
+  "thc_percent": 18,
+  "rating_count": 4,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

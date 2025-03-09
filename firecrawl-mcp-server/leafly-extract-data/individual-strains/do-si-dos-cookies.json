@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "Do-Si-Dos, Do-Si-Dos Cookies",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Sweet, Earthy, Pine, Citrus",
+  "medical": "Stress, Pain, Insomnia, Depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Do-Si-Dos Cookies is a potent hybrid strain that combines the best of its parent strains, offering a sweet and earthy flavor profile with relaxing effects.",
+  "strain_name": "Do-Si-Dos Cookies",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Girl Scout Cookies x Face Off OG",
+  "strain_classification": "Hybrid"
+}

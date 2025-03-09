@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/red-dragon",
+  "name": "Red Dragon",
+  "awards": [],
+  "effects": [
+    "giggly",
+    "tingly",
+    "talkative"
+  ],
+  "flavors": [
+    "tree fruit",
+    "spicy/herbal",
+    "flowery"
+  ],
+  "lineage": [
+    "South American",
+    "Afghani"
+  ],
+  "medical": [
+    "stress",
+    "depression",
+    "pain"
+  ],
+  "terpenes": [
+    "myrcene",
+    "limonene",
+    "caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Red Dragon is a hybrid marijuana strain made by crossing South American with Afghani. Red Dragon produces happy and uplifting effects with a sweet and fruity aroma. However, some consumers say this strain makes them feel quite paranoid, so take caution with Red Dragon if you're prone to anxiety. Medical marijuana patients choose this strain to help relieve symptoms associated with depression and stress.",
+  "thc_percent": 17,
+  "rating_count": 384,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

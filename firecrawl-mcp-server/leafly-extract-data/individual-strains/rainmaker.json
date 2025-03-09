@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/rainmaker",
+  "name": "Rainmaker",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Focused"
+  ],
+  "flavors": [
+    "Cheese",
+    "Skunk",
+    "Chemical"
+  ],
+  "lineage": [
+    "Citral Skunk",
+    "Mandarin Sunset"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Ethos Genetics, Rainmaker is a cross of Citral Skunk and Mandarin Sunset. It has a rich aroma of cheese, skunk, and citrus.",
+  "thc_percent": 19,
+  "rating_count": 52,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sour-sunset",
+  "name": "Sour Sunset",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Euphoric",
+    "Focused"
+  ],
+  "flavors": [
+    "Diesel",
+    "Sweet",
+    "Citrus"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Secret Sherbet"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Sour Sunset is a new hybrid from DNA Genetics affiliated Crockett Family Farms that crosses the clone-only AJ’s Sour Diesel with a Secret Sherbet male to create a high-potency 60% indica that is loaded with delicious flavors and terpenes. Featuring high yields, THC levels well over 20%, and great bag appeal, Sour Sunset is sure to be a favorite with growers.",
+  "thc_percent": 19,
+  "rating_count": 54,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-kush",
+  "name": "Blue Kush",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Pine",
+    "Berry"
+  ],
+  "lineage": [
+    "OG Kush",
+    "Blueberry"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Blue Kush, a sativa-dominant hybrid marijuana strain, combines the sweet berry flavors of Blueberry with the powerful and pungent OG Kush. With hints of pine, lemon, and berries, Dinafem Seeds has created a treat for all of the senses. The effects are reported as cerebral, uplifting, and will leave you feeling anything but blue.",
+  "thc_percent": 17,
+  "rating_count": 104,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

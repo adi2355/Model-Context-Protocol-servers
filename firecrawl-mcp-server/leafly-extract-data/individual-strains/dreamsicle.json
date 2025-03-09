@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/dreamsicle",
+  "name": "Dreamsicle",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Happy",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Cheese",
+    "Vanilla",
+    "Diesel"
+  ],
+  "lineage": [
+    "Sherbert",
+    "Starfighter"
+  ],
+  "medical": [
+    "Anxiety",
+    "Arthritis",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Dreamsicle is a hybrid weed strain made by crossing Sherbert and Starfighter. Reviewers on Leafly say this strain makes them feel energetic, happy, and uplifted. The dominant terpene in this strain is myrcene.",
+  "thc_percent": 15,
+  "rating_count": 13,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

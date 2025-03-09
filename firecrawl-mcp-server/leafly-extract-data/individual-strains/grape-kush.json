@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/grape-kush",
+  "name": "Grape Kush",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Grape",
+    "Berry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Pre-98 Bubba Kush",
+    "Romulan Grapefruit"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "DJ Short's Grape Kush is a productive marijuana hybrid strain that has sharp and fruity aromas. The effects are long-lasting and powerful, inducing euphoric head effects and a relaxed body.",
+  "thc_percent": 21,
+  "rating_count": 174,
+  "average_rating": 3.9,
+  "classification": "Hybrid"
+}

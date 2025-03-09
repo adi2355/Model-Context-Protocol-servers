@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/black-cherry-soda",
+  "name": "Black Cherry Soda",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Happy"
+  ],
+  "flavors": [
+    "Berry",
+    "Sweet",
+    "Tree fruit"
+  ],
+  "lineage": [
+    "Black Cherry Cheesecake",
+    "Huckleberry Soda"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Black Cherry Soda is named after its fruity, soda-like taste and unusually dark purple color. This strain has spawned other favorites like Black Dahlia and Ace of Spades. It has balanced mind and body effects and it's a potent medicine that hits without heavy sedation, making it popular among patients treating severe symptoms throughout the day.",
+  "thc_percent": 21,
+  "rating_count": 404,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

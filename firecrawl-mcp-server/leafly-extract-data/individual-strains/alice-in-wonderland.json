@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/alice-in-wonderland",
+  "name": "Alice in Wonderland",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Creative",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Flowery",
+    "Earthy",
+    "Grapefruit"
+  ],
+  "lineage": [
+    "Willy's Wonder"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Terpinolene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Alice in Wonderland is a mostly sativa strain with euphoric cerebral effects. It provides an elevated sensory experience, making it a favorite strain for creative pastimes, outdoor activities, a laid-back weekend, or daytime stress relief. Said to be a descendant of Willy’s Wonder, Alice in Wonderland has many therapeutic qualities, especially for those suffering from anxiety or depression.",
+  "thc_percent": 16,
+  "rating_count": 112,
+  "average_rating": 4.5,
+  "classification": "Sativa"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Uplifted",
+  "flavors": "Berry, Sweet, Earthy",
+  "medical": "Stress, Pain, Depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue Haze is a hybrid strain known for its sweet berry flavor and uplifting effects.",
+  "strain_name": "Blue Haze",
+  "rating_count": 120,
+  "cbd_percentage": 0.5,
+  "cbg_percentage": 0.1,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Blueberry, Haze",
+  "strain_classification": "Hybrid"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Earthy, Pine, Sweet, Diesel",
+  "medical": "Stress, Pain, Insomnia, Depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "GG4 Dream is a hybrid strain that combines the best of Gorilla Glue #4 and Dream, offering a potent experience with a sweet and earthy flavor profile.",
+  "strain_name": "GG4 Dream",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Gorilla Glue #4 x Dream",
+  "strain_classification": "Hybrid"
+}

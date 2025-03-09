@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/dragons-breath",
+  "name": "Dragon's Breath",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Creative",
+    "Energetic"
+  ],
+  "flavors": [
+    "Spicy/Herbal",
+    "Skunk",
+    "Earthy"
+  ],
+  "lineage": [
+    "Jack Herer",
+    "Northern Lights"
+  ],
+  "medical": [
+    "Anxiety",
+    "Depression",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Dragon's Breath is a sativa-dominant hybrid cross between the two legendary strains, Jack Herer and Northern Lights. Its balanced, clear-headed effects are ushered in by a distinctive spicy aroma that hints at this hybrid's Haze ancestor. Some patients may find Dragon's Breath particularly helpful in burning off pain, depression, and anxiety throughout the day.",
+  "thc_percent": 22,
+  "rating_count": 123,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

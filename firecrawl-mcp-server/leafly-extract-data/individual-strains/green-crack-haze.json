@@ -1,0 +1,32 @@
+{
+  "awards": "Best Sativa 2020",
+  "aliases": "Green Crack, Green Haze",
+  "effects": "happy, energetic, focused",
+  "flavors": "citrus, earthy, sweet",
+  "medical": "stress relief, depression, fatigue",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Green Crack Haze is a vibrant sativa strain known for its uplifting effects and sweet citrus flavor.",
+  "strain_name": "Green Crack Haze",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.05,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Green Crack x Haze",
+  "strain_classification": "Sativa"
+}

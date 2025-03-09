@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/lemonatti",
+  "name": "Lemonatti",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Lemon",
+    "Lime",
+    "Citrus"
+  ],
+  "lineage": [
+    "Biscotti",
+    "Gelonade"
+  ],
+  "medical": [
+    "Depression",
+    "Anxiety",
+    "Stress"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Lemonatti is a hybrid marijuana strain made by crossing Gelonade and Biscotti. We're still learning about the flavors and effects of Lemonatti.",
+  "thc_percent": 23,
+  "rating_count": 65,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

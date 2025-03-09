@@ -1,0 +1,32 @@
+{
+  "awards": "Best Hybrid 2020",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "flavors": "Earthy, Diesel, Pine, Sweet",
+  "medical": "Stress, Pain, Depression, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "GG4 Diesel is a potent hybrid strain known for its earthy and diesel flavors, providing a balanced high that relaxes the body while uplifting the mind.",
+  "strain_name": "GG4 Diesel",
+  "rating_count": 150,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "GG4 x Diesel",
+  "strain_classification": "Hybrid"
+}

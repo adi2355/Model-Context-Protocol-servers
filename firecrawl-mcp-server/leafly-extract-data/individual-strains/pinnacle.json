@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/pinnacle",
+  "name": "Pinnacle",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Uplifted",
+    "Talkative"
+  ],
+  "flavors": [
+    "Pine",
+    "Blueberry",
+    "Diesel"
+  ],
+  "lineage": [
+    "Blue Dream",
+    "Hindu Kush",
+    "Slurty 3",
+    "Gush Mints"
+  ],
+  "medical": [
+    "Depression",
+    "Anxiety",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Humulene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "The strain name Pinnacle now refers to two distinct strains: a legacy hybrid Blue Dream x Hindu Kush; and a modern Slurty 3 x Gush Mints from breeders Purple City Genetics. This older strain is 50% sativa and 50% indica that's 20% THC, and generally not available. The modern Pinnacle is more of an indica hybrid and a monster yielder that turns purple and tests over 28% THC.",
+  "thc_percent": 20,
+  "rating_count": 26,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

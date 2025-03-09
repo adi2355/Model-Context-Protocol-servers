@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/mickey-kush",
+  "name": "Mickey Kush",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Energetic",
+    "Creative"
+  ],
+  "flavors": [
+    "Earthy",
+    "Lemon"
+  ],
+  "lineage": [
+    "Sweet Irish Kush",
+    "Jack The Ripper"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Mickey Kush is a 75% sativa cross between Sweet Irish Kush and Jack The Ripper. These potent buds offer an earthy, kush flavor with lemon undertones, and deliver energetic, focused effects. Mickey Kush is renowned for its high THC and CBG cannabinoid content, making it a prime choice for tumor treatment, alleviating nausea, pain, and depression. These indoor or outdoor plants reach a medium height with a moderate to heavy yield, flowering between 7 and 8 weeks.",
+  "thc_percent": 17,
+  "rating_count": 113,
+  "average_rating": 4.5,
+  "classification": "Sativa"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/pucker",
+  "name": "Pucker",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Grape",
+    "Apple",
+    "Berry"
+  ],
+  "lineage": [
+    "Triangle Kush",
+    "Lemon G"
+  ],
+  "medical": [
+    "Depression",
+    "Fatigue",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Pucker is a hybrid weed strain made by crossing Triangle Kush and Lemon G. Reviewers on Leafly say this strain makes them feel energetic, creative, and uplifted. Pucker has 16% THC. The dominant terpene in this strain is myrcene.",
+  "thc_percent": 16,
+  "rating_count": 3,
+  "average_rating": 5,
+  "classification": "Hybrid"
+}

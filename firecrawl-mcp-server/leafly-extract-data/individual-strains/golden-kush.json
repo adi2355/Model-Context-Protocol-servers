@@ -1,0 +1,38 @@
+{
+  "url": "https://www.leafly.com/strains/golden-kush",
+  "name": "Golden Kush",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Energetic",
+    "Aroused"
+  ],
+  "flavors": [
+    "Flowery",
+    "Diesel",
+    "Earthy"
+  ],
+  "lineage": [],
+  "medical": [
+    "Depression",
+    "Anxiety",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Linalool",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "Golden Kush is a hybrid weed strain. Reviewers on Leafly say this strain makes them feel creative, energetic, and aroused. Golden Kush has 24% THC and 1% CBG. The dominant terpene in this strain is caryophyllene.",
+  "thc_percent": 24,
+  "rating_count": 7,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

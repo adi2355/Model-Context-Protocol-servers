@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric",
+  "flavors": "Berry, Earthy, Sweet",
+  "medical": "Stress, Pain, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue OG is a hybrid strain that combines the best of Blueberry and OG Kush, offering a balanced high that is both relaxing and euphoric.",
+  "strain_name": "Blue OG",
+  "rating_count": 150,
+  "cbd_percentage": 0.5,
+  "cbg_percentage": 0.1,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Blueberry, OG Kush",
+  "strain_classification": "Hybrid"
+}

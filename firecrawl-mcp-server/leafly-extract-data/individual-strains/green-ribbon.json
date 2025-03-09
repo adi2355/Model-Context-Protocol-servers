@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/green-ribbon",
+  "name": "Green Ribbon",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Uplifted",
+    "Focused"
+  ],
+  "flavors": [
+    "Pine",
+    "Tea",
+    "Flowery"
+  ],
+  "lineage": [
+    "Green Crack",
+    "Trainwreck",
+    "Afghanica",
+    "White Rhino"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Originating in San Jose, California, Green Ribbon crosses Green Crack, Trainwreck, Afghanica, and White Rhino. The light green buds have a subtle floral scent and are slightly fruity, lending an earthy taste. Green Ribbon generally has a high THC content and patients report an energetic, heady feeling when consuming.",
+  "thc_percent": 18,
+  "rating_count": 170,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

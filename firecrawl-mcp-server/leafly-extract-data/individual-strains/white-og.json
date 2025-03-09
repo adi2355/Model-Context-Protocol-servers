@@ -1,0 +1,44 @@
+{
+  "url": "https://www.leafly.com/strains/white-og",
+  "name": "White OG",
+  "awards": [
+    "2010 Cannabis Cup",
+    "2014 Cannabis Cup"
+  ],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Earthy",
+    "Pine",
+    "Lemon"
+  ],
+  "lineage": [
+    "The White",
+    "SFV OG Kush"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 10
+  },
+  "cbd_percent": 0,
+  "description": "White OG, also known as \"White OG Kush\" and \"White Kush OG,\" is an indica marijuana strain that was first bred by Karma Genetics by crossing The White with SFV OG Kush. This indica strain inherits the telltale kush aroma of earthy pine and lemon as well as The White’s heavy trichome coverage. This strain is popularly cultivated indoors with a 65 to 75 day flowering time.",
+  "thc_percent": 21,
+  "rating_count": 109,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/hurricane",
+  "name": "Hurricane",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Energetic",
+    "Happy"
+  ],
+  "flavors": [
+    "Spicy/Herbal",
+    "Tea",
+    "Grape"
+  ],
+  "lineage": [
+    "Panama Punch",
+    "OG Kush",
+    "LA Confidential"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Hurricane is a 70/30 sativa-dominant hybrid from Colorado breeders Reserva Privada that combines the spicy Haze genetics of Panama Punch with the OG Kush flavors of the award-winning LA Confidential. These flowers give off a mix of fruity smells with undertones of spice, and an earthy, herbal flavor when smoked or vaporized. Its potent mix of indica and sativa genetics produces a pleasant, giggly head high with a pain-relieving indica effects, and is generally considered suitable for daytime use.",
+  "thc_percent": 18,
+  "rating_count": 75,
+  "average_rating": 4.2,
+  "classification": "Sativa"
+}

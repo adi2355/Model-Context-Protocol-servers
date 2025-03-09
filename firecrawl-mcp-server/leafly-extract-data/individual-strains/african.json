@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/african",
+  "name": "African",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Hungry",
+    "Creative"
+  ],
+  "flavors": [
+    "Tobacco",
+    "Pepper",
+    "Spicy/Herbal"
+  ],
+  "lineage": [
+    "Durban Poison",
+    "Power Plant"
+  ],
+  "medical": [
+    "Lack of appetite",
+    "Fatigue",
+    "Depression"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "African refers to the indigenous varieties of cannabis (or landraces) that grow natively in this region of the world. Because of this region's latitude and climate, these native landrace strains tend to be sativa in structure and effect.",
+  "thc_percent": null,
+  "rating_count": 51,
+  "average_rating": 3.8,
+  "classification": "Sativa"
+}

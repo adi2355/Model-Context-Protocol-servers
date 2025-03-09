@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sfv-og-kush",
+  "name": "SFV OG Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Lemon",
+    "Pine",
+    "Earthy"
+  ],
+  "lineage": [
+    "SFV OG",
+    "OG Kush"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "SFV OG Kush is an indica marijuana strain made by crossing SFV OG with OG Kush. The result is a heavy-handed indica known for its sedating and relaxing effects. SFV OG Kush is pungent and commonly described as smelling like lemon scented cleaner mixed with pine. Medical marijuana patients choose this strain for its ability to relieve symptoms associated with chronic pain.",
+  "thc_percent": 19,
+  "rating_count": 253,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

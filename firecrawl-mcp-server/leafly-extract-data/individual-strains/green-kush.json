@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Euphoric, Energetic, Sleepy",
+  "flavors": "Citrus, Flowery, Pine",
+  "medical": "Pain, Stress, Anxiety",
+  "terpenes": {
+    "pinene": "",
+    "myrcene": "Dominant",
+    "ocimene": "",
+    "humulene": "",
+    "limonene": "Present",
+    "linalool": "",
+    "terpinolene": "",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Green Kush is the offspring of cannabis favorites Green Crack and Purple Kush. Dense with orange hair and a sweet pine aroma, this slightly indica-dominant strain begins with an upbeat cerebral effect before inducing a heavy body sensation.",
+  "strain_name": "Green Kush",
+  "rating_count": 78,
+  "cbd_percentage": 0,
+  "cbg_percentage": 1,
+  "rating_average": 3.6,
+  "thc_percentage": 18,
+  "lineage_parents": "Green Crack, Purple Kush",
+  "strain_classification": "Indica"
+}

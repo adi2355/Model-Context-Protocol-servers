@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,euphoric",
+  "flavors": "earthy,sweet,fruity",
+  "medical": "stress relief,pain relief,anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Cannatonic OG is a hybrid strain known for its balanced effects and high CBD content, making it a popular choice for medical users.",
+  "strain_name": "Cannatonic OG",
+  "rating_count": 150,
+  "cbd_percentage": 12,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 6,
+  "lineage_parents": "Cannatonic x OG Kush",
+  "strain_classification": "Hybrid"
+}

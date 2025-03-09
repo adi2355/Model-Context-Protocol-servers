@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/guava-chem",
+  "name": "Guava Chem",
+  "awards": [
+    "2014 L.A. Cannabis Cup"
+  ],
+  "effects": [
+    "Focused",
+    "Creative",
+    "Happy"
+  ],
+  "flavors": [
+    "Plum",
+    "Chemical",
+    "Tropical"
+  ],
+  "lineage": [
+    "Stardawg",
+    "Tres Dawg"
+  ],
+  "medical": [
+    "Depression",
+    "Muscle spasms",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Guava Chem is a hybrid strain that competed in the 2014 L.A. Cannabis Cup.",
+  "thc_percent": 21,
+  "rating_count": 44,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

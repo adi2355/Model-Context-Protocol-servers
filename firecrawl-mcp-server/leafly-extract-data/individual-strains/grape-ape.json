@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/grape-ape",
+  "name": "Grape Ape",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Grape",
+    "Berry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Mendocino Purps",
+    "Skunk",
+    "Afghani"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Grape Ape, propagated by Apothecary Genetics and Barney’s Farm, is a mostly indica strain that crosses Mendocino Purps, Skunk, and Afghani. Named for its distinct grape-like smell, this indica is known for providing carefree relaxation that can help soothe pain, stress, and anxiety. Its dense, compact buds are wreathed in deep purple leaves which darken as this indica reaches full maturation following its 7 to 8 week flowering time.",
+  "thc_percent": 18,
+  "rating_count": 2257,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

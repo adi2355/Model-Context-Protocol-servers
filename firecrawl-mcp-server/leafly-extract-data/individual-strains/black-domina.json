@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/black-domina",
+  "name": "Black Domina",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Pepper",
+    "Spicy/Herbal",
+    "Woody"
+  ],
+  "lineage": [
+    "Northern Lights",
+    "Ortega",
+    "Hash Plant",
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Black Domina is an indica marijuana strain made by crossing Northern Lights, Ortega, Hash Plant, and Afghani. This melting pot of a strain delivers effects that are relaxing and sedating. Black Domina features a spicy pepper aroma and flavor. Medical marijuana patients choose this strain to help relieve symptoms associated with insomnia.",
+  "thc_percent": 20,
+  "rating_count": 348,
+  "average_rating": 4.1,
+  "classification": "Indica"
+}

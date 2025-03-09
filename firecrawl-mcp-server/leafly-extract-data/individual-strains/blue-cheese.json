@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-cheese",
+  "name": "Blue Cheese",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Blue Cheese",
+    "Cheese",
+    "Pungent"
+  ],
+  "lineage": [
+    "Blueberry",
+    "UK Cheese"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": "7 - 9"
+  },
+  "cbd_percent": null,
+  "description": "Blue Cheese is an indica cross created by crossing a Blueberry male with an original U.K. Cheese (a Skunk #1 phenotype) female. The sweet and savory smells of berry and blue cheese combine to create a creamy, unique flavor reminiscent of the original Cheese. The heavy effects will help you feel relaxed at the end of the day and can provide relief for muscle spasms, pain, and stress.",
+  "thc_percent": 18,
+  "rating_count": 2837,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

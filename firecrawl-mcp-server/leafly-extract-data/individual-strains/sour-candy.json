@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sour-candy",
+  "name": "Sour Candy",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Uplifted",
+    "Focused"
+  ],
+  "flavors": [
+    "Diesel",
+    "Tropical",
+    "Berry"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Bubble Gum"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 12
+  },
+  "cbd_percent": null,
+  "description": "Sour Candy is a legacy strain that's a predominantly sativa mix of Sour Diesel and Bubble Gum. Both parent strains are admired for their exquisite flavors and the happy, uplifting effects they produce. Once combined, Sour Candy takes on a mouth-watering array of sweet, tropical fruit flavors with a pungent diesel finish. The potent effects are euphoric and talkative which makes Sour Candy a popular choice for daytime use.",
+  "thc_percent": 17,
+  "rating_count": 57,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

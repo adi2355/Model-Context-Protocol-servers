@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/good-medicine",
+  "name": "Good Medicine",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Focused",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Spicy/Herbal",
+    "Earthy",
+    "Citrus"
+  ],
+  "lineage": [
+    "Green Crack",
+    "Tres Dawg",
+    "Harlequin"
+  ],
+  "medical": [
+    "Anxiety",
+    "Pain",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 10,
+  "description": "The name says it all with this CBD rich strain. Bred by CBD specialist Bodhi, Good Medicine crosses a Green Crack and Tres Dawg hybrid with the high-CBD Harlequin sativa. Offering sweet flavors of mango and candy followed by a mellow and relaxing high, Good Medicine is great for solving medical needs without keeping you on the couch.",
+  "thc_percent": 6,
+  "rating_count": 37,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

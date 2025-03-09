@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/gods-gift",
+  "name": "God's Gift",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Earthy",
+    "Grape",
+    "Woody"
+  ],
+  "lineage": [
+    "Granddaddy Purple",
+    "OG Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "A strain that became popular in California dispensaries in 2005, God's Gift contains flavors of grape, citrus, and hash. Its parents are Granddaddy Purple and OG Kush. No matter what your belief system, this strain is a \"gift\" with its dreamy, blissful effects. Its flowering time usually takes approximately 8-9 weeks.",
+  "thc_percent": 16,
+  "rating_count": 1378,
+  "average_rating": 4.4,
+  "classification": "Indica"
+}

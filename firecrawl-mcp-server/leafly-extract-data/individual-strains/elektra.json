@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/elektra",
+  "name": "Elektra",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Focused"
+  ],
+  "flavors": [
+    "Earthy",
+    "Woody",
+    "Citrus"
+  ],
+  "lineage": [
+    "Early Resin Berry",
+    "ACDC"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 15,
+  "description": "Oregon CBD bred Elektra by crossing Early Resin Berry and ACDC. This CBD-dominant cross has light green and orange buds that give off a rich red wine, chocolate, and citrus aroma, making this strain stand out more than other CBD strains.",
+  "thc_percent": 1,
+  "rating_count": 32,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

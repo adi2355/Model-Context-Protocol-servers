@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/limon",
+  "name": "Limon",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Lemon",
+    "Diesel",
+    "Citrus"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Strawberry Diesel",
+    "NYC Diesel"
+  ],
+  "medical": [
+    "Depression",
+    "Pain",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Terpinolene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Created by LivWell, Limon is a sativa-dominant strain that blends Sour Diesel, Strawberry Diesel, and NYC Diesel. With notes of diesel and skunk in flavor, these bright green frosty buds will leave you with an uplifting and long-lasting cerebral buzz.",
+  "thc_percent": 20,
+  "rating_count": 30,
+  "average_rating": 4.8,
+  "classification": "Sativa"
+}

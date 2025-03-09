@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/cbd-shark",
+  "name": "CBD Shark",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Tingly"
+  ],
+  "flavors": [
+    "Earthy",
+    "Spicy/Herbal",
+    "Pine"
+  ],
+  "lineage": [
+    "Shark Shock",
+    "High-CBD variety"
+  ],
+  "medical": [
+    "Anxiety",
+    "Pain",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 9,
+  "description": "CBD Shark is an 80/20 indica-dominant cannabis strain that offers an equal ratio of THC and CBD, a cannabinoid combination that helps patients treat an array of symptoms like pain, anxiety, and inflammation without the overly intoxicating effects induced by many high-THC strains. This clear-headed hybrid descends from a Shark Shock indica, but as for its second parent, we can only be sure that it was some high-CBD variety. Its aroma is comprised of sweet notes of fruit accented by subtle hints of garlic and herb.",
+  "thc_percent": 6,
+  "rating_count": 107,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

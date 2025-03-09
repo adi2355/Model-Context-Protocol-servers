@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Earthy, Sweet, Pine, Citrus, Herbal",
+  "medical": "Stress, Pain, Insomnia, Depression, Anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "White Tahoe Cookie is a hybrid strain that combines the genetics of The White, Tahoe OG, and Girl Scout Cookies, offering a balanced high that is both relaxing and uplifting.",
+  "strain_name": "White Tahoe Cookie",
+  "rating_count": 100,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "The White, Tahoe OG, Girl Scout Cookies",
+  "strain_classification": "Hybrid"
+}

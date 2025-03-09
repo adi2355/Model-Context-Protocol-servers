@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/glass-slipper",
+  "name": "Glass Slipper",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Talkative",
+    "Happy"
+  ],
+  "flavors": [
+    "Tea",
+    "Sweet",
+    "Citrus"
+  ],
+  "lineage": [
+    "Cinderella 99",
+    "Pineapple 99"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Humulene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "A cross between Cinderella 99 and Pineapple 99, Glass Slipper is a sativa-dominant hybrid described to have a nice cerebral effect with a sweet, somewhat fruity flavor profile.",
+  "thc_percent": 17,
+  "rating_count": 258,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

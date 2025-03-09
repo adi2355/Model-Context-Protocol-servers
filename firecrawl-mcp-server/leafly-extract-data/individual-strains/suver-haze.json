@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/suver-haze",
+  "name": "Suver Haze",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Happy"
+  ],
+  "flavors": [
+    "Woody",
+    "Earthy",
+    "Cheese"
+  ],
+  "lineage": [
+    "Suver #8",
+    "Early Resin Berry"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 18,
+  "description": "Bred by Oregon CBD, Suver Haze crosses their high-performance Suver #8 and Early Resin Berry. With a powerful aroma and flavor, Suver Haze offers notes of black pepper and sweet fruits.",
+  "thc_percent": 1,
+  "rating_count": 39,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

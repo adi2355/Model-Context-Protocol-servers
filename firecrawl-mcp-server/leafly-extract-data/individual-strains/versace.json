@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/versace",
+  "name": "Versace",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Uplifted",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Flowery",
+    "Diesel",
+    "Blue Cheese"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "OG Kush",
+    "Granddaddy Purple"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Versace is a clear-headed sativa-dominant hybrid created by crossing Sour Diesel, OG Kush, and Granddaddy Purple. This trio of trichome-rich strains is combined to offer an array of effects that work off each other. Sour Diesel’s heady buzz acts a catalyst, adding a stimulating alertness to the luscious body effects and pleasant euphoria native to Granddaddy Purple and OG Kush, respectively. Enjoy this pungent flower to help curb depression and fatigue while elevating mood and muting mild physical pain.",
+  "thc_percent": 14,
+  "rating_count": 35,
+  "average_rating": 4.8,
+  "classification": "Hybrid"
+}

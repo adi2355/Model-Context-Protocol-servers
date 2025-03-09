@@ -1,0 +1,32 @@
+{
+  "strain_name": "Blue Skywalker OG",
+  "aliases": "",
+  "strain_classification": "Hybrid",
+  "lineage_parents": "Skywalker x Blueberry",
+  "rating_average": 4.5,
+  "rating_count": 120,
+  "thc_percentage": 22,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "terpenes": {
+    "myrcene": "Dominant",
+    "caryophyllene": "Present",
+    "limonene": "Present",
+    "pinene": "Present",
+    "humulene": "Present",
+    "terpinolene": "Present",
+    "ocimene": "Present",
+    "linalool": "Present"
+  },
+  "effects": "relaxed,happy,euphoric",
+  "medical": "stress relief,pain relief,insomnia",
+  "flavors": "sweet,berry,earthy",
+  "grow_info": {
+    "difficulty": "Moderate",
+    "flowering_weeks": 8,
+    "yield": "Medium",
+    "height": "Medium"
+  },
+  "awards": "",
+  "description": "Blue Skywalker OG is a hybrid strain known for its sweet berry flavor and relaxing effects."
+}

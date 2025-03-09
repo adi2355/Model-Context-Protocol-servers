@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/blue-power",
+  "name": "Blue Power",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Euphoric",
+    "Hungry"
+  ],
+  "flavors": [
+    "Berry",
+    "Blueberry",
+    "Lemon"
+  ],
+  "lineage": [
+    "Sour Double",
+    "Master Kush",
+    "The White",
+    "Blue Moonshine"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "The indica-dominant Blue Power is one of Sin City Seeds’ signature strains, bred from Sour Double, Master Kush, The White, and Blue Moonshine genetics. Cherished for its fragrant buds, Blue Power offers a sweet fusion of lemon and berry flavors with an earthy finish. It should be noted that another genetic variation released by Vision Seeds crosses Blueberry, White Widow, and Skunk #1. This rendition is described as a happy and uplifting indica that helps focus the mind while fighting stress.",
+  "thc_percent": 18,
+  "rating_count": 60,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

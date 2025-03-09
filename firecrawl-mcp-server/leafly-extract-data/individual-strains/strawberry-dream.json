@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/strawberry-dream",
+  "name": "Strawberry Dream",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Creative",
+    "Energetic"
+  ],
+  "flavors": [
+    "Strawberry",
+    "Sweet",
+    "Flowery"
+  ],
+  "lineage": [
+    "Blue Dream",
+    "Strawberry Cough"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Strawberry Dream is a sativa-hybrid cross of the Blue Dream and Strawberry Cough strains. With a potency similar to Blue Dream and a smell of sweet strawberries, this sativa-dominant strain will bring considerable head effects.",
+  "thc_percent": 19,
+  "rating_count": 79,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

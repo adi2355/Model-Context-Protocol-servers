@@ -1,0 +1,32 @@
+{
+  "strain_name": "Afghan Haze",
+  "aliases": "",
+  "strain_classification": "Hybrid",
+  "lineage_parents": "Afghan, Haze",
+  "rating_average": null,
+  "rating_count": 0,
+  "thc_percentage": null,
+  "cbd_percentage": null,
+  "cbg_percentage": null,
+  "terpenes": {
+    "myrcene": "Dominant",
+    "caryophyllene": "Present",
+    "limonene": "Present",
+    "pinene": "Present",
+    "humulene": "Present",
+    "terpinolene": "Present",
+    "ocimene": "Present",
+    "linalool": "Present"
+  },
+  "effects": "relaxed,happy",
+  "medical": "stress relief,pain",
+  "flavors": "earthy,sweet",
+  "grow_info": {
+    "difficulty": "Moderate",
+    "flowering_weeks": null,
+    "yield": "Medium",
+    "height": "Medium"
+  },
+  "awards": "",
+  "description": ""
+}

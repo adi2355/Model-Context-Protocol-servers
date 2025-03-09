@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/hells-og",
+  "name": "Hell's OG",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Earthy",
+    "Sage",
+    "Woody"
+  ],
+  "lineage": [
+    "OG Kush",
+    "Blackberry"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": null,
+  "description": "Hell's OG is an indica-dominant hybrid that is said to contain OG Kush and Blackberry genetics. The strain’s origins are poorly documented, but popular myth will tell you Hell's OG was bred by biker ruffians in Southern California. If nothing else, we could assume this strain is named after its fierce psychoactive effects that settle in quickly and heavily. Lifting stress from the mind and pain from the body, Hell's OG is a therapeutic strain commonly used to treat inflammation, insomnia, and PTSD. Underneath its dominant earthy flavors hides a subtle citrus, candy-like aroma. This hybrid produces large, heavy buds that flower in 8 to 9 weeks indoors while outdoor plants are ready for harvest during the September-October transition.",
+  "thc_percent": 19,
+  "rating_count": 265,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

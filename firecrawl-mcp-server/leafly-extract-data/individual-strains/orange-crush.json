@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/orange-crush",
+  "name": "Orange Crush",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Uplifted",
+    "Talkative"
+  ],
+  "flavors": [
+    "Orange",
+    "Citrus",
+    "Sweet"
+  ],
+  "lineage": [
+    "California Orange",
+    "Blueberry"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Terpinolene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Orange Crush is a hybrid marijuana strain made by crossing California Orange and Blueberry. This strain produces powerful cerebral effects that are uplifting. Orange Crush offers a super sweet and tangy flavor profile. Growers say this strain has a flowering time of 7-9 weeks.",
+  "thc_percent": 15,
+  "rating_count": 565,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

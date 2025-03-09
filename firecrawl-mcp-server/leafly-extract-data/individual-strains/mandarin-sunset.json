@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/mandarin-sunset",
+  "name": "Mandarin Sunset",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Orange",
+    "Citrus",
+    "Skunk"
+  ],
+  "lineage": [
+    "Herijuana",
+    "Orange Skunk"
+  ],
+  "medical": [
+    "Pain",
+    "Insomnia",
+    "Stress"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Ethos Genetics, Mandarin Sunset crosses Herijuana with Orange Skunk, creating an indica with a rich, skunky, orange flavor profile. If you find Mandarin Sunset in concentrate form be sure to give it a try, as its terpene profile has won numerous cups.",
+  "thc_percent": 18,
+  "rating_count": 72,
+  "average_rating": 4.7,
+  "classification": "Indica"
+}

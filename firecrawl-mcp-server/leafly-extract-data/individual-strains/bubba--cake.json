@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Sleepy",
+  "flavors": "Sweet, Earthy, Vanilla, Berry",
+  "medical": "Stress, Pain, Insomnia, Depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Short to Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Bubba Cake is a sweet and earthy strain that combines the relaxing effects of Bubba Kush with the uplifting qualities of Wedding Cake.",
+  "strain_name": "Bubba Cake",
+  "rating_count": 120,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Bubba Kush x Wedding Cake",
+  "strain_classification": "Indica"
+}

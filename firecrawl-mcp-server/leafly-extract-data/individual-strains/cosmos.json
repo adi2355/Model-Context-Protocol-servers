@@ -1,0 +1,38 @@
+{
+  "url": "https://www.leafly.com/strains/cosmos",
+  "name": "Cosmos",
+  "awards": [],
+  "effects": [
+    "uplifted",
+    "happy",
+    "euphoric"
+  ],
+  "flavors": [
+    "berry",
+    "earthy",
+    "sweet"
+  ],
+  "lineage": [],
+  "medical": [
+    "pain",
+    "stress",
+    "anxiety"
+  ],
+  "terpenes": [
+    "caryophyllene",
+    "pinene",
+    "myrcene"
+  ],
+  "grow_info": {
+    "yield": "null",
+    "height": "null",
+    "difficulty": "null",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 9,
+  "description": "Cosmos, also known as Cosmo,, is a hybrid weed strain. Reviewers on Leafly say this strain makes them feel uplifted, happy, and euphoric. Cosmos has 9% CBD and 5% THC. The dominant terpene in this strain is caryophyllene.",
+  "thc_percent": 5,
+  "rating_count": 6,
+  "average_rating": 4.8,
+  "classification": "Hybrid"
+}

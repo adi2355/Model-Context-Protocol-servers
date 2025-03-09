@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "citrus, sweet, berry",
+  "medical": "stress, depression, pain",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Dominant",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": null,
+    "difficulty": "Moderate",
+    "flowering_weeks": null
+  },
+  "description": "",
+  "strain_name": "Blue Tangie",
+  "rating_count": null,
+  "cbd_percentage": null,
+  "cbg_percentage": null,
+  "rating_average": null,
+  "thc_percentage": null,
+  "lineage_parents": "Tangie, Blueberry",
+  "strain_classification": "Hybrid"
+}

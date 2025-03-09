@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/grape-soda",
+  "name": "Grape Soda",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Aroused",
+    "Happy"
+  ],
+  "flavors": [
+    "Grape",
+    "Lavender",
+    "Citrus"
+  ],
+  "lineage": [
+    "Tahoe OG Kush",
+    "Grape Juice",
+    "Golden Soda"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "A strong and fast-acting phenotype of Tahoe OG Kush, Grape Soda by Taste Budz is an excellent evening strain. It provides an idle, heavy-bodied sensation that frees you from worry. The sweet and pungent purple buds give this heady phenotype a very distinct look and flavor. Grape Soda features a pungent citrus aroma with notable grape notes on the palate, and the breeder recommends this strain for depression, anxiety, insomnia, indigestion, inflammation, and minor pain.",
+  "thc_percent": 28,
+  "rating_count": 77,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

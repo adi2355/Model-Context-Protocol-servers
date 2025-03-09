@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/magic-melon",
+  "name": "Magic Melon",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Energetic",
+    "Tingly"
+  ],
+  "flavors": [
+    "Mango",
+    "Tropical",
+    "Strawberry"
+  ],
+  "lineage": [
+    "Mango Trees",
+    "Honeydew Melon",
+    "Mango Sherbert"
+  ],
+  "medical": [
+    "Depression",
+    "Lack of appetite",
+    "Stress"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Crossing Mango Trees, Honeydew Melon, and Mango Sherbert, Magic Melon is a tropical fruity sativa from Humboldt Seed Company. Lime green buds have hints of purple, and cantaloupe and watermelon aromas finish with gassy notes when you open the bag.",
+  "thc_percent": 21,
+  "rating_count": 62,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

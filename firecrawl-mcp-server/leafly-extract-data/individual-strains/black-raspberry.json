@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/black-raspberry",
+  "name": "Black Raspberry",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Flowery",
+    "Berry",
+    "Strawberry"
+  ],
+  "lineage": [
+    "Goji OG",
+    "Raspberry F2",
+    "Wookie 15"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "From Bodhi Seeds, Black Raspberry crosses Goji OG, Raspberry F2, and Wookie 15. Buds grow dense with trichomes that offer rich flavors of ripe berries, lavender, and absinthe. The high is light with euphoric qualities that make for enjoyable conversation filled with creativity and laughter.",
+  "thc_percent": 23,
+  "rating_count": 27,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

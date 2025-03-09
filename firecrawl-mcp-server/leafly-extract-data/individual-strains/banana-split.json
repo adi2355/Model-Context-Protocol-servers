@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/banana-split",
+  "name": "Banana Split",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Happy",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Tropical",
+    "Citrus",
+    "Honey"
+  ],
+  "lineage": [
+    "Tangie",
+    "Banana Sherbert"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Bred by Crockett Farms, Banana Split is a sativa-dominant cross of their famous Tangie and Banana Sherbert. Banana Split offers a clean level-headed high suitable for anyone looking to have a productive day. Growers can expect large buds with oversized frosty colas that host a Tangie-derived citrus aroma alongside sweet flavors from Banana Sherbet.",
+  "thc_percent": 15,
+  "rating_count": 116,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

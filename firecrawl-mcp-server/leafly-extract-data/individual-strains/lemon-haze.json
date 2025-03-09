@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/lemon-haze",
+  "name": "Lemon Haze",
+  "awards": [],
+  "effects": [
+    "Giggly",
+    "Talkative",
+    "Happy"
+  ],
+  "flavors": [
+    "Lemon",
+    "Citrus",
+    "Lime"
+  ],
+  "lineage": [
+    "Lemon Skunk",
+    "Silver Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Lemon Haze is a sativa marijuana strain that smells and tastes like fresh peeled lemon slices. Lemon Haze is made by crossing Lemon Skunk with Silver Haze. Its buds appear to be green and yellow with amber hairs on the trichomes, giving it the yellow tint.",
+  "thc_percent": 19,
+  "rating_count": 2642,
+  "average_rating": 4.2,
+  "classification": "Sativa"
+}

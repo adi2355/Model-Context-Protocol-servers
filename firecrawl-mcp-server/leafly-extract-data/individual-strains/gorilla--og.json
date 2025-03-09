@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Earthy, Pine, Citrus, Sweet",
+  "medical": "Stress, Pain, Insomnia, Depression, Anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Gorilla OG is a potent hybrid strain that combines the best of Gorilla Glue #4 and OG Kush, offering a balanced high that is both relaxing and euphoric.",
+  "strain_name": "Gorilla OG",
+  "rating_count": 200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Gorilla Glue #4, OG Kush",
+  "strain_classification": "Hybrid"
+}

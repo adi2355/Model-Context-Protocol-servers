@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/the-void",
+  "name": "The Void",
+  "awards": [],
+  "effects": [
+    "Aroused",
+    "Euphoric",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Skunk",
+    "Grape",
+    "Earthy"
+  ],
+  "lineage": [
+    "Apollo 13",
+    "Querkle"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "The Void, also known as Purple Apollo 13, is a sativa-dominant hybrid cross between Apollo 13 and Querkle from Subcool's The Dank. It tastes similar to grape saltwater taffy and provides a soaring, motivational high.",
+  "thc_percent": 27,
+  "rating_count": 59,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

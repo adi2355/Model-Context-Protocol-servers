@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/mt-hood-magic",
+  "name": "Mt. Hood Magic",
+  "awards": [],
+  "effects": [
+    "Euphoric",
+    "Uplifted",
+    "Happy"
+  ],
+  "flavors": [
+    "Earthy",
+    "Berry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Northern Lights #5",
+    "Durban Poison"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Pain"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Thought to be exclusive to Portland, Oregon dispensary Five Zero Trees, Mt. Hood Magic is a cross between Northern Lights #5 and Durban Poison. There a few different phenotypes available: two are indica-dominant and resemble the NL5 portion of its genetics; the other is sativa-dominant and similar to Durban Poison.",
+  "thc_percent": 23,
+  "rating_count": 89,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

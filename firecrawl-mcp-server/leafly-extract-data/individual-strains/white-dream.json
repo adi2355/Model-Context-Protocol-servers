@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/white-dream",
+  "name": "White Dream",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Energetic",
+    "Creative"
+  ],
+  "flavors": [
+    "Flowery",
+    "Earthy",
+    "Blueberry"
+  ],
+  "lineage": [
+    "Blue Dream",
+    "White Widow"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "A cross between two epic sativa-dominant strains, Blue Dream and White Widow, White Dream is sure to please fans of potent hybrids as it has tested at over 24% THC. The effect is a combination of the energizing and creative cerebral high of the Blue Dream with the intense body buzz of the White Widow.",
+  "thc_percent": 24,
+  "rating_count": 33,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

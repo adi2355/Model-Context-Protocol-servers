@@ -1,0 +1,38 @@
+{
+  "url": "https://www.leafly.com/strains/lemon-drop",
+  "name": "Lemon Drop",
+  "awards": [],
+  "effects": [
+    "Giggly",
+    "Focused",
+    "Happy"
+  ],
+  "flavors": [
+    "Lemon",
+    "Citrus",
+    "Tea"
+  ],
+  "lineage": [],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Lemon Drop is a mellow, fluffy bud that provides a pleasant, giggly sensation. This strain tends to provide a more euphoric, focused experience, though some phenotypes produce a stronger body feeling that is relaxing yet not overpowering. Fittingly, Lemon Drop has a lemony, clean taste that is reminiscent of the candy of the same name.",
+  "thc_percent": 16,
+  "rating_count": 239,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

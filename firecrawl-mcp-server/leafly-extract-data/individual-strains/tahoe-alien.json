@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/tahoe-alien",
+  "name": "Tahoe Alien",
+  "awards": [],
+  "effects": [
+    "Hungry",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Pine",
+    "Lime",
+    "Lemon"
+  ],
+  "lineage": [
+    "Tahoe OG Kush",
+    "Alien Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Pinene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": null,
+  "description": "Tahoe Alien is a 60/40 indica-dominant hybrid by Alien Genetics that will carry you straight into the cosmos. Bred by combining Tahoe OG Kush with Alien Kush, this phenotype inherits a subtle earthy aroma with notes of lemon and pine. Where this celestial strain really shines, however, is in its potency; prepare yourself for a full-body abduction that leaves behind stress, pain, insomnia, and nausea.",
+  "thc_percent": 20,
+  "rating_count": 76,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

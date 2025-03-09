@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "relaxed,happy,sleepy",
+  "flavors": "earthy,sweet,pine",
+  "medical": "stress relief,pain relief,insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Short",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Afghan OG is a classic indica strain known for its relaxing effects and earthy flavors.",
+  "strain_name": "Afghan OG",
+  "rating_count": 120,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Afghan",
+  "strain_classification": "Indica"
+}

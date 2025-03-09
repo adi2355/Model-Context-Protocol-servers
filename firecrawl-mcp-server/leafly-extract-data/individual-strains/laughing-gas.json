@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/laughing-gas",
+  "name": "Laughing Gas",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Giggly",
+    "Energetic"
+  ],
+  "flavors": [
+    "Ammonia",
+    "Diesel",
+    "Pine"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Cherry Pie"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Laughing Gas by TKO Reserve is a fuel-forward cross of Sour Diesel and Cherry Pie. This pungent pair creates a strain that emits a powerful fuel aroma intermixed with notes of grass, pine, and a distant sweetness. The dense, knobby buds offer consumers stimulating, happy, and creative effects that can help diminish depression and initiate activity.",
+  "thc_percent": 19,
+  "rating_count": 48,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "Girl Scout Cookies",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Sweet, Earthy, Pungent, Vanilla",
+  "medical": "Stress, Pain, Depression, Insomnia, Lack of Appetite",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Green GSC is a hybrid strain that combines the best of both worlds, offering a sweet and earthy flavor profile with uplifting effects.",
+  "strain_name": "Green GSC",
+  "rating_count": 1200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "OG Kush, Durban Poison",
+  "strain_classification": "Hybrid"
+}

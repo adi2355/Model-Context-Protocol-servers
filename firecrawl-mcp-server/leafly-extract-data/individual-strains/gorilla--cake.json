@@ -1,0 +1,32 @@
+{
+  "strain_name": "Gorilla Cake",
+  "aliases": "",
+  "strain_classification": "Hybrid",
+  "lineage_parents": "Gorilla Glue #4 x Wedding Cake",
+  "rating_average": 4.5,
+  "rating_count": 150,
+  "thc_percentage": 25,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "terpenes": {
+    "myrcene": "Dominant",
+    "caryophyllene": "Present",
+    "limonene": "Present",
+    "pinene": "Present",
+    "humulene": "Present",
+    "terpinolene": "Present",
+    "ocimene": "Present",
+    "linalool": "Present"
+  },
+  "effects": "Relaxed, Happy, Euphoric, Uplifted",
+  "medical": "Stress, Pain, Depression, Insomnia",
+  "flavors": "Sweet, Earthy, Vanilla, Berry",
+  "grow_info": {
+    "difficulty": "Moderate",
+    "flowering_weeks": 8,
+    "yield": "High",
+    "height": "Medium"
+  },
+  "awards": "",
+  "description": "Gorilla Cake is a hybrid strain that combines the best of Gorilla Glue #4 and Wedding Cake, offering a sweet and earthy flavor profile with relaxing effects."
+}

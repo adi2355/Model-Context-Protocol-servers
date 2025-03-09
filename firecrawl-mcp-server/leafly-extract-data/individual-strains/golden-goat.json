@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/golden-goat",
+  "name": "Golden Goat",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Uplifted",
+    "Happy"
+  ],
+  "flavors": [
+    "Citrus",
+    "Tropical",
+    "Sweet"
+  ],
+  "lineage": [
+    "Hawaiian",
+    "Romulan",
+    "Island Sweet Skunk"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": "9 to 11"
+  },
+  "cbd_percent": null,
+  "description": "Golden Goat was created by accident in Topeka, Kansas, when a male Hawaiian-Romulan pollinated Mr. Dank's Island Sweet Skunk. The scent is described as being a combination of sweet, sour, and spicy, with a tropical fruit flavor. Its full-body effects provide a delightful rush of euphoria and creative spark.",
+  "thc_percent": 20,
+  "rating_count": 1487,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

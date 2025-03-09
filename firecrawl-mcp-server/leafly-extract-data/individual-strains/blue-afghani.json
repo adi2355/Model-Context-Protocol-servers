@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-afghani",
+  "name": "Blue Afghani",
+  "awards": [],
+  "effects": [
+    "Tingly",
+    "Relaxed",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Berry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Blueberry",
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 1,
+  "description": "Bred by Jordan of the Islands in Canada, Blue Afghani is an indica-dominant strain that combines genetics from Blueberry and Afghani. Its stout plants produce dense, resinous buds that fill your nose with a sweet and spicy berry aroma. Next come the powerful full-body effects that keep you anchored in relaxation while pain, anxiety, and stress float away.",
+  "thc_percent": 16,
+  "rating_count": 51,
+  "average_rating": 4.4,
+  "classification": "Indica"
+}

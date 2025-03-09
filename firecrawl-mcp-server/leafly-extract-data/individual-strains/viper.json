@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/viper",
+  "name": "Viper",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Talkative",
+    "Aroused"
+  ],
+  "flavors": [
+    "Mint",
+    "Citrus",
+    "Cheese"
+  ],
+  "lineage": [
+    "Burmese landrace",
+    "Blackseed"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 10
+  },
+  "cbd_percent": null,
+  "description": "Viper is an invigorating sativa that was bred from an indigenous Burmese landrace and a native Mexican strain known as Blackseed. First cultivated by Reeferman Seeds, Viper inherits buzzing, cerebrally-targeted effects and a spicy, citrus aroma.",
+  "thc_percent": 21,
+  "rating_count": 59,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

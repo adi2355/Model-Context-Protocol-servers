@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/a-10",
+  "name": "A-10",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Euphoric",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Earthy",
+    "Hashy",
+    "Strawberry",
+    "Grape",
+    "Lemon"
+  ],
+  "lineage": [
+    "Afghani"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 7
+  },
+  "cbd_percent": 0,
+  "description": "A-10 has an earthy, hashy taste that provides a very heavy body stone.  Frequently used to treat insomnia and chronic pain.",
+  "thc_percent": 11,
+  "rating_count": 164,
+  "average_rating": 3,
+  "classification": "Indica"
+}

@@ -1,0 +1,46 @@
+{
+  "url": "https://www.leafly.com/strains/super-silver-haze",
+  "name": "Super Silver Haze",
+  "awards": [
+    "High Times Cannabis Cup 1997",
+    "High Times Cannabis Cup 1998",
+    "High Times Cannabis Cup 1999"
+  ],
+  "effects": [
+    "Energetic",
+    "Uplifted",
+    "Focused"
+  ],
+  "flavors": [
+    "Citrus",
+    "Skunk",
+    "Earthy"
+  ],
+  "lineage": [
+    "Skunk",
+    "Northern Lights",
+    "Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 9
+  },
+  "cbd_percent": null,
+  "description": "Super Silver Haze is a sativa marijuana strain bred by Green House Seeds. It was the first prize winner at the High Times Cannabis Cup in 1997, 1998, and 1999. Super Silver Haze is made by crossing Skunk, Northern Lights, and Haze creates a beautiful, sticky strain that boasts an energetic, long-lasting body high. The uplifting effects are a great for high stress levels or when suffering from a lack of appetite or nausea.",
+  "thc_percent": 21,
+  "rating_count": 2377,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

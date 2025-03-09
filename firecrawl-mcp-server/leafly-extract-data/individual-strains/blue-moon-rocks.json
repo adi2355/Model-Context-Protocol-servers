@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-moon-rocks",
+  "name": "Blue Moon Rocks",
+  "awards": [],
+  "effects": [
+    "Giggly",
+    "Euphoric",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Lavender",
+    "Flowery",
+    "Berry"
+  ],
+  "lineage": [
+    "Blue Moon",
+    "BOG Bubble"
+  ],
+  "medical": [
+    "Depression",
+    "Anxiety",
+    "Stress"
+  ],
+  "terpenes": [
+    "Ocimene",
+    "Myrcene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Blue Moon Rocks by BOG Seeds is an indica-dominant hybrid cross between Blue Moon and BOG Bubble. It has a sweet blueberry lavender aroma and calming full-body effects.",
+  "thc_percent": 12,
+  "rating_count": 115,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

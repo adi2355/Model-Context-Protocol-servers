@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/malawi",
+  "name": "Malawi",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Creative",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Earthy",
+    "Woody",
+    "Flowery"
+  ],
+  "lineage": [
+    "African",
+    "Golden Tiger",
+    "Island Girl"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Fatigue"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "tall",
+    "difficulty": "difficult",
+    "flowering_time_weeks": 17
+  },
+  "cbd_percent": null,
+  "description": "Malawi is a pure sativa strain that comes from the Salima region of Malawi in southeast Africa. This strain has an extremely long flowering time, sometimes up to 120 days. Always worth the wait, Malawi produces long and resin-coated buds, a great smoke for any occasion.",
+  "thc_percent": 22,
+  "rating_count": 81,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

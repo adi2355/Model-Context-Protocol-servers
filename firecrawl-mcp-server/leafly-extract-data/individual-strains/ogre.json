@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/ogre",
+  "name": "Ogre",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Skunk",
+    "Citrus",
+    "Lemon"
+  ],
+  "lineage": [
+    "Sensi Star"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Ogre is a Skunk-leaning phenotype of the multiple award-winning indica Sensi Star. While most phenotypes of Sensi Star are fairly compact indica plants, Ogre is named for its much larger size and huge yields. Giant, frosty colas produce very high levels of THC and a pungent lemon-skunk aroma.",
+  "thc_percent": 20,
+  "rating_count": 314,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

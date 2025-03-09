@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/orange-poison",
+  "name": "Orange Poison",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Orange",
+    "Diesel",
+    "Citrus"
+  ],
+  "lineage": [
+    "Orange Juice Bud",
+    "Durban Poison"
+  ],
+  "medical": [
+    "Depression",
+    "Fatigue",
+    "Stress"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Myrcene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "Bred by Franchise Genetics, Orange Poison is a cross between Orange Juice Bud and the famous Durban Poison. This sweet and tasty strain delivers a citrus aroma reminiscent of tangerines. Orange Poison may leave you feeling stimulated, yet with a softer rush for those who may get a little anxious from Durban Poison.",
+  "thc_percent": 21,
+  "rating_count": 9,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

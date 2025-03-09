@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, euphoric, energetic, creative",
+  "flavors": "citrus, tropical, sweet, earthy",
+  "medical": "stress relief, depression, fatigue, pain",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Golden Crack is a sativa-dominant hybrid known for its uplifting effects and sweet, tropical flavors.",
+  "strain_name": "Golden Crack",
+  "rating_count": 100,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.05,
+  "rating_average": 4.5,
+  "thc_percentage": 22,
+  "lineage_parents": "Golden Goat x Green Crack",
+  "strain_classification": "Sativa"
+}

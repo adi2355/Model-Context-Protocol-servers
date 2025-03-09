@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/afghan-diesel",
+  "name": "Afghan Diesel",
+  "awards": [],
+  "effects": [
+    "Euphoric",
+    "Uplifted",
+    "Happy"
+  ],
+  "flavors": [
+    "Grapefruit",
+    "Citrus",
+    "Light",
+    "Sweet"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Afghan Diesel is a hybrid strain with an aroma similar to a grapefruit and other citrus fruit. The taste has been described as light and sweet. This strain will have a more cerebral effect rather than body. The plant is characterized as having dark green leaves with purple colored buds.",
+  "thc_percent": 10,
+  "rating_count": 45,
+  "average_rating": 3.5,
+  "classification": "Hybrid"
+}

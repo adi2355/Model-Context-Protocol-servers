@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/apple-jack",
+  "name": "Apple Jack",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Apple",
+    "Apricot",
+    "Skunk"
+  ],
+  "lineage": [
+    "Jack Herer",
+    "White Widow"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Apple Jack is a hybrid marijuana strain made by crossing Jack Herer and White Widow. This potent strain provides uplifting and soothing effects. Apple Jack is ideal for medical marijuana patients and consumers managing chronic pain or nausea. This strain features a flavor profile that is skunky and earthy with undertones of sliced apple.",
+  "thc_percent": 21,
+  "rating_count": 148,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

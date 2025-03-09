@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/ash",
+  "name": "Ash",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Energetic",
+    "Happy"
+  ],
+  "flavors": [
+    "Skunk",
+    "Pungent",
+    "Blueberry"
+  ],
+  "lineage": [
+    "Afghan Haze",
+    "Afghan Skunk"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Ash is an indica-dominant hybrid cross between Afghan Haze and Afghan Skunk bred by Mr. Nice Seeds. These buds offer a fruity, berry aroma and effects that run the gamut between relaxing indicas and stimulating sativas. This strain's name, sometimes spelled A.S.H., is an acronym denoting its Afghani, Skunk, and Haze lineage.",
+  "thc_percent": 14,
+  "rating_count": 16,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

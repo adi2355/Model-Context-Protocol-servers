@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/larry-og",
+  "name": "Larry OG",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Hungry"
+  ],
+  "flavors": [
+    "Pine",
+    "Lemon",
+    "Citrus"
+  ],
+  "lineage": [
+    "OG Kush",
+    "SFV OG"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Larry OG, also known as \"Lemon Larry,\" \"Sour Larry,\" and \"Zour Larry\" is yet another member of the famous ocean-grown strain family. Originally created in Orange County, this indica marijuana strain is a cross between OG Kush and SFV OG. Larry OG produces a potent yet easy body buzz that will allow you to relax while getting things done. The effects of Larry OG are happy but not overwhelming. Like other members of the OG family, this strain has a very clean and piney aroma. The nugs tend to be dense and feature distinct burnt orange hairs that are longer than average.",
+  "thc_percent": 20,
+  "rating_count": 825,
+  "average_rating": 4.2,
+  "classification": "Hybrid"
+}

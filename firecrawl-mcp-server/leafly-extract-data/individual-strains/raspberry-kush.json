@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/raspberry-kush",
+  "name": "Raspberry Kush",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Berry",
+    "Rose",
+    "Sweet"
+  ],
+  "lineage": [
+    "Raspberry Lemonade",
+    "Marionberry Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Raspberry Kush is a great-tasting indica strain whose raspberries and cream aroma will keep you coming back for more. This strain may leave newer consumers feeling pretty lazy, but many find this Kush to be a creative flower, making it great for music, art, and talking with friends.",
+  "thc_percent": 20,
+  "rating_count": 405,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "GDP, Granddaddy Purps",
+  "effects": "Relaxed, Happy, Sleepy",
+  "flavors": "Grape, Berry, Sweet",
+  "medical": "Stress, Pain, Insomnia",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Grand Daddy Purple is a famous indica strain known for its deep purple color and relaxing effects.",
+  "strain_name": "Grand Daddy Purple",
+  "rating_count": 1500,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 17,
+  "lineage_parents": "Purple Urkle, Big Bud",
+  "strain_classification": "Indica"
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/purple-urkle",
+  "name": "Purple Urkle",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Grape",
+    "Plum",
+    "Berry"
+  ],
+  "lineage": [
+    "Mendocino Purps",
+    "Orange Sherbert",
+    "Gobbstopper"
+  ],
+  "medical": [
+    "Stress",
+    "Insomnia",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": "7 - 9"
+  },
+  "cbd_percent": 0,
+  "description": "Purple Urkle’s history is as complex as its flavor palate. A California strain, the origins are believed to stem from a select phenotype of Mendocino Purps, while the essence is a blend of skunk, berry, and fresh grapes. Consumers report the effects to be deeply relaxing, sleep-inducing, and a great option for full-body pain relief. The short onset of effects make it a perfect nighttime strain for those who suffer from insomnia.",
+  "thc_percent": 19,
+  "rating_count": 1330,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

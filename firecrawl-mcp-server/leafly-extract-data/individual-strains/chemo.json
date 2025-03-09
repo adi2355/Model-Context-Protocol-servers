@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/chemo",
+  "name": "Chemo",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Hungry",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Woody",
+    "Chestnut",
+    "Pungent"
+  ],
+  "lineage": [
+    "UBC Chemo",
+    "Kemo"
+  ],
+  "medical": [
+    "Insomnia",
+    "Pain",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Rumor has it that Chemo’s beginnings stretch back to the 1970s in Canada where this heavy indica was allegedly developed to treat the side effects of chemotherapy. Another name for this strain is “UBC Chemo” in reference to the university in which Chemo is said to have been conceived. Chemo’s genetics is carried on by Jordan of the Islands, whose rendition is best known for its subtle woody aroma and potent medicinal effects perfect for patients treating nausea, appetite loss, pain, and sleeplessness.",
+  "thc_percent": 18,
+  "rating_count": 247,
+  "average_rating": 4.4,
+  "classification": "Indica"
+}

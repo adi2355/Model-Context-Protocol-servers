@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/kali-mist",
+  "name": "Kali Mist",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Focused",
+    "Creative"
+  ],
+  "flavors": [
+    "Tea",
+    "Earthy",
+    "Spicy/Herbal"
+  ],
+  "lineage": [
+    "Y Griega",
+    "Kali 47"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Kali Mist is known to deliver clear-headed, energetic effects that can verge on psychedelic at times. Despite having an unknown genetic history, Kali Mist is believed to have originated in the 1990s through crossing two sativa-dominant hybrids. This lightweight sativa is a perfect choice for consumers looking to maintain focus and productivity throughout their day.",
+  "thc_percent": 16,
+  "rating_count": 325,
+  "average_rating": 4.1,
+  "classification": "Sativa"
+}

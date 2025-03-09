@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/orange-diesel",
+  "name": "Orange Diesel",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Sweet",
+    "Citrus",
+    "Diesel"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Agent Orange"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Orange Diesel, or Agent D, is a sativa-dominant hybrid that combines Sour Diesel and TGA Seeds’ Agent Orange. This lineage is evident in Orange Diesel’s sweet citrus flavor which is accented by a subtle diesel aftertaste. Sativa-lovers will appreciate the sharp sense of energy and focus that Orange Diesel delivers, and these effects may be helpful for patients treating ADD/ADHD, fatigue, and stress.",
+  "thc_percent": 17,
+  "rating_count": 99,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

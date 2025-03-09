@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "Black Girl Scout Cookies",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Sweet, Earthy, Pungent, Berry, Spicy",
+  "medical": "Stress, Pain, Depression, Insomnia, Lack of Appetite",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Black GSC is a potent hybrid strain that combines the best of its parent strains, offering a sweet and earthy flavor profile with relaxing and euphoric effects.",
+  "strain_name": "Black GSC",
+  "rating_count": 200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 25,
+  "lineage_parents": "Girl Scout Cookies x Black Domina",
+  "strain_classification": "Hybrid"
+}

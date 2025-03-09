@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blue-frost",
+  "name": "Blue Frost",
+  "awards": [],
+  "effects": [
+    "Tingly",
+    "Relaxed",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Menthol",
+    "Cheese",
+    "Mint"
+  ],
+  "lineage": [
+    "Blue Monster",
+    "Jack Frost"
+  ],
+  "medical": [
+    "Depression",
+    "Pain",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Blue Frost is a hybrid that balances the genetics of Blue Monster and Jack Frost to create a 60/40 indica-dominant cross. Breeder Goldenseed has developed this strain to produce dense buds that show a range of deep violet hues and produces a pungent mixture of aromas. The flavor is an interesting combination of sweet fruity notes with a sharp cheese-like undertone. This hybrid is sure to lift your mood and replace any stress you may have with a smile on your face.",
+  "thc_percent": 19,
+  "rating_count": 148,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

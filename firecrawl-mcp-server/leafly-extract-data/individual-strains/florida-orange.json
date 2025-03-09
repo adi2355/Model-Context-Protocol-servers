@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/florida-orange",
+  "name": "Florida Orange",
+  "awards": [],
+  "effects": [
+    "Giggly",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Sweet",
+    "Citrus",
+    "Tropical"
+  ],
+  "lineage": [
+    "Key Lime Surprise",
+    "Clementine"
+  ],
+  "medical": [
+    "Anxiety",
+    "Depression",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Florida Orange is a hybrid marijuana strain from Rev Gen made by crossing Key Lime Surprise with Clementine. This strain features sweet and earthy citrus flavors. Not much is known about the effects of Florida Orange.",
+  "thc_percent": 17,
+  "rating_count": 49,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/white-lightning",
+  "name": "White Lightning",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Flowery",
+    "Sweet",
+    "Skunk"
+  ],
+  "lineage": [
+    "White Widow",
+    "Northern Lights #5"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Terpinolene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Bred by British Columbia Seed Company, White Lightning is an indica-dominant hybrid that combines White Widow and Northern Lights #5. Though counterbalanced by White Widow’s hybrid genetics, White Lightning induces a deep indica calm that relieves pain, nausea, and anxiety. Dusted in a heavy coat of sugary trichome crystals, White Lightning has a sweet, fruity aroma with floral, skunky undertones. Among the most common conditions treated with White Lightning are multiple sclerosis, insomnia, anorexia, Parkinson’s, and the side effects of chemotherapy. White Lightning flowers in 8 weeks, and grows best in hydroponic systems and sea of green environments.",
+  "thc_percent": 17,
+  "rating_count": 110,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

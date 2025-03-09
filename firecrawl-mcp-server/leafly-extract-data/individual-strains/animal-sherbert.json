@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/animal-sherbert",
+  "name": "Animal Sherbert",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Creative",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Nutty",
+    "Diesel",
+    "Pungent"
+  ],
+  "lineage": [
+    "Animal Cookies",
+    "Sunset Sherbert"
+  ],
+  "medical": [
+    "Anxiety",
+    "Depression",
+    "Eye pressure"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Seed Junky, Animal Sherbert crosses Animal Cookies with Sunset Sherbert. This indica’s flavor carries a pungent funk, reminiscent of many Cookies and OG strains. The parent strains tend to run high in the terpenes caryophyllene, limonene, and myrcene. We expect Animal Sherbert to do so as well.",
+  "thc_percent": 28,
+  "rating_count": 17,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://www.leafly.com/strains/the-cough",
+  "name": "The Cough",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Aroused",
+    "Focused"
+  ],
+  "flavors": [
+    "Earthy",
+    "Citrus",
+    "Hash",
+    "Pine",
+    "Pungent",
+    "Diesel"
+  ],
+  "lineage": [
+    "Northern Lights #5",
+    "Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "The Cough is a sativa-dominant hybrid of the renowned Northern Lights #5 and Haze. This cross is named for its thick smoke that expands the lungs and often causes consumers to cough. The flavor and aroma is a mixture of earthy, hash notes and a hint of citrus. The Cough produces a happy mindset and a relaxed body making it a great strain to counter stress.",
+  "thc_percent": 23,
+  "rating_count": 41,
+  "average_rating": 4.2,
+  "classification": "Sativa"
+}

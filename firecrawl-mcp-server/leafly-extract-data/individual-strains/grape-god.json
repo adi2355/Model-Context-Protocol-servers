@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/grape-god",
+  "name": "Grape God",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Euphoric",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Grapefruit",
+    "Grape",
+    "Sweet"
+  ],
+  "lineage": [
+    "God Bud",
+    "Grapefruit"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Grape God is an indica-dominant hybrid that combines God Bud and Grapefruit genetics. As its name suggests, this strain has a sweet grape aroma with earthy notes that activate on the exhale. Powerful, long-lasting euphoria knocks out stress, leaving your mood elevated and your body relaxed.",
+  "thc_percent": 17,
+  "rating_count": 469,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

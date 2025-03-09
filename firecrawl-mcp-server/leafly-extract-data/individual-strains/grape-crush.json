@@ -1,0 +1,36 @@
+{
+  "url": "https://www.leafly.com/strains/grape-krush",
+  "name": "Grape Krush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Grape",
+    "Ammonia",
+    "Lavender"
+  ],
+  "lineage": [
+    "Blueberry"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Grape Krush, also known as \"Grape Crush\" or \"Crushed Grape\", is an indica-heavy hybrid strain with just enough sativa to keep the high energizing and smooth. The strain comes from Blueberry parents and inherited their purple to blue coloring and their namesake berry flavor.",
+  "thc_percent": null,
+  "rating_count": 146,
+  "average_rating": 4.1,
+  "classification": "Indica"
+}

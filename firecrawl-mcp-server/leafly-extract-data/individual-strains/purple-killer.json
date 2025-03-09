@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/purple-killer",
+  "name": "Purple Killer",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Hungry",
+    "Sleepy"
+  ],
+  "flavors": [
+    "Grape",
+    "Blueberry",
+    "Pineapple"
+  ],
+  "lineage": [
+    "Purple Kush",
+    "Purple Urkle"
+  ],
+  "medical": [
+    "Insomnia",
+    "Lack of appetite",
+    "Stress"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by Rick of Hip Joynt Farms in Mendocino County, Purple Killer is a cross of Purple Kush and Purple Urkle.",
+  "thc_percent": null,
+  "rating_count": 24,
+  "average_rating": 4.6,
+  "classification": "Indica"
+}

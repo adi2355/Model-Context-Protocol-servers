@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/banana-og",
+  "name": "Banana OG",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Tingly"
+  ],
+  "flavors": [
+    "Tree fruit",
+    "Tropical",
+    "Sweet"
+  ],
+  "lineage": [
+    "OG Kush",
+    "Banana"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Banana OG is an indica-dominant cross of OG Kush and Banana. With a smell and flavor of overripe bananas, this hybrid definitely earns its name. Banana OG has a reputation as a creeper, leaving those who over-imbibe in a near comatose state before intense hunger and sleepiness set in. Patients treating muscular pain, appetite loss, and insomnia may benefit from Banana OG.",
+  "thc_percent": 21,
+  "rating_count": 616,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

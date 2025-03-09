@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/boggle-gum",
+  "name": "Boggle Gum",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Energetic",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Cheese",
+    "Grape",
+    "Berry"
+  ],
+  "lineage": [
+    "Northern Lights #5",
+    "BOG Bubble"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Boggle Gum is a relaxing hybrid cross between Northern Lights #5 and BOG Bubble.",
+  "thc_percent": 14,
+  "rating_count": 24,
+  "average_rating": 3.9,
+  "classification": "Hybrid"
+}

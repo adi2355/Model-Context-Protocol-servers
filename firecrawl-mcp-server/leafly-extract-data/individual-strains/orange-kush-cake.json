@@ -1,0 +1,44 @@
+{
+  "url": "https://www.leafly.com/strains/orange-kush-cake",
+  "name": "Orange Kush Cake",
+  "awards": [],
+  "effects": [
+    "Tingly",
+    "Aroused",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Orange",
+    "Citrus",
+    "Pepper"
+  ],
+  "lineage": [
+    "Wedding Cake",
+    "Jilly Bean",
+    "Sour Tangie",
+    "Roze Zkittlez",
+    "OG Eddy Lepp"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Also known as OKC, this strain was produced by breeding a Wedding Cake x Jilly Bean cross with a Sour Tangie x Roze Zkittlez x OG Eddy Lepp cross. With long calyxes, buds look like hands reaching for the sun and are just asking to be broken up for a delicious bowl or joint. Consumers can expect a rich, complicated terpene profile including notes of sharp orange, citrus, gas, sour candy, dried grapes, and even earthy sandalwood.",
+  "thc_percent": 21,
+  "rating_count": 100,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

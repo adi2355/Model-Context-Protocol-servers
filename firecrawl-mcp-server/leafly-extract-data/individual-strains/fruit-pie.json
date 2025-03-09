@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/fruit-pie",
+  "name": "Fruit Pie",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Uplifted",
+    "Happy"
+  ],
+  "flavors": [
+    "Diesel",
+    "Sweet",
+    "Tropical"
+  ],
+  "lineage": [
+    "Fruitbound",
+    "Pie 95"
+  ],
+  "medical": [
+    "Depression",
+    "Fatigue",
+    "Stress"
+  ],
+  "terpenes": [
+    "ß-Caryophyllene",
+    "ß-Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0.06,
+  "description": "Using two of their own strains, Green Team Genetics’ Fruit Pie crosses workhorse Fruitbound with gassy, cherry strain Pie 95. With big yields, Fruit Pie puts out aromas ranging from sour candied fruit and berries to a menthol-like cherry dough, making this strain loud and delicious.",
+  "thc_percent": 24.6,
+  "rating_count": 12,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

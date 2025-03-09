@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/dutchberry",
+  "name": "Dutchberry",
+  "awards": [],
+  "effects": [
+    "Happy",
+    "Focused",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Berry",
+    "Sweet",
+    "Blueberry"
+  ],
+  "lineage": [
+    "Dutch Treat",
+    "DJ Short’s Blueberry"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Dutchberry is a 60/40 sativa-dominant hybrid strain from Artizen Cannabis in Lacey, WA. Combining Dutch Treat and DJ Short’s Blueberry, this hybrid is loaded with citrus and berry flavors that taste as good as it smells. This strain produces a happy, giggly high perfect for unwinding after a long day at work.",
+  "thc_percent": 21,
+  "rating_count": 128,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

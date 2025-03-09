@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/deathstar-og",
+  "name": "Death Star OG",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Pungent",
+    "Earthy",
+    "Skunk"
+  ],
+  "lineage": [
+    "Sour Diesel",
+    "Sensi Star",
+    "OG Kush"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Death Star OG is a potent cross between Sour Diesel, Sensi Star, and OG Kush.",
+  "thc_percent": 23,
+  "rating_count": 214,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

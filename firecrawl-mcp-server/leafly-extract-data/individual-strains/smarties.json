@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/smarties",
+  "name": "Smarties",
+  "awards": [],
+  "effects": [
+    "Creative",
+    "Relaxed",
+    "Focused"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Diesel",
+    "Berry"
+  ],
+  "lineage": [
+    "GSC",
+    "Blue City Diesel"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Arthritis"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "A collaboration between Connected Cannabis Co. and Cookies Fam, Smarties is a cross of GSC and Blue City Diesel. Much like the candy, Smarties offers a delicious terpene profile that’s sweet, fruity, and tart. Consumers can expect a great anytime strain that will leave you with a grin without leaving your head in the clouds.",
+  "thc_percent": 17,
+  "rating_count": 24,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/garlic-bud",
+  "name": "Garlic Bud",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Happy"
+  ],
+  "flavors": [
+    "Pepper",
+    "Woody",
+    "Earthy"
+  ],
+  "lineage": [
+    "Afghani"
+  ],
+  "medical": [
+    "Anxiety",
+    "Pain",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Garlic Bud is a classic indica strain from the 90's, bred by The Seed Bank (now known as Sensi Seeds) using Afghani genetics. Its name is only loosely tied to Garlic Bud's aroma, which smells a lot more like tangy musk and spice than anything you'd throw in your stir fry. This pungent-smelling indica expresses a duality of effects: heavy body effects that crush insomnia and pain coupled with an invigorating cerebral buzz. A 7 or 8 week flowering time is all Garlic Bud needs to reach full maturation, finishing with sizeable yields.",
+  "thc_percent": 24,
+  "rating_count": 84,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

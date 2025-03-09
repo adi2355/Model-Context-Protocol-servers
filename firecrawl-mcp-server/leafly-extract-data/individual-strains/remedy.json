@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/remedy",
+  "name": "Remedy",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Focused"
+  ],
+  "flavors": [
+    "Woody",
+    "Earthy",
+    "Citrus"
+  ],
+  "lineage": [
+    "Cannatonic",
+    "Afghan Skunk"
+  ],
+  "medical": [
+    "Pain",
+    "Anxiety",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 6
+  },
+  "cbd_percent": 13,
+  "description": "Remedy, a cross between Cannatonic and Afghan Skunk, is a high-CBD strain that induces little to no psychoactive effects. Yellow-tinted buds hide under a sheath of crystal trichomes and carry a lemon-pine scent. Upon inhaling the sweet, floral notes of Remedy, the consumer is lifted into a state of mellow relaxation that differs greatly from the jarring experience induced by high THC strains. Patients looking to medicate without the pronounced head and body effects may turn to Remedy to treat seizures, pain, autism, inflammation, and anxiety disorders. Growers hoping to cultivate this highly medicinal strain should allow a 6 to 8 week flowering time in indoor gardens.",
+  "thc_percent": 1,
+  "rating_count": 147,
+  "average_rating": 4.6,
+  "classification": "Indica"
+}

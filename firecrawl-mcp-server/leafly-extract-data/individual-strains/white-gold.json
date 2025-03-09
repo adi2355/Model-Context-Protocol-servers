@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/white-gold",
+  "name": "White Gold",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Relaxed",
+    "Talkative"
+  ],
+  "flavors": [
+    "Earthy",
+    "Pungent",
+    "Honey"
+  ],
+  "lineage": [
+    "White Widow",
+    "Himalayan Gold"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "White Gold, also known as \"Oro Blanco\" is a hybrid marijuana strain made by crossing White Widow with Himalayan Gold. This strain produces euphoric effects that allow you to focus. White Gold tastes sweet and earthy with a hint of fruitiness. It has a pungent haze aroma.",
+  "thc_percent": 21,
+  "rating_count": 172,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

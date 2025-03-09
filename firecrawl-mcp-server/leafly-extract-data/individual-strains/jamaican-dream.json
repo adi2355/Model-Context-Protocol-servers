@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/jamaican-dream",
+  "name": "Jamaican Dream",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Happy",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Sweet",
+    "Tropical",
+    "Flowery",
+    "Woody"
+  ],
+  "lineage": [
+    "Jamaican"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 6
+  },
+  "cbd_percent": 0,
+  "description": "Jamaican Dream is a 90% sativa bred by Eva Seeds using Jamaican genetics. A subtle and sweet flavor carries you through to an elevated mood and weightless euphoria. The effects are light enough to start your day with, making this strain ideal for early treatment of depression and fatigue.",
+  "thc_percent": 18,
+  "rating_count": 105,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

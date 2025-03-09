@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/zen",
+  "name": "Zen",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Energetic",
+    "Happy"
+  ],
+  "flavors": [
+    "Lavender",
+    "Flowery",
+    "Earthy"
+  ],
+  "lineage": [
+    "Mexican Sativa",
+    "Afghani",
+    "Lavender"
+  ],
+  "medical": [
+    "Headaches",
+    "Depression",
+    "Muscle spasms"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 10
+  },
+  "cbd_percent": 1,
+  "description": "With a balanced ratio of THC and CBD, Zen is the great hybrid healer of stomach and digestive upsets. Zen’s breeders at CBD Seeds first crossed a Mexican Sativa with Afghani, and then added a calming Lavender hybrid to the mix. With an aromatic blend of sour berry and earthy notes, Zen delivers swift relief to appetite loss, nausea, anorexia, Crohn’s disease, and anxiety.",
+  "thc_percent": 17,
+  "rating_count": 29,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

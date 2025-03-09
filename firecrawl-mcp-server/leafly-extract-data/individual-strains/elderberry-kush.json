@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/elderberry-kush",
+  "name": "Elderberry",
+  "awards": [],
+  "effects": [
+    "Giggly",
+    "Sleepy",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Berry",
+    "Blueberry",
+    "Blue Cheese"
+  ],
+  "lineage": [
+    "Edelweiss #3",
+    "Dojaberry"
+  ],
+  "medical": [
+    "Pain",
+    "Insomnia",
+    "Stress"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Elderberry Kush is a 55% indica-dominant hybrid bred by Green Devil Genetics in Spain. A cross between Edelweiss #3 and Dojaberry, Elderberry is a high THC strain that flowers in 50 to 55 days. Harvest for outdoor growers comes at the beginning of October with yields ranging from 300 to 650 grams per plant.",
+  "thc_percent": 19,
+  "rating_count": 32,
+  "average_rating": 3.9,
+  "classification": "Hybrid"
+}

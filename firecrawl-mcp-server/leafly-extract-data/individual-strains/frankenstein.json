@@ -1,0 +1,38 @@
+{
+  "url": "https://www.leafly.com/strains/frankenstein",
+  "name": "Frankenstein",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Earthy",
+    "Rose",
+    "Mango"
+  ],
+  "lineage": [],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 1,
+  "description": "Frankenstein is an 80% indica strain whose parents are unknown. Its potency is a talking point among patients and veteran consumers alike, who cherish this indica’s ability to push past the ceiling of their tolerance.",
+  "thc_percent": 17,
+  "rating_count": 110,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

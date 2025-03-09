@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/power",
+  "name": "Power",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Tingly",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Grape",
+    "Sweet",
+    "Tropical"
+  ],
+  "lineage": [
+    "Gary Payton",
+    "Scotty2hotty"
+  ],
+  "medical": [
+    "Fatigue",
+    "Cramps",
+    "Pain"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Power is a hybrid weed strain made from a genetic cross between Gary Payton and Scotty2hotty. This strain is 60% sativa and 40% indica. Power is known for its high THC content, averaging around 20-25%, making this strain an ideal choice for experienced cannabis consumers. Bred by Exotic Genetix, Power features myrcene as the dominant terpene.",
+  "thc_percent": 20,
+  "rating_count": 7,
+  "average_rating": 4.9,
+  "classification": "Hybrid"
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.leafly.com/strains/white-dawg",
+  "name": "White Dawg",
+  "awards": [
+    "Runner-up in the Hybrid Cup of the Denver Medical Cannabis Cup"
+  ],
+  "effects": [
+    "Talkative",
+    "Creative",
+    "Happy"
+  ],
+  "flavors": [
+    "Chemical",
+    "Woody",
+    "Pine"
+  ],
+  "lineage": [
+    "Chemdog",
+    "White Fire OG"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Depression"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "tall",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Runner-up in the Hybrid Cup of the Denver Medical Cannabis Cup, White Dawg is a cross of Chemdog and White Fire OG. Buds have dark green calyxes with rich orange hairs that give off earthy, fruity, and gassy aromas. White Dawg makes for a great evening smoke for when you need to catch up on your favorite TV show.",
+  "thc_percent": 21,
+  "rating_count": 73,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

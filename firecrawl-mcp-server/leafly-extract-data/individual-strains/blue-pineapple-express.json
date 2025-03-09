@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "fruity, sweet, tropical",
+  "medical": "stress relief, pain relief, anxiety",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue Pineapple Express is a delightful hybrid strain that combines the fruity flavors of Pineapple Express with the sweet notes of Blueberry, offering a balanced experience for both recreational and medicinal users.",
+  "strain_name": "Blue Pineapple Express",
+  "rating_count": 120,
+  "cbd_percentage": 0.5,
+  "cbg_percentage": 0.1,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Pineapple Express x Blueberry",
+  "strain_classification": "Hybrid"
+}

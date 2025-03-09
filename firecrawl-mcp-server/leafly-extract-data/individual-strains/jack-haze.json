@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/jack-haze",
+  "name": "Jack Haze",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Giggly",
+    "Talkative"
+  ],
+  "flavors": [
+    "Tobacco",
+    "Flowery",
+    "Rose"
+  ],
+  "lineage": [
+    "Jack Herer",
+    "Super Silver Haze"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "A cross between Jack Herer and Super Silver Haze, this is one giggly hybrid. Sativa-dominant, Jack Haze provides patients with an intense psychoactive sensation. Like drinking a strong cup of coffee, this strain’s energizing and uplifting effects make it great for daytime use. Patients who suffer from depression or stress tend to really enjoy this strain. Jack Haze is quite potent, so it should be used with caution by novice patients.",
+  "thc_percent": 14,
+  "rating_count": 75,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

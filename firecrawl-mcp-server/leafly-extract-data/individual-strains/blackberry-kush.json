@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blackberry-kush",
+  "name": "Blackberry Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Berry",
+    "Sweet",
+    "Earthy"
+  ],
+  "lineage": [
+    "Afghani",
+    "Blackberry"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "low",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Blackberry Kush, also known as \"BBK\" is an indica-dominant hybrid marijuana strain made by crossing Afghani with Blackberry. Blackberry Kush produces relaxing effects, and is often recommended for pain management thanks to its strong body high. Blackberry Kush offers a hashy flavor profile with a jet fuel taste and aroma balanced out with sweet berries.",
+  "thc_percent": 17,
+  "rating_count": 2048,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/thai",
+  "name": "Thai",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Energetic",
+    "Creative"
+  ],
+  "flavors": [
+    "Tobacco",
+    "Earthy",
+    "Tea"
+  ],
+  "lineage": [
+    "Thai",
+    "Northern Lights",
+    "Amnesia Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Depression",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "low",
+    "height": "tall",
+    "difficulty": "difficult",
+    "flowering_time_weeks": "unknown"
+  },
+  "cbd_percent": null,
+  "description": "Thai refers to a cannabis variety that grows natively in Thailand and was brought to the U.S. in the 70s and 80s. This pure sativa landrace is sometimes called “Thai Sticks” because of the way its buds are traditionally dried and tied into long sticks. This original Thai variety has given rise to many strains we commonly see on the market today, including Voodoo, Juicy Fruit, and the classic Haze. Thai induces powerful but comfortable effects and has a distinct fruity, citrus aroma. This strain is a challenge for growers outside tropical climates, but greenhouse gardens make this grow possible for experts patient enough for Thai’s long growth cycle and slow flowering.",
+  "thc_percent": 19,
+  "rating_count": 169,
+  "average_rating": 4.2,
+  "classification": "Sativa"
+}

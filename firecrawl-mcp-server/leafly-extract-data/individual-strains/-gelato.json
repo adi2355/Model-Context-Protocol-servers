@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Sweet, Berry, Citrus, Earthy, Creamy",
+  "medical": "Stress, Pain, Depression, Insomnia, Lack of Appetite",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Dominant"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Gelato is a hybrid strain that is known for its sweet, dessert-like flavor and balanced effects.",
+  "strain_name": "Gelato",
+  "rating_count": 1000,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Sunset Sherbet x Thin Mint Girl Scout Cookies",
+  "strain_classification": "Hybrid"
+}

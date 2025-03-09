@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/lifter",
+  "name": "Lifter",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Uplifted",
+    "Energetic"
+  ],
+  "flavors": [
+    "Pepper",
+    "Tea",
+    "Woody"
+  ],
+  "lineage": [
+    "Suver Haze",
+    "Early Resin Bud"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 15,
+  "description": "Bred by Oregon CBD, Lifter is a CBD hemp cultivar created by crossing Suver Haze and Early Resin Bud. Buds have a funky cheese aroma with a hint of fuel, making Lifter a welcomed newcomer in the hemp market.",
+  "thc_percent": 1,
+  "rating_count": 57,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

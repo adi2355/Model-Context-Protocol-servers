@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/rockstar",
+  "name": "Rockstar",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Sweet",
+    "Grape",
+    "Spicy",
+    "Herbal"
+  ],
+  "lineage": [
+    "Rockbud",
+    "Sensi Star"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Rockstar is an indica marijuana strain made by crossing Rockbud and Sensi Star. This strain produces powerful mind and body effects that are euphoric and sedating. Rockstar smells like sweet grapes with undertones of spice. Medical marijuana patients choose this strain to relieve symptoms associated with headaches, pain and sleep disorders. Growers say Rockstar grows best outdoors.",
+  "thc_percent": 16,
+  "rating_count": 371,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

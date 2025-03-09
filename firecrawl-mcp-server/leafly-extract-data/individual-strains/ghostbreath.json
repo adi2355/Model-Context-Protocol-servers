@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/ghostbreath",
+  "name": "Ghostbreath",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Focused",
+    "Energetic"
+  ],
+  "flavors": [
+    "Pungent",
+    "Woody",
+    "Sweet"
+  ],
+  "lineage": [
+    "Ghost OG",
+    "Mendo Breath"
+  ],
+  "medical": [
+    "Pain",
+    "Depression",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Bred by ThugPug Genetics, Ghostbreath crosses Ghost OG and Mendo Breath. This heavy-hitting strain has sour, sweet lime, spice, and wood smells complimented by earthy flavors. Buds are dense with a light green color profile.",
+  "thc_percent": 17,
+  "rating_count": 15,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

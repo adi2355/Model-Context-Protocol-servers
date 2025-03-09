@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/montana-silvertip",
+  "name": "Silvertip",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Happy",
+    "Focused"
+  ],
+  "flavors": [
+    "Pine",
+    "Flowery",
+    "Earthy"
+  ],
+  "lineage": [
+    "Granddaddy Purple",
+    "Super Silver Haze"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Depression"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Montana Silvertip is a Granddaddy Purple and Super Silver Haze hybrid cross that inherits the name of its homeland. Typical medical applications for Montana Silvertip include ADD/ADHD, migraines, and anxiety.",
+  "thc_percent": 23,
+  "rating_count": 140,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

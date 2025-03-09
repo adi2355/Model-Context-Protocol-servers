@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/conspiracy-kush",
+  "name": "Conspiracy Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Pepper",
+    "Woody",
+    "Flowery"
+  ],
+  "lineage": [
+    "Obama Kush",
+    "Space Queen"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Conspiracy Kush by Heroes of the Farm Genetics is a 70/30 indica-dominant cross of Obama Kush and Space Queen. The dense, trichome-frosted flowers produce a tangy citrus aroma and a peppery aftertaste. The influence of Space Queen is felt immediately with a Haze-like sense of cerebral activity, but shortly after the relaxing effects take hold and provide calming relaxation perfect for unwinding at the end of the day.",
+  "thc_percent": 19,
+  "rating_count": 152,
+  "average_rating": 4.5,
+  "classification": "Indica"
+}

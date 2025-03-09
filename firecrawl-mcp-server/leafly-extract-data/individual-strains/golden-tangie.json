@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Euphoric, Energetic, Uplifted",
+  "flavors": "Orange, Sweet, Citrus",
+  "medical": "Stress, Anxiety, Fatigue",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Present",
+    "ocimene": "",
+    "humulene": "",
+    "limonene": "",
+    "linalool": "",
+    "terpinolene": "Dominant",
+    "caryophyllene": ""
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": null,
+    "difficulty": "Moderate",
+    "flowering_weeks": null
+  },
+  "description": "Golden Tangie by Calyx Garden is a sativa-dominant strain with tropical terpenes and stimulating effects. It was created by combining Golden Goat and Tangie, forming a pungent and sticky flower that smells of citrus and pine. This strain’s invigorating effects can be immediately felt in the head, neck, and shoulders. Golden Tangie elevates the mood while dissipating stress as its potent euphoria settles into the body. Consumers seeking to overcome fatigue and remain active should consider this sativa.",
+  "strain_name": "Golden Tangie",
+  "rating_count": 11,
+  "cbd_percentage": 0,
+  "cbg_percentage": null,
+  "rating_average": 4.3,
+  "thc_percentage": 16,
+  "lineage_parents": "Golden Goat, Tangie",
+  "strain_classification": "Sativa"
+}

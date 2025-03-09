@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/guava",
+  "name": "Guava",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Focused",
+    "Talkative"
+  ],
+  "flavors": [
+    "Tropical",
+    "Tree fruit",
+    "Apricot"
+  ],
+  "lineage": [
+    "Gelato"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Caryophyllene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "A sativa-leaning hybrid from the Cookies Fam, Guava is a Gelato phenotype. Noted for its fruity and gassy aroma and flavor, this strain is great for anyone with a sweet tooth. Guava was selected and celebrated as a good strain to start the day with, so next time you have a busy Saturday, grab this strain to make it through.",
+  "thc_percent": 21,
+  "rating_count": 101,
+  "average_rating": 4.4,
+  "classification": "Sativa"
+}

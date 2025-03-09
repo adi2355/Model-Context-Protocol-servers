@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-03-09T15:43:36.045Z",
+  "batch_index": 192,
+  "strains": [
+    "santa-maria",
+    "saturn-og",
+    "scooby-snack",
+    "scotty-2-hotty",
+    "sensi-skunk"
+  ],
+  "processedCount": 0,
+  "failedCount": 5
+}

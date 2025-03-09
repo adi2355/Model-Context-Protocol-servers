@@ -1,0 +1,38 @@
+{
+  "url": "https://www.leafly.com/strains/citrique",
+  "name": "Citrique",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Uplifted",
+    "Talkative"
+  ],
+  "flavors": [
+    "Lemon",
+    "Grape",
+    "Mango"
+  ],
+  "lineage": [],
+  "medical": [
+    "Depression",
+    "Anxiety",
+    "Stress"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Caryophyllene",
+    "Myrcene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Citrique is a hybrid weed strain. Reviewers on Leafly say this strain makes them feel energetic, uplifted, and talkative. Citrique has 19% THC and 1% CBG. The dominant terpene in this strain is terpinolene.",
+  "thc_percent": 19,
+  "rating_count": 9,
+  "average_rating": 4.6,
+  "classification": "Hybrid"
+}

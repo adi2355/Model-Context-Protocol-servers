@@ -1,0 +1,32 @@
+{
+  "awards": "Best Hybrid at the 2018 Cannabis Cup",
+  "aliases": "Green Crack, Green Cush",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "citrus, earthy, sweet",
+  "medical": "stress, depression, pain",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Green Crack Kush is a hybrid strain known for its uplifting effects and sweet citrus flavor.",
+  "strain_name": "Green Crack Kush",
+  "rating_count": 1200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Skunk #1, Afghani",
+  "strain_classification": "Hybrid"
+}

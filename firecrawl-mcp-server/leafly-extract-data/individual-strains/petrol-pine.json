@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/petrol-pine",
+  "name": "Petrol Pine",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Creative"
+  ],
+  "flavors": [
+    "Pine",
+    "Diesel",
+    "Chemical"
+  ],
+  "lineage": [
+    "Gelato",
+    "MAC"
+  ],
+  "medical": [
+    "Insomnia",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "Petrol Pine is a indica weed strain made by crossing Gelato and MAC. Reviewers on Leafly say this strain makes them feel sleepy, relaxed, and creative.",
+  "thc_percent": 26,
+  "rating_count": 13,
+  "average_rating": 4.7,
+  "classification": "Indica"
+}

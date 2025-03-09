@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/big-bud",
+  "name": "Big Bud",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Hungry",
+    "Relaxed"
+  ],
+  "flavors": [
+    "Woody",
+    "Spicy/Herbal",
+    "Earthy"
+  ],
+  "lineage": [
+    "Afghani",
+    "Northern Lights",
+    "Skunk #1"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Pinene",
+    "Myrcene",
+    "Ocimene"
+  ],
+  "grow_info": {
+    "yield": "high",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": 0,
+  "description": "Big Bud is an indica marijuana strain made from a three-way cross of Afghani, Northern Lights and Skunk #1. Big Bud delivers deeply relaxing effects you can feel from head-to-toe. This strain features an earthy and spicy aroma. Bid Bud has a history of being first developed in the United States before being brought to the Netherlands in the 1980s to survive the war on drugs.",
+  "thc_percent": 14,
+  "rating_count": 350,
+  "average_rating": 3.9,
+  "classification": "Indica"
+}

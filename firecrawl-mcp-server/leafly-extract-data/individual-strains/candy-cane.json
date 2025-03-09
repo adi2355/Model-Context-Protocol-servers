@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/candy-cane",
+  "name": "Candy Cane",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Hungry"
+  ],
+  "flavors": [
+    "Mint",
+    "Mango",
+    "Sweet"
+  ],
+  "lineage": [
+    "AK-47",
+    "Mango",
+    "White Widow"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": 7
+  },
+  "cbd_percent": null,
+  "description": "Candy Cane is a 70% indica strain from Crop King Seeds that combines AK-47, Mango, and White Widow genetics. Its sour, fruity taste is followed by long-lasting, euphoric effects that combat stress and tension. Candy Cane autoflowers in 7 weeks and produces moderately high yields in both indoor and outdoor gardens.",
+  "thc_percent": 18,
+  "rating_count": 71,
+  "average_rating": 4.3,
+  "classification": "Indica"
+}

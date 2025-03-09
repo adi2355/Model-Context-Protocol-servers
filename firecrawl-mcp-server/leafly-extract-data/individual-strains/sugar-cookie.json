@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/sugar-cookie",
+  "name": "Sugar Cookie",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Happy"
+  ],
+  "flavors": [
+    "Vanilla",
+    "Sweet",
+    "Mint"
+  ],
+  "lineage": [
+    "Crystal Gayle",
+    "Blue Hawaiian",
+    "Sensi Star"
+  ],
+  "medical": [
+    "Anxiety",
+    "Pain",
+    "Stress"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Limonene",
+    "Humulene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Sugar Cookie is a hybrid marijuana strain made from a three-way cross of Crystal Gayle, Blue Hawaiian and Sensi Star. Sugar Cookie provides calming body effects and will eventually lull you into a deep sleep. This strain tastes like tropical fruit and sweet, sugary berries. Medical marijuana patients choose Sugar Cookie to help relieve symptoms associated with insomnia.",
+  "thc_percent": 22,
+  "rating_count": 261,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

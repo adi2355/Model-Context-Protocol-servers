@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup Winner",
+  "aliases": "Green Crack, Green Cush",
+  "effects": "happy, energetic, focused",
+  "flavors": "citrus, earthy, sweet",
+  "medical": "stress relief, depression, fatigue",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Green Crack OG is a potent sativa strain known for its uplifting effects and sweet, citrusy flavor.",
+  "strain_name": "Green Crack OG",
+  "rating_count": 1200,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.2,
+  "rating_average": 4.5,
+  "thc_percentage": 20,
+  "lineage_parents": "Skunk #1, Afghani",
+  "strain_classification": "Sativa"
+}

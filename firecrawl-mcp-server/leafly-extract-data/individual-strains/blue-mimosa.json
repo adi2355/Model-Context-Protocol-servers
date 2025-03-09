@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "happy, relaxed, euphoric",
+  "flavors": "citrus, sweet, berry",
+  "medical": "stress, anxiety, depression",
+  "terpenes": {
+    "pinene": "0.1%",
+    "myrcene": "0.3%",
+    "ocimene": "0.1%",
+    "humulene": "0.1%",
+    "limonene": "0.5%",
+    "linalool": "0.1%",
+    "terpinolene": "0.1%",
+    "caryophyllene": "0.2%"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Blue Mimosa is a delightful hybrid strain that combines the uplifting effects of Clementine with the relaxing qualities of Purple Punch.",
+  "strain_name": "Blue Mimosa",
+  "rating_count": 50,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 0.5,
+  "rating_average": 4.5,
+  "thc_percentage": 22,
+  "lineage_parents": "Clementine x Purple Punch",
+  "strain_classification": "Hybrid"
+}

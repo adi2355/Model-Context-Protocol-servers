@@ -1,0 +1,42 @@
+{
+  "url": "https://www.leafly.com/strains/fruit-punch",
+  "name": "Fruit Punch",
+  "awards": [],
+  "effects": [
+    "Energetic",
+    "Focused",
+    "Creative"
+  ],
+  "flavors": [
+    "Sweet",
+    "Tropical",
+    "Berry"
+  ],
+  "lineage": [
+    "Skunk",
+    "Haze",
+    "Northern Lights"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Ocimene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Fruit Punch is a sativa marijuana strain made by crossing Skunk, Haze, and Northern Lights. Named for its swift hit of sweet, fruity, and tropical flavors, this sativa has something to offer in both taste and effect. Fruit Punch charges the mind with creative and social energy, so keep this strain in your stash jar for active days spent with friends or personal hobbies.",
+  "thc_percent": 18,
+  "rating_count": 183,
+  "average_rating": 4.5,
+  "classification": "Sativa"
+}

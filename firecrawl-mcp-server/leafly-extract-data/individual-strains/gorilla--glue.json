@@ -1,0 +1,32 @@
+{
+  "awards": "High Times Cannabis Cup 2014, 2015",
+  "aliases": "GG4, Gorilla Glue #4",
+  "effects": "Relaxed, Happy, Euphoric, Uplifted, Creative",
+  "flavors": "Earthy, Pine, Chocolate, Coffee, Diesel",
+  "medical": "Stress, Pain, Depression, Insomnia, Lack of Appetite",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "Present",
+    "humulene": "Present",
+    "limonene": "Present",
+    "linalool": "Present",
+    "terpinolene": "Present",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Medium",
+    "difficulty": "Moderate",
+    "flowering_weeks": 8
+  },
+  "description": "Gorilla Glue is a potent hybrid strain known for its high THC content and balanced effects, making it a favorite among both recreational and medical users.",
+  "strain_name": "Gorilla Glue",
+  "rating_count": 2000,
+  "cbd_percentage": 0.1,
+  "cbg_percentage": 1,
+  "rating_average": 4.5,
+  "thc_percentage": 30,
+  "lineage_parents": "Chocolate Diesel, Sour Dubb, and Chem's Sister",
+  "strain_classification": "Hybrid"
+}

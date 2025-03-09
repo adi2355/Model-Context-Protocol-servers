@@ -1,0 +1,37 @@
+{
+  "url": "https://www.leafly.com/strains/code-red",
+  "name": "Code Red",
+  "awards": [],
+  "effects": [
+    "Giggly",
+    "Creative",
+    "Euphoric"
+  ],
+  "flavors": [
+    "Pineapple",
+    "Tropical",
+    "Berry"
+  ],
+  "lineage": [
+    "Red Runtz",
+    "Scotty 2 Hotty"
+  ],
+  "medical": [
+    "Anxiety",
+    "Depression",
+    "Muscle spasms"
+  ],
+  "terpenes": [],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Code Red is a 2022 strain from Exotic Genetix, crossing Red Runtz x Scotty 2 Hotty.",
+  "thc_percent": null,
+  "rating_count": 11,
+  "average_rating": 4.7,
+  "classification": "Hybrid"
+}

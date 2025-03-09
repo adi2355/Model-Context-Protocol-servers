@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/dopium",
+  "name": "Dopium",
+  "awards": [],
+  "effects": [
+    "Talkative",
+    "Euphoric",
+    "Energetic"
+  ],
+  "flavors": [
+    "Chemical",
+    "Pine",
+    "Diesel"
+  ],
+  "lineage": [
+    "ChemDawg",
+    "Sour Diesel"
+  ],
+  "medical": [
+    "Depression",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "a-Pinene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Dopium, a cross between ChemDawg and Sour Diesel, has a unique scent while keeping elements of that classic Sour Diesel smell. Described as delivering relaxing and mellow effects, Dopium has the sharp spice of diesel with floral hints.",
+  "thc_percent": null,
+  "rating_count": 26,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}

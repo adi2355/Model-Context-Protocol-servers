@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sherbanger",
+  "name": "Sherbanger",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Talkative",
+    "Happy"
+  ],
+  "flavors": [
+    "Apricot",
+    "Flowery",
+    "Diesel"
+  ],
+  "lineage": [
+    "Sherbert",
+    "Headbanger"
+  ],
+  "medical": [
+    "Anxiety",
+    "Stress",
+    "Insomnia"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Pinene",
+    "Caryophyllene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "Sherbanger is a weed strain mixing Sherbert with Karma Genetics' Headbanger. Headbanger is Sour D x Biker Kush. Sherbanger smells like fuel-drenched Sherbert, and has hybrid effects that pair well with afternoon and evening activities.",
+  "thc_percent": 22,
+  "rating_count": 45,
+  "average_rating": 4.5,
+  "classification": "Hybrid"
+}

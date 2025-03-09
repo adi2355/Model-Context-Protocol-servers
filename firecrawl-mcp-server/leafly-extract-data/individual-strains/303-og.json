@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/303-og",
+  "name": "303 Kush",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Sleepy",
+    "Happy"
+  ],
+  "flavors": [
+    "Woody",
+    "Earthy",
+    "Pungent"
+  ],
+  "lineage": [
+    "Pre-98 Bubba Kush",
+    "Chemdawg"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Depression"
+  ],
+  "terpenes": [
+    "Limonene",
+    "Myrcene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 0,
+  "description": "The indica-dominant 303 OG is a Colorado strain bred by crossing Pre-98 Bubba Kush and Chemdawg. Its parent strains pass on a complex flavor profile of coffee and spice with diesel undertones. Its buzz can be described as social and creative, a dreamy experience perfect for letting off steam at the end of the work day. The happy euphoria induced by 303 OG may help patients treating depression, anxiety, and stress disorders.",
+  "thc_percent": 20,
+  "rating_count": 81,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

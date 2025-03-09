@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/sage",
+  "name": "SAGE",
+  "awards": [],
+  "effects": [
+    "Uplifted",
+    "Euphoric",
+    "Happy"
+  ],
+  "flavors": [
+    "Sage",
+    "Spicy/Herbal",
+    "Woody"
+  ],
+  "lineage": [
+    "Haze",
+    "Afghani"
+  ],
+  "medical": [
+    "Stress",
+    "Anxiety",
+    "Pain"
+  ],
+  "terpenes": [
+    "Terpinolene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "S.A.G.E., a.k.a. Sativa Afghani Genetic Equilibrium, is a well-balanced Haze crossed with a robust indica. This award-winner has a spicy sandalwood flavor combined with a long-lasting and uplifting high.",
+  "thc_percent": 19,
+  "rating_count": 290,
+  "average_rating": 4.1,
+  "classification": "Hybrid"
+}

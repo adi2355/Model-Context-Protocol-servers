@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/blueberry-kush",
+  "name": "Blueberry Kush",
+  "awards": [],
+  "effects": [
+    "Sleepy",
+    "Relaxed",
+    "Hungry"
+  ],
+  "flavors": [
+    "Blueberry",
+    "Berry",
+    "Sweet"
+  ],
+  "lineage": [
+    "Blueberry",
+    "OG Kush"
+  ],
+  "medical": [
+    "Stress",
+    "Pain",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Caryophyllene",
+    "Pinene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "easy",
+    "flowering_time_weeks": 8
+  },
+  "cbd_percent": null,
+  "description": "Blueberry Kush, also known as \"Blueberry OG Kush,\" is a potent indica marijuana strain made by crossing Blueberry and OG Kush. This strain produces effects that slowly brings on a heavy body sensation, helping consumers forget their stress and relax. Blueberry Kush is a popular choice for evening use, as its dreamy effects will float you into a deep sleep. Medical marijuana patients choose this strain to help relieve symptoms associated with insomnia and stress.",
+  "thc_percent": 18,
+  "rating_count": 1147,
+  "average_rating": 4.2,
+  "classification": "Indica"
+}

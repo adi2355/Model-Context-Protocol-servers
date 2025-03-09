@@ -1,0 +1,40 @@
+{
+  "url": "https://www.leafly.com/strains/midnight",
+  "name": "Midnight",
+  "awards": [],
+  "effects": [
+    "Focused",
+    "Relaxed",
+    "Uplifted"
+  ],
+  "flavors": [
+    "Lavender",
+    "Rose",
+    "Sage"
+  ],
+  "lineage": [
+    "Tikun Olam"
+  ],
+  "medical": [
+    "Pain",
+    "Anxiety",
+    "Stress"
+  ],
+  "terpenes": [
+    "Myrcene",
+    "Limonene",
+    "Linalool"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": 10,
+  "description": "Midnight, a popular strain in Israel, is a sativa-dominant variety developed by Tikun Olam to treat nausea. This high-CBD strain also controls pain, inflammation, and indigestion, with uplifting and invigorating effects ideal for daytime consumption.",
+  "thc_percent": 7,
+  "rating_count": 114,
+  "average_rating": 4.4,
+  "classification": "Hybrid"
+}

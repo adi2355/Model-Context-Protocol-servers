@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Focused, Creative, Energetic",
+  "flavors": "Tea, Rose, Menthol",
+  "medical": "Stress, Anxiety, Depression",
+  "terpenes": {
+    "pinene": "Dominant",
+    "myrcene": "Present",
+    "ocimene": "",
+    "humulene": "",
+    "limonene": "",
+    "linalool": "",
+    "terpinolene": "",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": null,
+    "difficulty": "Easy",
+    "flowering_weeks": null
+  },
+  "description": "Green Dream is a sativa-dominant hybrid cross of Green Crack and Blue Dream.",
+  "strain_name": "Green Dream",
+  "rating_count": 219,
+  "cbd_percentage": 0,
+  "cbg_percentage": null,
+  "rating_average": 4.4,
+  "thc_percentage": 15,
+  "lineage_parents": "Green Crack, Blue Dream",
+  "strain_classification": "Hybrid"
+}

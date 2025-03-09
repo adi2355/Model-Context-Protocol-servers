@@ -1,0 +1,41 @@
+{
+  "url": "https://www.leafly.com/strains/cbd-kush",
+  "name": "CBD Kush",
+  "awards": [],
+  "effects": [
+    "Relaxed",
+    "Focused",
+    "Happy"
+  ],
+  "flavors": [
+    "Nutty",
+    "Woody",
+    "Earthy"
+  ],
+  "lineage": [
+    "Kandy Kush",
+    "Unnamed high-CBD variety"
+  ],
+  "medical": [
+    "Pain",
+    "Stress",
+    "Anxiety"
+  ],
+  "terpenes": [
+    "Caryophyllene",
+    "Myrcene",
+    "Limonene"
+  ],
+  "grow_info": {
+    "yield": "medium",
+    "height": "medium",
+    "difficulty": "moderate",
+    "flowering_time_weeks": null
+  },
+  "cbd_percent": null,
+  "description": "From the collaborative efforts of CBD Crew and Dutch Passion comes CBD Kush, a hybrid strain with equal parts THC and CBD. Bred from Kandy Kush and an unnamed high-CBD variety, CBD Kush typically tests even in both THC and CBD, which may benefit consumers with a low tolerance or those treating conditions such as pain, inflammation, or anxiety. Its psychoactive effects are subtle, offering a tame experience that eases the muscles into relaxation without too much mental cloudiness.",
+  "thc_percent": 22,
+  "rating_count": 55,
+  "average_rating": 4.3,
+  "classification": "Hybrid"
+}
