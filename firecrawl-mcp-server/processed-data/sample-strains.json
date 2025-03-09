@@ -1,0 +1,410 @@
+[
+  {
+    "name": "$100 OG",
+    "url": "https://www.leafly.com/strains/100-og",
+    "classification": "Hybrid",
+    "thc_percent": null,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 2.9,
+    "rating_count": 508,
+    "effects": [
+      "Creative",
+      "Euphoric",
+      "Focused"
+    ],
+    "medical": [
+      "Stress",
+      "Anxiety",
+      "Pain"
+    ],
+    "flavors": [
+      "Coffee",
+      "Earthy",
+      "Pungent"
+    ],
+    "terpenes": [],
+    "lineage": [
+      "OG Kush"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "medium",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": 7
+    },
+    "description": "$100 OG is a 50/50 hybrid strain that packs a strong punch. The name supposedly refers to both its strength and high price when it first started showing up in Hollywood. As a plant, $100 OG tends to produce large dark green buds with few stems. Users report a strong body effect of an indica for pain relief with the more alert, cerebral feeling thanks to its sativa side."
+  },
+  {
+    "name": "1:1 Buddha's Smile",
+    "url": "https://www.leafly.com/strains/11-buddhas-smile",
+    "classification": "Hybrid",
+    "thc_percent": null,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4.7,
+    "rating_count": 24,
+    "effects": [
+      "Talkative",
+      "Happy",
+      "Relaxed"
+    ],
+    "medical": [
+      "Anxiety",
+      "Depression",
+      "Pain"
+    ],
+    "flavors": [
+      "Orange",
+      "Citrus",
+      "Lemon"
+    ],
+    "terpenes": [],
+    "lineage": [],
+    "awards": [],
+    "grow_info": {
+      "yield": "null",
+      "height": "null",
+      "difficulty": "null",
+      "flowering_time_weeks": null
+    },
+    "description": "1:1 Buddha's Smile is a hybrid marijuana strain. We're still learning about the flavors and effects of 1:1 Buddha's Smile - if you've smoked, dabbed, or consumed this strain before, tell us about it by leaving a review."
+  },
+  {
+    "name": "10th Planet",
+    "url": "https://www.leafly.com/strains/10th-planet",
+    "classification": "Hybrid",
+    "thc_percent": 17,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4.5,
+    "rating_count": 48,
+    "effects": [
+      "Giggly",
+      "Tingly",
+      "Relaxed"
+    ],
+    "medical": [
+      "Stress",
+      "Depression",
+      "Pain"
+    ],
+    "flavors": [
+      "Grape",
+      "Citrus",
+      "Skunky",
+      "Spice",
+      "Gas"
+    ],
+    "terpenes": [
+      "Myrcene",
+      "Caryophyllene",
+      "Terpinolene"
+    ],
+    "lineage": [
+      "Planet of the Grapes",
+      "Quattro Kush"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "medium",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": null
+    },
+    "description": "10th Planet, also known as \"Tenth Planet,\" is a hybrid marijuana strain made by crossing Planet of the Grapes and the Pluto cut of Quattro Kush to create this calyx-heavy strain that is out of this solar system. Flavors and aromas are heavy on the grape and citrus notes, and backed by thick, skunky spice and gas undertones. As for effects, this strong strain will put you in sedative and blissful haze. 10th Planet was originally bred by Ethos."
+  },
+  {
+    "name": "2 Scoops",
+    "url": "https://www.leafly.com/strains/2-scoops",
+    "classification": "Hybrid",
+    "thc_percent": 17,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4,
+    "rating_count": 7,
+    "effects": [
+      "Happy",
+      "Talkative",
+      "Uplifted"
+    ],
+    "medical": [
+      "Depression",
+      "Stress",
+      "Insomnia"
+    ],
+    "flavors": [
+      "Orange",
+      "Sweet",
+      "Earthy"
+    ],
+    "terpenes": [
+      "Pinene",
+      "Myrcene",
+      "Caryophyllene"
+    ],
+    "lineage": [
+      "Grape Sherbet",
+      "Orange Sherbet"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "medium",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": null
+    },
+    "description": "2 Scoops, also called \"Two Scoops\", is a hybrid weed strain made by crossing Grape Sherbet and Orange Sherbet. The effects of 2 Scoops are believed to be sleepy and giggly. Buds are big and colorful, with a mix of vivid shades of green and purple under a trichome frost. Reviewers on Leafly say 2 Scoops makes them feel talkative, creative, and happy. 2 Scoops has 17% THC. The dominant terpene in this strain is caryophyllene, with a pungent nose of creamy orange with dank overtones and sweet, earthy flavoring. Medical marijuana patients say they buy this strain when mitigating symptoms of anxiety, pain, and nausea. The original breeder of Two Scoops is T-Fly Genetics, distributed by Elev8 Genetics."
+  },
+  {
+    "name": "2090 Shit",
+    "url": "https://www.leafly.com/strains/2090-shit",
+    "classification": "Hybrid",
+    "thc_percent": 30,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4,
+    "rating_count": 7,
+    "effects": [
+      "Energetic",
+      "Happy",
+      "Uplifted"
+    ],
+    "medical": [
+      "Depression",
+      "Pain",
+      "Fatigue"
+    ],
+    "flavors": [
+      "Earthy",
+      "Sweet",
+      "Tropical"
+    ],
+    "terpenes": [],
+    "lineage": [
+      "Snowman",
+      "Y Life"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "null",
+      "height": "null",
+      "difficulty": "null",
+      "flowering_time_weeks": null
+    },
+    "description": "2090 Shit is a hybrid weed strain made from a genetic cross between Snowman and Y Life. This strain is 50% sativa and 50% indica. 2090 Shit is 30% THC, making this strain an ideal choice for experienced cannabis consumers. Bred by Powerzzzup Genetics, the average price of 2090 Shit typically ranges from $10-$15 per gram. We are still learning about 2090 Shit’s effects, flavors, and medical uses."
+  },
+  {
+    "name": "24k Gold",
+    "url": "https://www.leafly.com/strains/24k-gold",
+    "classification": "Hybrid",
+    "thc_percent": 20,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4.6,
+    "rating_count": 355,
+    "effects": [
+      "Relaxed",
+      "Happy",
+      "Uplifted"
+    ],
+    "medical": [
+      "Stress",
+      "Anxiety",
+      "Depression"
+    ],
+    "flavors": [
+      "Citrus",
+      "Orange",
+      "Grapefruit"
+    ],
+    "terpenes": [
+      "Myrcene",
+      "Pinene",
+      "Limonene"
+    ],
+    "lineage": [
+      "Kosher Kush",
+      "Tangie"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "medium",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": null
+    },
+    "description": "24k Gold, also known as \"24k,\" is a potent hybrid marijuana strain made by crossing Kosher Kush with Tangie. This strain provides euphoric and relaxing effects that leave the consumer in a happy state of mind. 24k Gold offers a sweet citrus flavor when smoked or vaped. Medical marijuana patients choose 24k Gold to relieve symptoms associated with stress, anxiety, and depression. Growers say this strain has dark colored buds like its parent, Kosher Kush. With a THC content of 20%, 24K Gold is best reserved for cannabis consumers with a high THC tolerance."
+  },
+  {
+    "name": "3 Kings",
+    "url": "https://www.leafly.com/strains/3-kings",
+    "classification": "Hybrid",
+    "thc_percent": 19,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4.4,
+    "rating_count": 359,
+    "effects": [
+      "Relaxed",
+      "Happy",
+      "Uplifted"
+    ],
+    "medical": [
+      "Stress",
+      "Depression",
+      "Anxiety"
+    ],
+    "flavors": [
+      "Pine",
+      "Sage",
+      "Earthy"
+    ],
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Myrcene"
+    ],
+    "lineage": [
+      "Headband",
+      "Sour Diesel",
+      "OG Kush"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "medium",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": null
+    },
+    "description": "3 Kings, also known as \"Three Kings,\" is a sativa-dominant hybrid marijuana strain. Three Kings is a holy trinity of Headband, Sour Diesel, and OG Kush. This genetic masterpiece features an aroma of sour tanginess that reek from sage green buds. The frosty coat of 3 Kings gives you a fair warning of this strains' legendary potency. Medical patients will appreciate the versatility of this 3 Kings medicinal effects as it relieves pain, stress, and nausea without heavy sedation."
+  },
+  {
+    "name": "303 Kush",
+    "url": "https://www.leafly.com/strains/303-og",
+    "classification": "Indica",
+    "thc_percent": 20,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4.2,
+    "rating_count": 81,
+    "effects": [
+      "Relaxed",
+      "Sleepy",
+      "Happy"
+    ],
+    "medical": [
+      "Stress",
+      "Pain",
+      "Depression"
+    ],
+    "flavors": [
+      "Woody",
+      "Earthy",
+      "Pungent"
+    ],
+    "terpenes": [
+      "Limonene",
+      "Myrcene",
+      "Linalool"
+    ],
+    "lineage": [
+      "Pre-98 Bubba Kush",
+      "Chemdawg"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "medium",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": null
+    },
+    "description": "The indica-dominant 303 OG is a Colorado strain bred by crossing Pre-98 Bubba Kush and Chemdawg. Its parent strains pass on a complex flavor profile of coffee and spice with diesel undertones. Its buzz can be described as social and creative, a dreamy experience perfect for letting off steam at the end of the work day. The happy euphoria induced by 303 OG may help patients treating depression, anxiety, and stress disorders."
+  },
+  {
+    "name": "501st OG",
+    "url": "https://www.leafly.com/strains/501st-og",
+    "classification": "Hybrid",
+    "thc_percent": 21,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4.6,
+    "rating_count": 131,
+    "effects": [
+      "Relaxed",
+      "Sleepy",
+      "Euphoric"
+    ],
+    "medical": [
+      "Stress",
+      "Pain",
+      "Insomnia"
+    ],
+    "flavors": [
+      "Pine",
+      "Earthy",
+      "Pungent"
+    ],
+    "terpenes": [
+      "Myrcene",
+      "Caryophyllene",
+      "Limonene"
+    ],
+    "lineage": [
+      "Skywalker OG",
+      "Rare Dankness #1"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "medium",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": null
+    },
+    "description": "501st OG, bred by Rare Dankness, is an indica-dominant hybrid that crosses Skywalker OG with Rare Dankness #1. The colorful flowers are tinged with a wide spectrum of green, blue, red, and purple hues that give off a deep piney kush aroma that mixes with the sweetness of grape flavors. The potent effects make 501st OG a great nighttime strain to help with pain relief and trouble sleeping."
+  },
+  {
+    "name": "707 Headband",
+    "url": "https://www.leafly.com/strains/707-headband",
+    "classification": "Hybrid",
+    "thc_percent": 20,
+    "cbd_percent": null,
+    "cbg_percent": null,
+    "average_rating": 4.3,
+    "rating_count": 438,
+    "effects": [
+      "Creative",
+      "Uplifted",
+      "Focused"
+    ],
+    "medical": [
+      "Stress",
+      "Pain",
+      "Anxiety"
+    ],
+    "flavors": [
+      "Skunk",
+      "Pungent",
+      "Earthy"
+    ],
+    "terpenes": [
+      "Myrcene",
+      "Terpinolene",
+      "Ocimene"
+    ],
+    "lineage": [
+      "Sour Diesel",
+      "OG Kush",
+      "Master Kush"
+    ],
+    "awards": [],
+    "grow_info": {
+      "yield": "high",
+      "height": "medium",
+      "difficulty": "moderate",
+      "flowering_time_weeks": 9
+    },
+    "description": "This strain emerged from the Humboldt County, California and that area’s telephone area code is the source of its numerical moniker. It’s a cross between Sour Diesel, OG Kush and Master Kush. 707 Headband plants flower in 9 to 11 weeks and usually have large yields. This strain is known to have high THC levels and can be strong, but it’s balanced enough to leave most consumers feeling calm and creative rather than sleepy. Because of this, it’s often used to treat tension and anxiety."
+  }
+]

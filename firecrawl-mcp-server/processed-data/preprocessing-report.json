@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-03-09T17:59:09.167Z",
+  "stats": {
+    "totalProcessed": 1547,
+    "formatsDetected": {
+      "newFormat": 1222,
+      "oldFormat": 216,
+      "emptyFormat": 103,
+      "unknown": 6
+    },
+    "convertedSuccessfully": 1522,
+    "missingCriticalData": 7,
+    "duplicates": 16,
+    "filesProcessed": 1,
+    "startTime": 1741543148943
+  },
+  "processingTimeSeconds": "0.22",
+  "datasetSize": 1522,
+  "nullValueSummary": {
+    "name": {
+      "count": 0,
+      "percentage": "0.0"
+    },
+    "classification": {
+      "count": 2,
+      "percentage": "0.1"
+    },
+    "thc_percent": {
+      "count": 371,
+      "percentage": "24.4"
+    },
+    "cbd_percent": {
+      "count": 1284,
+      "percentage": "84.4"
+    },
+    "cbg_percent": {
+      "count": 1403,
+      "percentage": "92.2"
+    },
+    "average_rating": {
+      "count": 176,
+      "percentage": "11.6"
+    },
+    "rating_count": {
+      "count": 0,
+      "percentage": "0.0"
+    },
+    "effects": {
+      "count": 107,
+      "percentage": "7.0"
+    },
+    "medical": {
+      "count": 110,
+      "percentage": "7.2"
+    },
+    "flavors": {
+      "count": 104,
+      "percentage": "6.8"
+    },
+    "terpenes": {
+      "count": 362,
+      "percentage": "23.8"
+    },
+    "lineage": {
+      "count": 157,
+      "percentage": "10.3"
+    },
+    "awards": {
+      "count": 1394,
+      "percentage": "91.6"
+    },
+    "description": {
+      "count": 162,
+      "percentage": "10.6"
+    },
+    "grow_info": {
+      "yield": {
+        "count": 133,
+        "percentage": "8.7"
+      },
+      "height": {
+        "count": 157,
+        "percentage": "10.3"
+      },
+      "difficulty": {
+        "count": 108,
+        "percentage": "7.1"
+      },
+      "flowering_time_weeks": {
+        "count": 1050,
+        "percentage": "69.0"
+      }
+    }
+  },
+  "dataQualityValidation": {
+    "fieldPresence": {
+      "name": {
+        "count": 1522,
+        "percentage": "100.0"
+      },
+      "classification": {
+        "count": 1520,
+        "percentage": "99.9"
+      },
+      "thc_percent": {
+        "count": 1151,
+        "percentage": "75.6"
+      },
+      "effects": {
+        "count": 1415,
+        "percentage": "93.0"
+      },
+      "flavors": {
+        "count": 1418,
+        "percentage": "93.2"
+      },
+      "terpenes": {
+        "count": 1160,
+        "percentage": "76.2"
+      }
+    },
+    "scores": {
+      "completeness": 91.83092422251423,
+      "consistency": 89.64082347787998,
+      "richness": 76.21550591327201
+    },
+    "overallQuality": "Very Good (88.1% score)",
+    "recommendations": [
+      "Consider validating THC/CBD percentages against reliable sources",
+      "Standardize terpene names and remove spelling variations",
+      "Validate strain classifications (Indica/Sativa/Hybrid)"
+    ]
+  }
+}
