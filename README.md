@@ -53,6 +53,68 @@ You can set the API key in one of two ways:
 - Exports data in CSV or JSON format
 - Built-in fallback mechanisms for strains that aren't directly accessible
 
+### Implementation Approaches
+
+#### Regex-Based Extraction
+
+The repository includes a regex-based scraper that extracts data using pattern matching:
+
+```typescript
+// Extract cannabinoids using regex
+function extractCannabinoids(content: string, strainData: StrainData): void {
+  // THC extraction
+  const thcMatch = content.match(/THC\s+(\d+(?:\.\d+)?)-?(\d+(?:\.\d+)?)?\s*%/i);
+  if (thcMatch) {
+    // Take higher end of range per methodology
+    const thcValue = thcMatch[2] ? parseFloat(thcMatch[2]) : parseFloat(thcMatch[1]);
+    strainData["cannabinoids.THC"] = thcValue / 100;
+  }
+  
+  // Similar patterns for other cannabinoids
+}
+```
+
+#### LLM-Powered Extraction (Recommended)
+
+The repository also includes an advanced LLM-powered extraction method that uses structured schemas and AI to extract information more accurately:
+
+```typescript
+// Using the extract tool for LLM-powered extraction
+const strainSchema = {
+  type: 'object',
+  properties: {
+    "strain_name": { type: 'string' },
+    "aliases": { type: 'string' },
+    "strain_classification": { type: 'string' },
+    "thc_percentage": { type: 'number' },
+    "cbd_percentage": { type: 'number' },
+    "cbg_percentage": { type: 'number' },
+    "terpenes": { 
+      type: 'object',
+      properties: {
+        "myrcene": { type: 'string' },
+        "caryophyllene": { type: 'string' }
+        // Other terpenes...
+      }
+    },
+    // Other properties...
+  }
+};
+
+// Extract data using LLM
+const extractedData = await client.extract([strainUrl], {
+  schema: strainSchema,
+  systemPrompt: "Extract precise cannabis strain data. Use exact numbers when available.",
+  prompt: `Extract all available data for the cannabis strain "${strain}" according to the schema.`
+});
+```
+
+Benefits of LLM extraction:
+- Better handling of unstructured text and variations in formatting
+- More resilient to website changes
+- Can infer missing values based on context
+- Extracts relationships between data points
+
 ### Data Structure
 
 The scraper collects the following categories of data for each strain:
@@ -78,6 +140,32 @@ Once integrated with the Firecrawl MCP server, the tool can be called with the f
   "arguments": {
     "strains": ["Blue Dream", "OG Kush", "Sour Diesel"],
     "exportFormat": "csv"  // or "json"
+  }
+}
+```
+
+#### Using the Extract Tool Directly
+
+For more advanced extraction with the LLM-powered approach:
+
+```json
+{
+  "name": "firecrawl_extract",
+  "arguments": {
+    "urls": ["https://www.leafly.com/strains/blue-dream"],
+    "schema": {
+      "type": "object",
+      "properties": {
+        "strain_name": { "type": "string" },
+        "thc_percentage": { "type": "number" },
+        "cbd_percentage": { "type": "number" },
+        "effects": { "type": "string" },
+        "flavors": { "type": "string" },
+        "medical": { "type": "string" },
+        "terpenes": { "type": "object" }
+      }
+    },
+    "prompt": "Extract comprehensive cannabis strain data from this Leafly page."
   }
 }
 ```
