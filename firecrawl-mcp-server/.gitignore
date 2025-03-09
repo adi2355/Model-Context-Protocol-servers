@@ -27,3 +27,6 @@ v1.2.md
 # OS
 .DS_Store
 Thumbs.db 
+extract-leafly-strains.js
+cleanup-datasets.js
+cleanup.js
