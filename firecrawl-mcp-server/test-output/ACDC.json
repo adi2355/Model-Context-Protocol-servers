@@ -1,0 +1,23 @@
+[
+  {
+    "Strain Name": "ACDC",
+    "strain_classification": "Hybrid",
+    "grow_info.yield": "Medium",
+    "grow_info.height": "Tall (>150cm)",
+    "grow_info.difficulty": "Moderate",
+    "grow_info.flowering_weeks": 9,
+    "description": "This strain produces little to no intoxicating effects.",
+    "THC %": 1,
+    "CBD %": 13,
+    "CBG %": 1,
+    "Caryophyllene": "Present",
+    "Myrcene": "Dominant",
+    "Pinene": "Present",
+    "Humulene": "Present",
+    "Terpinolene": "Dominant",
+    "Ocimene": "Dominant",
+    "Terpineol": "Present",
+    "Medical": "Stress, Anxiety, Pain",
+    "Flavors": "Woody"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "awards": "",
+    "aliases": "",
+    "effects": "Creative, Euphoric, Happy",
+    "flavors": "Berry, Blueberry, Sweet",
+    "medical": "Stress, Anxiety, Depression",
+    "terpenes": {
+      "pinene": "Present",
+      "myrcene": "Dominant",
+      "ocimene": "",
+      "humulene": "",
+      "limonene": "",
+      "linalool": "",
+      "terpinolene": "",
+      "caryophyllene": "Present"
+    },
+    "grow_info": {
+      "yield": "High",
+      "height": "Average",
+      "difficulty": "Easy",
+      "flowering_weeks": 9
+    },
+    "description": "Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue Dream can be more than 20% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers.",
+    "strain_name": "Blue Dream",
+    "rating_count": 14749,
+    "cbd_percentage": 0,
+    "cbg_percentage": null,
+    "rating_average": 4.3,
+    "thc_percentage": 21,
+    "lineage_parents": "Blueberry, Haze",
+    "strain_classification": "Hybrid"
+  },
+  {
+    "awards": "",
+    "aliases": "",
+    "effects": "Relaxed, Focused, Uplifted",
+    "flavors": "Woody, Earthy, Pine",
+    "medical": "Pain, Anxiety, Stress",
+    "terpenes": {
+      "pinene": "Present",
+      "myrcene": "Dominant",
+      "ocimene": "",
+      "humulene": "",
+      "limonene": "",
+      "linalool": "",
+      "terpinolene": "",
+      "caryophyllene": "Present"
+    },
+    "grow_info": {
+      "yield": "Medium",
+      "height": "Average",
+      "difficulty": "Easy",
+      "flowering_weeks": null
+    },
+    "description": "ACDC is a CBD-dominant marijuana strain made from a phenotype of Cannatonic. This strain produces little to no intoxicating effects. Medical marijuana patients choose ACDC to help treat various ailments like pain, anxiety, epilepsy and the negative effects of chemotherapy.",
+    "strain_name": "ACDC",
+    "rating_count": 834,
+    "cbd_percentage": 13,
+    "cbg_percentage": null,
+    "rating_average": 4.5,
+    "thc_percentage": 1,
+    "lineage_parents": "Cannatonic",
+    "strain_classification": "Hybrid"
+  },
+  {
+    "awards": "",
+    "aliases": "Grand Daddy Purp, Granddaddy Purple Kush, Granddaddy Purps, GDP, Grandaddy Purple, Grandaddy Purp",
+    "effects": "Sleepy, Relaxed, Hungry",
+    "flavors": "Grape, Berry, Violet",
+    "medical": "Stress, Anxiety, Pain",
+    "terpenes": {
+      "pinene": "Present",
+      "myrcene": "Dominant",
+      "ocimene": "",
+      "humulene": "",
+      "limonene": "",
+      "linalool": "",
+      "terpinolene": "",
+      "caryophyllene": "Present"
+    },
+    "grow_info": {
+      "yield": "High",
+      "height": "Average",
+      "difficulty": "Easy",
+      "flowering_weeks": 8
+    },
+    "description": "Granddaddy Purple is an indica marijuana strain that goes by many different names, including \"Grand Daddy Purp,\" \"Granddaddy Purps,\" \"GDP,\" and \"Grandaddy Purple Kush.\" Popularized in 2003 by Ken Estes, Granddaddy Purple (or GDP) is a famous indica cross of Mendo Purps, Skunk, and Afghanistan. Other people claim it is Big Bud x Purple Urkle. Either way, this California staple inherits a complex grape and berry aroma from its Purps and Ghani heritage. GDP flowers bloom in shades of deep purple, a contrasting backdrop for its snow-like dusting of white crystal resin. Its potent effects are clearly detectable in both mind and body, delivering a fusion of cerebral euphoria and physical relaxation. While your thoughts may float in a dreamy buzz, your body is more likely to find itself fixed in one spot for the duration of GDP’s effects. Granddaddy Purple is typically pulled off the shelf for consumers looking to combat pain, stress, insomnia, appetite loss, and muscle spasms. GDP blesses growers with massive yields which are ready for harvest following a 60 day flowering time indoors.",
+    "strain_name": "Granddaddy Purple",
+    "rating_count": 5634,
+    "cbd_percentage": 0,
+    "cbg_percentage": null,
+    "rating_average": 4.4,
+    "thc_percentage": 17,
+    "lineage_parents": "Mendo Purps, Skunk, Afghanistan",
+    "strain_classification": "Indica"
+  },
+  {
+    "awards": "Numerous awards for quality and potency",
+    "aliases": "JH, The Jack, Premium Jack, Platinum Jack",
+    "effects": "Focused, Energetic, Creative",
+    "flavors": "Pine, Woody, Earthy",
+    "medical": "Stress, Anxiety, Depression",
+    "terpenes": {
+      "pinene": "Present",
+      "myrcene": "",
+      "ocimene": "",
+      "humulene": "",
+      "limonene": "",
+      "linalool": "",
+      "terpinolene": "Dominant",
+      "caryophyllene": "Present"
+    },
+    "grow_info": {
+      "yield": "Medium",
+      "height": "Average",
+      "difficulty": "Moderate",
+      "flowering_weeks": 8
+    },
+    "description": "Jack Herer, also known as 'JH,' 'The Jack,' 'Premium Jack,' and 'Platinum Jack' is a sativa-dominant marijuana strain that has gained as much renown as its namesake, the marijuana activist and author of The Emperor Wears No Clothes. Combining a Haze hybrid with a Northern Lights #5 and Shiva Skunk cross, Sensi Seeds created Jack Herer hoping to capture both cerebral elevation and heavy resin production.",
+    "strain_name": "Jack Herer",
+    "rating_count": 5075,
+    "cbd_percentage": 0,
+    "cbg_percentage": 1,
+    "rating_average": 4.4,
+    "thc_percentage": 18,
+    "lineage_parents": "Haze, Northern Lights #5, Shiva Skunk",
+    "strain_classification": "Sativa"
+  },
+  {
+    "awards": "Leafly Strain of the Year 2019",
+    "aliases": "Triangle Mints #23, Pink Cookies",
+    "effects": "Relaxed, Aroused, Hungry",
+    "flavors": "Vanilla, Pepper, Butter",
+    "medical": "Anxiety, Stress, Depression",
+    "terpenes": {
+      "pinene": "",
+      "myrcene": "Present",
+      "ocimene": "",
+      "humulene": "",
+      "limonene": "Present",
+      "linalool": "",
+      "terpinolene": "",
+      "caryophyllene": "Dominant"
+    },
+    "grow_info": {
+      "yield": "Medium",
+      "height": "",
+      "difficulty": "Moderate",
+      "flowering_weeks": 8
+    },
+    "description": "Wedding Cake, also known as 'Triangle Mints #23,' is a potent type of indica-hybrid marijuana strain made by crossing Triangle Kush with Animal Mints. The Wedding Cake strain provides relaxing and euphoric effects that calm the body and mind. This strain yields a rich and tangy flavor profile with undertones of earthy pepper.",
+    "strain_name": "Wedding Cake",
+    "rating_count": 2569,
+    "cbd_percentage": 0,
+    "cbg_percentage": 1,
+    "rating_average": 4.6,
+    "thc_percentage": 24,
+    "lineage_parents": "Triangle Kush, Animal Mints",
+    "strain_classification": "Hybrid"
+  }
+]

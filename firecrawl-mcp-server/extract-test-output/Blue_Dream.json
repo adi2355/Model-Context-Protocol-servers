@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Creative, Euphoric, Happy",
+  "flavors": "Berry, Blueberry, Sweet",
+  "medical": "Stress, Anxiety, Depression",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "",
+    "humulene": "",
+    "limonene": "",
+    "linalool": "",
+    "terpinolene": "",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "High",
+    "height": "Average",
+    "difficulty": "Easy",
+    "flowering_weeks": 9
+  },
+  "description": "Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation. Blue Dream can be more than 20% THC but has a low CBD percentage, making this potent strain a fan favorite of both novice and veteran cannabis consumers.",
+  "strain_name": "Blue Dream",
+  "rating_count": 14749,
+  "cbd_percentage": 0,
+  "cbg_percentage": null,
+  "rating_average": 4.3,
+  "thc_percentage": 21,
+  "lineage_parents": "Blueberry, Haze",
+  "strain_classification": "Hybrid"
+}

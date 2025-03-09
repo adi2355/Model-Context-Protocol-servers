@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": {
+    "awards": "Leafly Strain of the Year 2019",
+    "aliases": "Grand Daddy Purp, Granddaddy Purple Kush, Granddaddy Purps, GDP",
+    "effects": "Creative, Euphoric, Happy",
+    "flavors": "Berry, Blueberry, Sweet",
+    "medical": "Stress, Anxiety, Depression",
+    "terpenes": {
+      "pinene": "",
+      "myrcene": "Present",
+      "ocimene": "",
+      "humulene": "",
+      "limonene": "Present",
+      "linalool": "",
+      "terpinolene": "",
+      "caryophyllene": "Dominant"
+    },
+    "grow_info": {
+      "yield": "Average",
+      "height": "",
+      "difficulty": "Moderate",
+      "flowering_weeks": 8
+    },
+    "description": "Blue Dream is a sativa-dominant hybrid marijuana strain made by crossing Blueberry with Haze. This strain produces a balanced high, along with effects such as cerebral stimulation and full-body relaxation.",
+    "strain_name": "Blue Dream",
+    "rating_count": 14700,
+    "cbd_percentage": 13,
+    "cbg_percentage": 1,
+    "rating_average": 4.3,
+    "thc_percentage": 21,
+    "lineage_parents": "Blueberry, Haze",
+    "strain_classification": "Hybrid"
+  }
+}

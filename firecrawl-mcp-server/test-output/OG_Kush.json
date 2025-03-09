@@ -1,0 +1,24 @@
+[
+  {
+    "Strain Name": "OG Kush",
+    "aliases": "Premium OG Kush,",
+    "strain_classification": "Hybrid",
+    "rating.average": 4.5,
+    "grow_info.flowering_weeks": 8,
+    "grow_info.yield": "Low",
+    "grow_info.height": "Short (<100cm)",
+    "grow_info.difficulty": "Moderate",
+    "description": "OG often refers to “Original Gangster,” or \"Ocean Grown\" indicating either the strain’s authenticity or intensity. Many people have different names for the acronym, but real OG Kush should smell like lemon-pine-fuel with a high-THC, mixed head and body effect.",
+    "THC %": 25,
+    "CBD %": 0,
+    "CBG %": 1,
+    "Caryophyllene": "Present",
+    "Limonene": "Present",
+    "Myrcene": "Dominant",
+    "Humulene": "Present",
+    "Terpinolene": "Dominant",
+    "Ocimene": "Dominant",
+    "Valencene": "Present",
+    "Medical": "Stress, Anxiety, Pain"
+  }
+]

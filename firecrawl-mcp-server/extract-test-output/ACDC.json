@@ -1,0 +1,32 @@
+{
+  "awards": "",
+  "aliases": "",
+  "effects": "Relaxed, Focused, Uplifted",
+  "flavors": "Woody, Earthy, Pine",
+  "medical": "Pain, Anxiety, Stress",
+  "terpenes": {
+    "pinene": "Present",
+    "myrcene": "Dominant",
+    "ocimene": "",
+    "humulene": "",
+    "limonene": "",
+    "linalool": "",
+    "terpinolene": "",
+    "caryophyllene": "Present"
+  },
+  "grow_info": {
+    "yield": "Medium",
+    "height": "Average",
+    "difficulty": "Easy",
+    "flowering_weeks": null
+  },
+  "description": "ACDC is a CBD-dominant marijuana strain made from a phenotype of Cannatonic. This strain produces little to no intoxicating effects. Medical marijuana patients choose ACDC to help treat various ailments like pain, anxiety, epilepsy and the negative effects of chemotherapy.",
+  "strain_name": "ACDC",
+  "rating_count": 834,
+  "cbd_percentage": 13,
+  "cbg_percentage": null,
+  "rating_average": 4.5,
+  "thc_percentage": 1,
+  "lineage_parents": "Cannatonic",
+  "strain_classification": "Hybrid"
+}
