@@ -252,7 +252,7 @@ The server provides tools for code analysis:
 - **/file/info/{filepath}**: Get file metadata
 - **/file/changes/{directory}**: Get recently modified files
 
-## 3. DeepSeek R1 MCP Server
+## 3. DeepSeek R1 extended MCP Server
 
 This MCP server provides access to DeepSeek AI models for text generation, summarization, and document processing.
 
