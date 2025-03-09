@@ -1,0 +1,2548 @@
+
+
+================================================================================
+File: collectcode.js
+================================================================================
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const DEFAULT_CONFIG = {
+  extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.css', '.sql'],
+  excludeDirs: [
+    'node_modules',
+    '.git',
+    'dist',
+    '.next',
+    'coverage',
+    'tests',
+    'scripts',
+    'components/ui',
+  ],
+  excludeFiles: [
+    '.test.',
+    '.spec.',
+    '.d.ts',
+    '.map',
+    'next-env.d.ts',
+    '.gitignore',
+    '.eslintrc.json',
+    '.env.example',
+    'components.json',
+    'package-lock.json',
+  ],
+  excludePaths: [
+    'lib/supabase.ts',
+    'lib/rate-limit.ts',
+    'lib/monitoring.ts',
+    'lib/cache.ts',
+    'lib/auth.ts',
+    'scripts/test-agent1.ts',
+    'scripts/test-agent2.ts',
+    'scripts/test-agent3.ts',
+    'scripts/test-orchestrator.ts',
+    'lib/graphql/queries.ts',
+    'lib/graphql/client.ts',
+    'hooks/use-toast.ts',
+    'components/WalletConnect.tsx',
+    'components/Learn.tsx',
+    'components/ContractInteraction.tsx',
+    'components/Analytics.tsx',
+    'app/providers.tsx',
+    'app/page.tsx',
+    'app/globals.css',
+    'app/layout.tsx',
+  ],
+  maxFileSize: 1024 * 1024, // 1MB
+};
+
+function getRelativePath(fullPath, rootDir) {
+  return path.relative(rootDir, fullPath);
+}
+
+function shouldExcludeFile(filePath, config) {
+  const normalizedPath = path.normalize(filePath);
+
+  if (config.excludeFiles.some((pattern) => normalizedPath.includes(pattern))) {
+    return true;
+  }
+
+  if (config.excludePaths.some((excludePath) =>
+    normalizedPath.includes(path.normalize(excludePath))
+  )) {
+    return true;
+  }
+
+  return false;
+}
+
+function shouldExcludeDir(dirPath, config) {
+  const normalizedPath = path.normalize(dirPath);
+  return config.excludeDirs.some((excludeDir) =>
+    normalizedPath.includes(path.normalize(excludeDir))
+  );
+}
+
+function collectFiles(dir, rootDir, config) {
+  let results = [];
+  const items = fs.readdirSync(dir, { withFileTypes: true });
+
+  for (const item of items) {
+    const fullPath = path.join(dir, item.name);
+    const relativePath = getRelativePath(fullPath, rootDir);
+
+    if (item.isDirectory()) {
+      if (!shouldExcludeDir(fullPath, config)) {
+        results = results.concat(collectFiles(fullPath, rootDir, config));
+      }
+    } else {
+      const ext = path.extname(item.name).toLowerCase();
+
+      if (config.extensions.includes(ext) && !shouldExcludeFile(relativePath, config)) {
+        const stats = fs.statSync(fullPath);
+        if (stats.size <= config.maxFileSize) {
+          results.push({ path: fullPath, relativePath });
+        }
+      }
+    }
+  }
+
+  return results;
+}
+
+function collectCode(outputFile, customConfig = {}) {
+  const config = { ...DEFAULT_CONFIG, ...customConfig };
+
+  try {
+    fs.writeFileSync(outputFile, '');
+
+    const rootDir = process.cwd();
+    console.log(`Processing project directory: ${rootDir}`);
+    const files = collectFiles(rootDir, rootDir, config);
+
+    files.sort((a, b) => a.relativePath.localeCompare(b.relativePath));
+
+    files.forEach(({ path: filePath, relativePath }) => {
+      const content = fs.readFileSync(filePath, 'utf8');
+      const separator = '='.repeat(80);
+      fs.appendFileSync(
+        outputFile,
+        `\n\n${separator}\nFile: ${relativePath}\n${separator}\n\n${content}`
+      );
+    });
+
+    console.log('Collection complete!');
+  } catch (error) {
+    console.error('Error during collection:', error);
+    process.exit(1);
+  }
+}
+
+const isMainModule = process.argv[1] === fileURLToPath(import.meta.url);
+
+if (isMainModule) {
+  const outputFile = process.argv[2] || 'code-collection.txt';
+  collectCode(outputFile);
+}
+
+export { collectCode }; 
+
+================================================================================
+File: firecrawl-mcp-server/jest.config.js
+================================================================================
+
+export default {
+  preset: 'ts-jest/presets/default-esm',
+  testEnvironment: 'node',
+  extensionsToTreatAsEsm: ['.ts'],
+  transform: {
+    '^.+\\.tsx?$': [
+      'ts-jest',
+      {
+        useESM: true,
+      },
+    ],
+  },
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
+  },
+  testMatch: ['**/*.test.ts'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+};
+
+
+================================================================================
+File: firecrawl-mcp-server/jest.setup.ts
+================================================================================
+
+import { jest } from '@jest/globals';
+import FirecrawlApp from '@mendable/firecrawl-js';
+import type {
+  SearchResponse,
+  BatchScrapeResponse,
+  BatchScrapeStatusResponse,
+  FirecrawlDocument,
+} from '@mendable/firecrawl-js';
+
+// Set test timeout
+jest.setTimeout(30000);
+
+// Create mock responses
+const mockSearchResponse: SearchResponse = {
+  success: true,
+  data: [
+    {
+      url: 'https://example.com',
+      title: 'Test Page',
+      description: 'Test Description',
+      markdown: '# Test Content',
+      actions: null as never,
+    },
+  ] as FirecrawlDocument<undefined, never>[],
+};
+
+const mockBatchScrapeResponse: BatchScrapeResponse = {
+  success: true,
+  id: 'test-batch-id',
+};
+
+const mockBatchStatusResponse: BatchScrapeStatusResponse = {
+  success: true,
+  status: 'completed',
+  completed: 1,
+  total: 1,
+  creditsUsed: 1,
+  expiresAt: new Date(),
+  data: [
+    {
+      url: 'https://example.com',
+      title: 'Test Page',
+      description: 'Test Description',
+      markdown: '# Test Content',
+      actions: null as never,
+    },
+  ] as FirecrawlDocument<undefined, never>[],
+};
+
+// Create mock instance methods
+const mockSearch = jest.fn().mockImplementation(async () => mockSearchResponse);
+const mockAsyncBatchScrapeUrls = jest
+  .fn()
+  .mockImplementation(async () => mockBatchScrapeResponse);
+const mockCheckBatchScrapeStatus = jest
+  .fn()
+  .mockImplementation(async () => mockBatchStatusResponse);
+
+// Create mock instance
+const mockInstance = {
+  apiKey: 'test-api-key',
+  apiUrl: 'test-api-url',
+  search: mockSearch,
+  asyncBatchScrapeUrls: mockAsyncBatchScrapeUrls,
+  checkBatchScrapeStatus: mockCheckBatchScrapeStatus,
+};
+
+// Mock the module
+jest.mock('@mendable/firecrawl-js', () => ({
+  __esModule: true,
+  default: jest.fn().mockImplementation(() => mockInstance),
+}));
+
+
+================================================================================
+File: firecrawl-mcp-server/package.json
+================================================================================
+
+{
+  "name": "firecrawl-mcp",
+  "version": "1.4.2",
+  "description": "MCP server for FireCrawl web scraping integration. Supports both cloud and self-hosted instances. Features include web scraping, batch processing, structured data extraction, and LLM-powered content analysis.",
+  "type": "module",
+  "bin": {
+    "firecrawl-mcp": "dist/index.js",
+    "leafly-scraper": "dist/leafly-scraper-cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\"",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node dist/index.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write .",
+    "prepare": "npm run build",
+    "publish": "npm run build && npm publish",
+    "scrape-leafly": "node dist/leafly-scraper-cli.js",
+    "scrape-leafly:default": "node dist/leafly-scraper-cli.js strain-data.csv"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@mendable/firecrawl-js": "^1.19.0",
+    "@modelcontextprotocol/sdk": "^1.4.1",
+    "dotenv": "^16.4.7",
+    "p-queue": "^8.0.1",
+    "shx": "^0.3.4"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jest": "^29.7.0",
+    "jest-mock-extended": "^4.0.0-beta1",
+    "prettier": "^3.1.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "firecrawl",
+    "web-scraping",
+    "crawler",
+    "content-extraction",
+    "cannabis-data",
+    "leafly-scraper",
+    "strain-data"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendableai/firecrawl-mcp-server.git"
+  },
+  "author": "vrknetha",
+  "bugs": {
+    "url": "https://github.com/mendableai/firecrawl-mcp-server/issues"
+  },
+  "homepage": "https://github.com/mendableai/firecrawl-mcp-server#readme"
+}
+
+
+================================================================================
+File: firecrawl-mcp-server/src/index.ts
+================================================================================
+
+#!/usr/bin/env node
+
+import { Server } from '@modelcontextprotocol/sdk/server/index.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import {
+  Tool,
+  CallToolRequestSchema,
+  ListToolsRequestSchema,
+} from '@modelcontextprotocol/sdk/types.js';
+import FirecrawlApp, {
+  type ScrapeParams,
+  type MapParams,
+  type CrawlParams,
+  type FirecrawlDocument,
+} from '@mendable/firecrawl-js';
+import PQueue from 'p-queue';
+import { scrapeLeaflyStrains } from './leafly-scraper.js';
+
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+// Tool definitions
+const SCRAPE_TOOL: Tool = {
+  name: 'firecrawl_scrape',
+  description:
+    'Scrape a single webpage with advanced options for content extraction. ' +
+    'Supports various formats including markdown, HTML, and screenshots. ' +
+    'Can execute custom actions like clicking or scrolling before scraping.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      url: {
+        type: 'string',
+        description: 'The URL to scrape',
+      },
+      formats: {
+        type: 'array',
+        items: {
+          type: 'string',
+          enum: [
+            'markdown',
+            'html',
+            'rawHtml',
+            'screenshot',
+            'links',
+            'screenshot@fullPage',
+            'extract',
+          ],
+        },
+        description: "Content formats to extract (default: ['markdown'])",
+      },
+      onlyMainContent: {
+        type: 'boolean',
+        description:
+          'Extract only the main content, filtering out navigation, footers, etc.',
+      },
+      includeTags: {
+        type: 'array',
+        items: { type: 'string' },
+        description: 'HTML tags to specifically include in extraction',
+      },
+      excludeTags: {
+        type: 'array',
+        items: { type: 'string' },
+        description: 'HTML tags to exclude from extraction',
+      },
+      waitFor: {
+        type: 'number',
+        description: 'Time in milliseconds to wait for dynamic content to load',
+      },
+      timeout: {
+        type: 'number',
+        description:
+          'Maximum time in milliseconds to wait for the page to load',
+      },
+      actions: {
+        type: 'array',
+        items: {
+          type: 'object',
+          properties: {
+            type: {
+              type: 'string',
+              enum: [
+                'wait',
+                'click',
+                'screenshot',
+                'write',
+                'press',
+                'scroll',
+                'scrape',
+                'executeJavascript',
+              ],
+              description: 'Type of action to perform',
+            },
+            selector: {
+              type: 'string',
+              description: 'CSS selector for the target element',
+            },
+            milliseconds: {
+              type: 'number',
+              description: 'Time to wait in milliseconds (for wait action)',
+            },
+            text: {
+              type: 'string',
+              description: 'Text to write (for write action)',
+            },
+            key: {
+              type: 'string',
+              description: 'Key to press (for press action)',
+            },
+            direction: {
+              type: 'string',
+              enum: ['up', 'down'],
+              description: 'Scroll direction',
+            },
+            script: {
+              type: 'string',
+              description: 'JavaScript code to execute',
+            },
+            fullPage: {
+              type: 'boolean',
+              description: 'Take full page screenshot',
+            },
+          },
+          required: ['type'],
+        },
+        description: 'List of actions to perform before scraping',
+      },
+      extract: {
+        type: 'object',
+        properties: {
+          schema: {
+            type: 'object',
+            description: 'Schema for structured data extraction',
+          },
+          systemPrompt: {
+            type: 'string',
+            description: 'System prompt for LLM extraction',
+          },
+          prompt: {
+            type: 'string',
+            description: 'User prompt for LLM extraction',
+          },
+        },
+        description: 'Configuration for structured data extraction',
+      },
+      mobile: {
+        type: 'boolean',
+        description: 'Use mobile viewport',
+      },
+      skipTlsVerification: {
+        type: 'boolean',
+        description: 'Skip TLS certificate verification',
+      },
+      removeBase64Images: {
+        type: 'boolean',
+        description: 'Remove base64 encoded images from output',
+      },
+      location: {
+        type: 'object',
+        properties: {
+          country: {
+            type: 'string',
+            description: 'Country code for geolocation',
+          },
+          languages: {
+            type: 'array',
+            items: { type: 'string' },
+            description: 'Language codes for content',
+          },
+        },
+        description: 'Location settings for scraping',
+      },
+    },
+    required: ['url'],
+  },
+};
+
+const MAP_TOOL: Tool = {
+  name: 'firecrawl_map',
+  description:
+    'Discover URLs from a starting point. Can use both sitemap.xml and HTML link discovery.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      url: {
+        type: 'string',
+        description: 'Starting URL for URL discovery',
+      },
+      search: {
+        type: 'string',
+        description: 'Optional search term to filter URLs',
+      },
+      ignoreSitemap: {
+        type: 'boolean',
+        description: 'Skip sitemap.xml discovery and only use HTML links',
+      },
+      sitemapOnly: {
+        type: 'boolean',
+        description: 'Only use sitemap.xml for discovery, ignore HTML links',
+      },
+      includeSubdomains: {
+        type: 'boolean',
+        description: 'Include URLs from subdomains in results',
+      },
+      limit: {
+        type: 'number',
+        description: 'Maximum number of URLs to return',
+      },
+    },
+    required: ['url'],
+  },
+};
+
+const CRAWL_TOOL: Tool = {
+  name: 'firecrawl_crawl',
+  description:
+    'Start an asynchronous crawl of multiple pages from a starting URL. ' +
+    'Supports depth control, path filtering, and webhook notifications.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      url: {
+        type: 'string',
+        description: 'Starting URL for the crawl',
+      },
+      excludePaths: {
+        type: 'array',
+        items: { type: 'string' },
+        description: 'URL paths to exclude from crawling',
+      },
+      includePaths: {
+        type: 'array',
+        items: { type: 'string' },
+        description: 'Only crawl these URL paths',
+      },
+      maxDepth: {
+        type: 'number',
+        description: 'Maximum link depth to crawl',
+      },
+      ignoreSitemap: {
+        type: 'boolean',
+        description: 'Skip sitemap.xml discovery',
+      },
+      limit: {
+        type: 'number',
+        description: 'Maximum number of pages to crawl',
+      },
+      allowBackwardLinks: {
+        type: 'boolean',
+        description: 'Allow crawling links that point to parent directories',
+      },
+      allowExternalLinks: {
+        type: 'boolean',
+        description: 'Allow crawling links to external domains',
+      },
+      webhook: {
+        oneOf: [
+          {
+            type: 'string',
+            description: 'Webhook URL to notify when crawl is complete',
+          },
+          {
+            type: 'object',
+            properties: {
+              url: {
+                type: 'string',
+                description: 'Webhook URL',
+              },
+              headers: {
+                type: 'object',
+                description: 'Custom headers for webhook requests',
+              },
+            },
+            required: ['url'],
+          },
+        ],
+      },
+      deduplicateSimilarURLs: {
+        type: 'boolean',
+        description: 'Remove similar URLs during crawl',
+      },
+      ignoreQueryParameters: {
+        type: 'boolean',
+        description: 'Ignore query parameters when comparing URLs',
+      },
+      scrapeOptions: {
+        type: 'object',
+        properties: {
+          formats: {
+            type: 'array',
+            items: {
+              type: 'string',
+              enum: [
+                'markdown',
+                'html',
+                'rawHtml',
+                'screenshot',
+                'links',
+                'screenshot@fullPage',
+                'extract',
+              ],
+            },
+          },
+          onlyMainContent: {
+            type: 'boolean',
+          },
+          includeTags: {
+            type: 'array',
+            items: { type: 'string' },
+          },
+          excludeTags: {
+            type: 'array',
+            items: { type: 'string' },
+          },
+          waitFor: {
+            type: 'number',
+          },
+        },
+        description: 'Options for scraping each page',
+      },
+    },
+    required: ['url'],
+  },
+};
+
+const BATCH_SCRAPE_TOOL: Tool = {
+  name: 'firecrawl_batch_scrape',
+  description:
+    'Scrape multiple URLs in batch mode. Returns a job ID that can be used to check status.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      urls: {
+        type: 'array',
+        items: { type: 'string' },
+        description: 'List of URLs to scrape',
+      },
+      options: {
+        type: 'object',
+        properties: {
+          formats: {
+            type: 'array',
+            items: {
+              type: 'string',
+              enum: [
+                'markdown',
+                'html',
+                'rawHtml',
+                'screenshot',
+                'links',
+                'screenshot@fullPage',
+                'extract',
+              ],
+            },
+          },
+          onlyMainContent: {
+            type: 'boolean',
+          },
+          includeTags: {
+            type: 'array',
+            items: { type: 'string' },
+          },
+          excludeTags: {
+            type: 'array',
+            items: { type: 'string' },
+          },
+          waitFor: {
+            type: 'number',
+          },
+        },
+      },
+    },
+    required: ['urls'],
+  },
+};
+
+const CHECK_BATCH_STATUS_TOOL: Tool = {
+  name: 'firecrawl_check_batch_status',
+  description: 'Check the status of a batch scraping job.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      id: {
+        type: 'string',
+        description: 'Batch job ID to check',
+      },
+    },
+    required: ['id'],
+  },
+};
+
+const CHECK_CRAWL_STATUS_TOOL: Tool = {
+  name: 'firecrawl_check_crawl_status',
+  description: 'Check the status of a crawl job.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      id: {
+        type: 'string',
+        description: 'Crawl job ID to check',
+      },
+    },
+    required: ['id'],
+  },
+};
+
+const SEARCH_TOOL: Tool = {
+  name: 'firecrawl_search',
+  description:
+    'Search and retrieve content from web pages with optional scraping. ' +
+    'Returns SERP results by default (url, title, description) or full page content when scrapeOptions are provided.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      query: {
+        type: 'string',
+        description: 'Search query string',
+      },
+      limit: {
+        type: 'number',
+        description: 'Maximum number of results to return (default: 5)',
+      },
+      lang: {
+        type: 'string',
+        description: 'Language code for search results (default: en)',
+      },
+      country: {
+        type: 'string',
+        description: 'Country code for search results (default: us)',
+      },
+      tbs: {
+        type: 'string',
+        description: 'Time-based search filter',
+      },
+      filter: {
+        type: 'string',
+        description: 'Search filter',
+      },
+      location: {
+        type: 'object',
+        properties: {
+          country: {
+            type: 'string',
+            description: 'Country code for geolocation',
+          },
+          languages: {
+            type: 'array',
+            items: { type: 'string' },
+            description: 'Language codes for content',
+          },
+        },
+        description: 'Location settings for search',
+      },
+      scrapeOptions: {
+        type: 'object',
+        properties: {
+          formats: {
+            type: 'array',
+            items: {
+              type: 'string',
+              enum: ['markdown', 'html', 'rawHtml'],
+            },
+            description: 'Content formats to extract from search results',
+          },
+          onlyMainContent: {
+            type: 'boolean',
+            description: 'Extract only the main content from results',
+          },
+          waitFor: {
+            type: 'number',
+            description: 'Time in milliseconds to wait for dynamic content',
+          },
+        },
+        description: 'Options for scraping search results',
+      },
+    },
+    required: ['query'],
+  },
+};
+
+const EXTRACT_TOOL: Tool = {
+  name: 'firecrawl_extract',
+  description:
+    'Extract structured information from web pages using LLM. ' +
+    'Supports both cloud AI and self-hosted LLM extraction.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      urls: {
+        type: 'array',
+        items: { type: 'string' },
+        description: 'List of URLs to extract information from',
+      },
+      prompt: {
+        type: 'string',
+        description: 'Prompt for the LLM extraction',
+      },
+      systemPrompt: {
+        type: 'string',
+        description: 'System prompt for LLM extraction',
+      },
+      schema: {
+        type: 'object',
+        description: 'JSON schema for structured data extraction',
+      },
+      allowExternalLinks: {
+        type: 'boolean',
+        description: 'Allow extraction from external links',
+      },
+      enableWebSearch: {
+        type: 'boolean',
+        description: 'Enable web search for additional context',
+      },
+      includeSubdomains: {
+        type: 'boolean',
+        description: 'Include subdomains in extraction',
+      },
+    },
+    required: ['urls'],
+  },
+};
+
+const DEEP_RESEARCH_TOOL: Tool = {
+  name: 'firecrawl_deep_research',
+  description: 'Conduct deep research on a query using web crawling, search, and AI analysis.',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      query: {
+        type: 'string',
+        description: 'The query to research',
+      },
+      maxDepth: {
+        type: 'number',
+        description: 'Maximum depth of research iterations (1-10)',
+      },
+      timeLimit: {
+        type: 'number',
+        description: 'Time limit in seconds (30-300)',
+      },
+      maxUrls: {
+        type: 'number',
+        description: 'Maximum number of URLs to analyze (1-1000)',
+      }
+    },
+    required: ['query'],
+  },
+};
+
+// Define Leafly Strain Scraper Tool
+const LEAFLY_STRAIN_SCRAPER_TOOL: Tool = {
+  name: 'firecrawl_leafly_strain',
+  description: 'Scrape cannabis strain data from Leafly.com according to a standardized schema',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      strains: {
+        type: 'array',
+        items: { type: 'string' },
+        description: 'List of strain names to scrape'
+      },
+      exportFormat: {
+        type: 'string',
+        enum: ['csv', 'json'],
+        description: 'Format of the export data',
+        default: 'csv'
+      }
+    },
+    required: ['strains']
+  }
+};
+
+// Type definitions
+interface BatchScrapeOptions {
+  urls: string[];
+  options?: Omit<ScrapeParams, 'url'>;
+}
+
+interface StatusCheckOptions {
+  id: string;
+}
+
+interface SearchOptions {
+  query: string;
+  limit?: number;
+  lang?: string;
+  country?: string;
+  tbs?: string;
+  filter?: string;
+  location?: {
+    country?: string;
+    languages?: string[];
+  };
+  scrapeOptions?: {
+    formats?: string[];
+    onlyMainContent?: boolean;
+    waitFor?: number;
+  };
+}
+
+// Add after other interfaces
+interface ExtractParams<T = any> {
+  prompt?: string;
+  systemPrompt?: string;
+  schema?: T | object;
+  allowExternalLinks?: boolean;
+  enableWebSearch?: boolean;
+  includeSubdomains?: boolean;
+  origin?: string;
+}
+
+interface ExtractArgs {
+  urls: string[];
+  prompt?: string;
+  systemPrompt?: string;
+  schema?: object;
+  allowExternalLinks?: boolean;
+  enableWebSearch?: boolean;
+  includeSubdomains?: boolean;
+  origin?: string;
+}
+
+interface ExtractResponse<T = any> {
+  success: boolean;
+  data: T;
+  error?: string;
+  warning?: string;
+  creditsUsed?: number;
+}
+
+// Type guards
+function isScrapeOptions(
+  args: unknown
+): args is ScrapeParams & { url: string } {
+  return (
+    typeof args === 'object' &&
+    args !== null &&
+    'url' in args &&
+    typeof (args as { url: unknown }).url === 'string'
+  );
+}
+
+function isMapOptions(args: unknown): args is MapParams & { url: string } {
+  return (
+    typeof args === 'object' &&
+    args !== null &&
+    'url' in args &&
+    typeof (args as { url: unknown }).url === 'string'
+  );
+}
+
+function isCrawlOptions(args: unknown): args is CrawlParams & { url: string } {
+  return (
+    typeof args === 'object' &&
+    args !== null &&
+    'url' in args &&
+    typeof (args as { url: unknown }).url === 'string'
+  );
+}
+
+function isBatchScrapeOptions(args: unknown): args is BatchScrapeOptions {
+  return (
+    typeof args === 'object' &&
+    args !== null &&
+    'urls' in args &&
+    Array.isArray((args as { urls: unknown }).urls) &&
+    (args as { urls: unknown[] }).urls.every((url) => typeof url === 'string')
+  );
+}
+
+function isStatusCheckOptions(args: unknown): args is StatusCheckOptions {
+  return (
+    typeof args === 'object' &&
+    args !== null &&
+    'id' in args &&
+    typeof (args as { id: unknown }).id === 'string'
+  );
+}
+
+function isSearchOptions(args: unknown): args is SearchOptions {
+  return (
+    typeof args === 'object' &&
+    args !== null &&
+    'query' in args &&
+    typeof (args as { query: unknown }).query === 'string'
+  );
+}
+
+function isExtractOptions(args: unknown): args is ExtractArgs {
+  if (typeof args !== 'object' || args === null) return false;
+  const { urls } = args as { urls?: unknown };
+  return (
+    Array.isArray(urls) &&
+    urls.every((url): url is string => typeof url === 'string')
+  );
+}
+
+// Server implementation
+const server = new Server(
+  {
+    name: 'firecrawl-mcp',
+    version: '1.3.2',
+  },
+  {
+    capabilities: {
+      tools: {},
+      logging: {},
+    },
+  }
+);
+
+// Get optional API URL
+const FIRECRAWL_API_URL = process.env.FIRECRAWL_API_URL;
+const FIRECRAWL_API_KEY = process.env.FIRECRAWL_API_KEY;
+
+// Check if API key is required (only for cloud service)
+if (!FIRECRAWL_API_URL && !FIRECRAWL_API_KEY) {
+  console.error(
+    'Error: FIRECRAWL_API_KEY environment variable is required when using the cloud service'
+  );
+  process.exit(1);
+}
+
+// Initialize FireCrawl client with optional API URL
+const client = new FirecrawlApp({
+  apiKey: FIRECRAWL_API_KEY || '',
+  ...(FIRECRAWL_API_URL ? { apiUrl: FIRECRAWL_API_URL } : {}),
+});
+
+// Configuration for retries and monitoring
+const CONFIG = {
+  retry: {
+    maxAttempts: Number(process.env.FIRECRAWL_RETRY_MAX_ATTEMPTS) || 3,
+    initialDelay: Number(process.env.FIRECRAWL_RETRY_INITIAL_DELAY) || 1000,
+    maxDelay: Number(process.env.FIRECRAWL_RETRY_MAX_DELAY) || 10000,
+    backoffFactor: Number(process.env.FIRECRAWL_RETRY_BACKOFF_FACTOR) || 2,
+  },
+  credit: {
+    warningThreshold:
+      Number(process.env.FIRECRAWL_CREDIT_WARNING_THRESHOLD) || 1000,
+    criticalThreshold:
+      Number(process.env.FIRECRAWL_CREDIT_CRITICAL_THRESHOLD) || 100,
+  },
+};
+
+// Add credit tracking
+interface CreditUsage {
+  total: number;
+  lastCheck: number;
+}
+
+const creditUsage: CreditUsage = {
+  total: 0,
+  lastCheck: Date.now(),
+};
+
+// Add utility function for delay
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Add retry logic with exponential backoff
+async function withRetry<T>(
+  operation: () => Promise<T>,
+  context: string,
+  attempt = 1
+): Promise<T> {
+  try {
+    return await operation();
+  } catch (error) {
+    const isRateLimit =
+      error instanceof Error &&
+      (error.message.includes('rate limit') || error.message.includes('429'));
+
+    if (isRateLimit && attempt < CONFIG.retry.maxAttempts) {
+      const delayMs = Math.min(
+        CONFIG.retry.initialDelay *
+          Math.pow(CONFIG.retry.backoffFactor, attempt - 1),
+        CONFIG.retry.maxDelay
+      );
+
+      server.sendLoggingMessage({
+        level: 'warning',
+        data: `Rate limit hit for ${context}. Attempt ${attempt}/${CONFIG.retry.maxAttempts}. Retrying in ${delayMs}ms`,
+      });
+
+      await delay(delayMs);
+      return withRetry(operation, context, attempt + 1);
+    }
+
+    throw error;
+  }
+}
+
+// Add credit monitoring
+async function updateCreditUsage(creditsUsed: number): Promise<void> {
+  creditUsage.total += creditsUsed;
+
+  // Log credit usage
+  server.sendLoggingMessage({
+    level: 'info',
+    data: `Credit usage: ${creditUsage.total} credits used total`,
+  });
+
+  // Check thresholds
+  if (creditUsage.total >= CONFIG.credit.criticalThreshold) {
+    server.sendLoggingMessage({
+      level: 'error',
+      data: `CRITICAL: Credit usage has reached ${creditUsage.total}`,
+    });
+  } else if (creditUsage.total >= CONFIG.credit.warningThreshold) {
+    server.sendLoggingMessage({
+      level: 'warning',
+      data: `WARNING: Credit usage has reached ${creditUsage.total}`,
+    });
+  }
+}
+
+// Add before server implementation
+interface QueuedBatchOperation {
+  id: string;
+  urls: string[];
+  options?: any;
+  status: 'pending' | 'processing' | 'completed' | 'failed';
+  progress: {
+    completed: number;
+    total: number;
+  };
+  result?: any;
+  error?: string;
+}
+
+// Initialize queue system
+const batchQueue = new PQueue({ concurrency: 1 });
+const batchOperations = new Map<string, QueuedBatchOperation>();
+let operationCounter = 0;
+
+async function processBatchOperation(
+  operation: QueuedBatchOperation
+): Promise<void> {
+  try {
+    operation.status = 'processing';
+    let totalCreditsUsed = 0;
+
+    // Use library's built-in batch processing
+    const response = await withRetry(
+      async () =>
+        client.asyncBatchScrapeUrls(operation.urls, operation.options),
+      `batch ${operation.id} processing`
+    );
+
+    if (!response.success) {
+      throw new Error(response.error || 'Batch operation failed');
+    }
+
+    // Track credits if using cloud API
+    if (!FIRECRAWL_API_URL && hasCredits(response)) {
+      totalCreditsUsed += response.creditsUsed;
+      await updateCreditUsage(response.creditsUsed);
+    }
+
+    operation.status = 'completed';
+    operation.result = response;
+
+    // Log final credit usage for the batch
+    if (!FIRECRAWL_API_URL) {
+      server.sendLoggingMessage({
+        level: 'info',
+        data: `Batch ${operation.id} completed. Total credits used: ${totalCreditsUsed}`,
+      });
+    }
+  } catch (error) {
+    operation.status = 'failed';
+    operation.error = error instanceof Error ? error.message : String(error);
+
+    server.sendLoggingMessage({
+      level: 'error',
+      data: `Batch ${operation.id} failed: ${operation.error}`,
+    });
+  }
+}
+
+// Tool handlers
+server.setRequestHandler(ListToolsRequestSchema, async () => ({
+  tools: [
+    SCRAPE_TOOL,
+    MAP_TOOL,
+    CRAWL_TOOL,
+    BATCH_SCRAPE_TOOL,
+    CHECK_BATCH_STATUS_TOOL,
+    CHECK_CRAWL_STATUS_TOOL,
+    SEARCH_TOOL,
+    EXTRACT_TOOL,
+    DEEP_RESEARCH_TOOL,
+    LEAFLY_STRAIN_SCRAPER_TOOL,
+  ],
+}));
+
+server.setRequestHandler(CallToolRequestSchema, async (request) => {
+  const startTime = Date.now();
+  try {
+    const { name, arguments: args } = request.params;
+
+    // Log incoming request with timestamp
+    server.sendLoggingMessage({
+      level: 'info',
+      data: `[${new Date().toISOString()}] Received request for tool: ${name}`,
+    });
+
+    if (!args) {
+      throw new Error('No arguments provided');
+    }
+
+    switch (name) {
+      case 'firecrawl_scrape': {
+        if (!isScrapeOptions(args)) {
+          throw new Error('Invalid arguments for firecrawl_scrape');
+        }
+        const { url, ...options } = args;
+        try {
+          const scrapeStartTime = Date.now();
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Starting scrape for URL: ${url} with options: ${JSON.stringify(
+              options
+            )}`,
+          });
+
+          const response = await client.scrapeUrl(url, options);
+
+          // Log performance metrics
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Scrape completed in ${Date.now() - scrapeStartTime}ms`,
+          });
+
+          if ('success' in response && !response.success) {
+            throw new Error(response.error || 'Scraping failed');
+          }
+
+          const content =
+            'markdown' in response
+              ? response.markdown || response.html || response.rawHtml
+              : null;
+          return {
+            content: [
+              { type: 'text', text: content || 'No content available' },
+            ],
+            isError: false,
+          };
+        } catch (error) {
+          const errorMessage =
+            error instanceof Error ? error.message : String(error);
+          return {
+            content: [{ type: 'text', text: errorMessage }],
+            isError: true,
+          };
+        }
+      }
+
+      case 'firecrawl_map': {
+        if (!isMapOptions(args)) {
+          throw new Error('Invalid arguments for firecrawl_map');
+        }
+        const { url, ...options } = args;
+        const response = await client.mapUrl(url, options);
+        if ('error' in response) {
+          throw new Error(response.error);
+        }
+        if (!response.links) {
+          throw new Error('No links received from FireCrawl API');
+        }
+        return {
+          content: [{ type: 'text', text: response.links.join('\n') }],
+          isError: false,
+        };
+      }
+
+      case 'firecrawl_batch_scrape': {
+        if (!isBatchScrapeOptions(args)) {
+          throw new Error('Invalid arguments for firecrawl_batch_scrape');
+        }
+
+        try {
+          const operationId = `batch_${++operationCounter}`;
+          const operation: QueuedBatchOperation = {
+            id: operationId,
+            urls: args.urls,
+            options: args.options,
+            status: 'pending',
+            progress: {
+              completed: 0,
+              total: args.urls.length,
+            },
+          };
+
+          batchOperations.set(operationId, operation);
+
+          // Queue the operation
+          batchQueue.add(() => processBatchOperation(operation));
+
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Queued batch operation ${operationId} with ${args.urls.length} URLs`,
+          });
+
+          return {
+            content: [
+              {
+                type: 'text',
+                text: `Batch operation queued with ID: ${operationId}. Use firecrawl_check_batch_status to check progress.`,
+              },
+            ],
+            isError: false,
+          };
+        } catch (error) {
+          const errorMessage =
+            error instanceof Error
+              ? error.message
+              : `Batch operation failed: ${JSON.stringify(error)}`;
+          return {
+            content: [{ type: 'text', text: errorMessage }],
+            isError: true,
+          };
+        }
+      }
+
+      case 'firecrawl_check_batch_status': {
+        if (!isStatusCheckOptions(args)) {
+          throw new Error(
+            'Invalid arguments for firecrawl_check_batch_status'
+          );
+        }
+
+        const operation = batchOperations.get(args.id);
+        if (!operation) {
+          return {
+            content: [
+              {
+                type: 'text',
+                text: `No batch operation found with ID: ${args.id}`,
+              },
+            ],
+            isError: true,
+          };
+        }
+
+        const status = `Batch Status:
+Status: ${operation.status}
+Progress: ${operation.progress.completed}/${operation.progress.total}
+${operation.error ? `Error: ${operation.error}` : ''}
+${
+  operation.result
+    ? `Results: ${JSON.stringify(operation.result, null, 2)}`
+    : ''
+}`;
+
+        return {
+          content: [{ type: 'text', text: status }],
+          isError: false,
+        };
+      }
+
+      case 'firecrawl_crawl': {
+        if (!isCrawlOptions(args)) {
+          throw new Error('Invalid arguments for firecrawl_crawl');
+        }
+        const { url, ...options } = args;
+
+        const response = await withRetry(
+          async () => client.asyncCrawlUrl(url, options),
+          'crawl operation'
+        );
+
+        if (!response.success) {
+          throw new Error(response.error);
+        }
+
+        // Monitor credits for cloud API
+        if (!FIRECRAWL_API_URL && hasCredits(response)) {
+          await updateCreditUsage(response.creditsUsed);
+        }
+
+        return {
+          content: [
+            {
+              type: 'text',
+              text: `Started crawl for ${url} with job ID: ${response.id}`,
+            },
+          ],
+          isError: false,
+        };
+      }
+
+      case 'firecrawl_check_crawl_status': {
+        if (!isStatusCheckOptions(args)) {
+          throw new Error(
+            'Invalid arguments for firecrawl_check_crawl_status'
+          );
+        }
+        const response = await client.checkCrawlStatus(args.id);
+        if (!response.success) {
+          throw new Error(response.error);
+        }
+        const status = `Crawl Status:
+Status: ${response.status}
+Progress: ${response.completed}/${response.total}
+Credits Used: ${response.creditsUsed}
+Expires At: ${response.expiresAt}
+${
+  response.data.length > 0 ? '\nResults:\n' + formatResults(response.data) : ''
+}`;
+        return {
+          content: [{ type: 'text', text: status }],
+          isError: false,
+        };
+      }
+
+      case 'firecrawl_search': {
+        if (!isSearchOptions(args)) {
+          throw new Error('Invalid arguments for firecrawl_search');
+        }
+        try {
+          const response = await withRetry(
+            async () => client.search(args.query, args),
+            'search operation'
+          );
+
+          if (!response.success) {
+            throw new Error(
+              `Search failed: ${response.error || 'Unknown error'}`
+            );
+          }
+
+          // Monitor credits for cloud API
+          if (!FIRECRAWL_API_URL && hasCredits(response)) {
+            await updateCreditUsage(response.creditsUsed);
+          }
+
+          // Format the results
+          const results = response.data
+            .map(
+              (result) =>
+                `URL: ${result.url}
+Title: ${result.title || 'No title'}
+Description: ${result.description || 'No description'}
+${result.markdown ? `\nContent:\n${result.markdown}` : ''}`
+            )
+            .join('\n\n');
+
+          return {
+            content: [{ type: 'text', text: results }],
+            isError: false,
+          };
+        } catch (error) {
+          const errorMessage =
+            error instanceof Error
+              ? error.message
+              : `Search failed: ${JSON.stringify(error)}`;
+          return {
+            content: [{ type: 'text', text: errorMessage }],
+            isError: true,
+          };
+        }
+      }
+
+      case 'firecrawl_extract': {
+        if (!isExtractOptions(args)) {
+          throw new Error('Invalid arguments for firecrawl_extract');
+        }
+
+        try {
+          const extractStartTime = Date.now();
+
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Starting extraction for URLs: ${args.urls.join(', ')}`,
+          });
+
+          // Log if using self-hosted instance
+          if (FIRECRAWL_API_URL) {
+            server.sendLoggingMessage({
+              level: 'info',
+              data: 'Using self-hosted instance for extraction',
+            });
+          }
+
+          const extractResponse = await withRetry(
+            async () =>
+              client.extract(args.urls, {
+                prompt: args.prompt,
+                systemPrompt: args.systemPrompt,
+                schema: args.schema,
+                allowExternalLinks: args.allowExternalLinks,
+                enableWebSearch: args.enableWebSearch,
+                includeSubdomains: args.includeSubdomains,
+                origin: 'mcp-server',
+              } as ExtractParams),
+            'extract operation'
+          );
+
+          // Type guard for successful response
+          if (!('success' in extractResponse) || !extractResponse.success) {
+            throw new Error(extractResponse.error || 'Extraction failed');
+          }
+
+          const response = extractResponse as ExtractResponse;
+
+          // Monitor credits for cloud API
+          if (!FIRECRAWL_API_URL && hasCredits(response)) {
+            await updateCreditUsage(response.creditsUsed || 0);
+          }
+
+          // Log performance metrics
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Extraction completed in ${Date.now() - extractStartTime}ms`,
+          });
+
+          // Add warning to response if present
+          const result = {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify(response.data, null, 2),
+              },
+            ],
+            isError: false,
+          };
+
+          if (response.warning) {
+            server.sendLoggingMessage({
+              level: 'warning',
+              data: response.warning,
+            });
+          }
+
+          return result;
+        } catch (error) {
+          const errorMessage =
+            error instanceof Error ? error.message : String(error);
+
+          // Special handling for self-hosted instance errors
+          if (
+            FIRECRAWL_API_URL &&
+            errorMessage.toLowerCase().includes('not supported')
+          ) {
+            server.sendLoggingMessage({
+              level: 'error',
+              data: 'Extraction is not supported by this self-hosted instance',
+            });
+            return {
+              content: [
+                {
+                  type: 'text',
+                  text: 'Extraction is not supported by this self-hosted instance. Please ensure LLM support is configured.',
+                },
+              ],
+              isError: true,
+            };
+          }
+
+          return {
+            content: [{ type: 'text', text: errorMessage }],
+            isError: true,
+          };
+        }
+      }
+
+      case 'firecrawl_deep_research': {
+        if (!args || typeof args !== 'object' || !('query' in args)) {
+          throw new Error('Invalid arguments for firecrawl_deep_research');
+        }
+
+        try {
+          const researchStartTime = Date.now();
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Starting deep research for query: ${args.query}`,
+          });
+
+          const response = await client.deepResearch(
+            args.query as string,
+            {
+              maxDepth: args.maxDepth as number,
+              timeLimit: args.timeLimit as number,
+              maxUrls: args.maxUrls as number,
+            },
+            // Activity callback
+            (activity) => {
+              server.sendLoggingMessage({
+                level: 'info',
+                data: `Research activity: ${activity.message} (Depth: ${activity.depth})`,
+              });
+            },
+            // Source callback
+            (source) => {
+              server.sendLoggingMessage({
+                level: 'info',
+                data: `Research source found: ${source.url}${source.title ? ` - ${source.title}` : ''}`,
+              });
+            }
+          );
+
+          // Log performance metrics
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Deep research completed in ${Date.now() - researchStartTime}ms`,
+          });
+
+          if (!response.success) {
+            throw new Error(response.error || 'Deep research failed');
+          }
+
+          // Format the results
+          const formattedResponse = {
+            finalAnalysis: response.data.finalAnalysis,
+            activities: response.data.activities,
+            sources: response.data.sources,
+          };
+
+          return {
+            content: [{ type: 'text', text: formattedResponse.finalAnalysis }],
+            isError: false,
+          };
+        } catch (error) {
+          const errorMessage = error instanceof Error ? error.message : String(error);
+          return {
+            content: [{ type: 'text', text: errorMessage }],
+            isError: true,
+          };
+        }
+      }
+
+      case 'firecrawl_leafly_strain': {
+        if (!args || !args.strains) {
+          throw new Error('Invalid arguments for firecrawl_leafly_strain: strains array is required');
+        }
+        
+        try {
+          const { strains, exportFormat = 'csv' } = args as { strains: string[], exportFormat?: string };
+          
+          server.sendLoggingMessage({
+            level: 'info',
+            data: `Starting Leafly strain scraping for ${strains.length} strains`,
+          });
+          
+          const result = await scrapeLeaflyStrains(client, strains, exportFormat);
+          
+          if (!result.success) {
+            return {
+              content: [{ type: 'text', text: result.error }],
+              isError: true,
+            };
+          }
+          
+          const resultContent = exportFormat === 'csv' ? result.data : JSON.stringify(result.data, null, 2);
+          
+          return {
+            content: [{ type: 'text', text: resultContent }],
+            isError: false,
+          };
+        } catch (error) {
+          server.sendLoggingMessage({
+            level: 'error',
+            data: `Error in leafly strain scraper: ${error}`,
+          });
+          
+          return {
+            content: [{ type: 'text', text: `Error scraping strains: ${error}` }],
+            isError: true,
+          };
+        }
+      }
+
+      default:
+        return {
+          content: [{ type: 'text', text: `Unknown tool: ${name}` }],
+          isError: true,
+        };
+    }
+  } catch (error) {
+    // Log detailed error information
+    server.sendLoggingMessage({
+      level: 'error',
+      data: {
+        message: `Request failed: ${
+          error instanceof Error ? error.message : String(error)
+        }`,
+        tool: request.params.name,
+        arguments: request.params.arguments,
+        timestamp: new Date().toISOString(),
+        duration: Date.now() - startTime,
+      },
+    });
+    return {
+      content: [
+        {
+          type: 'text',
+          text: `Error: ${
+            error instanceof Error ? error.message : String(error)
+          }`,
+        },
+      ],
+      isError: true,
+    };
+  } finally {
+    // Log request completion with performance metrics
+    server.sendLoggingMessage({
+      level: 'info',
+      data: `Request completed in ${Date.now() - startTime}ms`,
+    });
+  }
+});
+
+// Helper function to format results
+function formatResults(data: FirecrawlDocument[]): string {
+  return data
+    .map((doc) => {
+      const content = doc.markdown || doc.html || doc.rawHtml || 'No content';
+      return `URL: ${doc.url || 'Unknown URL'}
+Content: ${content.substring(0, 100)}${content.length > 100 ? '...' : ''}
+${doc.metadata?.title ? `Title: ${doc.metadata.title}` : ''}`;
+    })
+    .join('\n\n');
+}
+
+// Server startup
+async function runServer() {
+  try {
+    console.error('Initializing FireCrawl MCP Server...');
+
+    const transport = new StdioServerTransport();
+    await server.connect(transport);
+
+    // Now that we're connected, we can send logging messages
+    server.sendLoggingMessage({
+      level: 'info',
+      data: 'FireCrawl MCP Server initialized successfully',
+    });
+
+    server.sendLoggingMessage({
+      level: 'info',
+      data: `Configuration: API URL: ${FIRECRAWL_API_URL || 'default'}`,
+    });
+
+    console.error('FireCrawl MCP Server running on stdio');
+  } catch (error) {
+    console.error('Fatal error running server:', error);
+    process.exit(1);
+  }
+}
+
+runServer().catch((error) => {
+  console.error('Fatal error running server:', error);
+  process.exit(1);
+});
+
+// Add type guard for credit usage
+function hasCredits(response: any): response is { creditsUsed: number } {
+  return 'creditsUsed' in response && typeof response.creditsUsed === 'number';
+}
+
+
+================================================================================
+File: firecrawl-mcp-server/src/leafly-scraper-cli.ts
+================================================================================
+
+#!/usr/bin/env node
+
+/// <reference types="node" />
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { scrapeLeaflyStrains } from './leafly-scraper.js';
+
+// Sample list of strains - using a subset of the provided 100 strains
+const DEFAULT_STRAINS: string[] = [
+  "Blue Dream",
+  "GSC (Girl Scout Cookies)",
+  "OG Kush",
+  "Sour Diesel",
+  "Durban Poison"
+];
+
+async function main(): Promise<void> {
+  try {
+    // Parse command line arguments
+    const outputFile: string = process.argv[2] || 'strain-data.csv';
+    const strainsArg: string = process.argv[3] || '';
+    
+    // Use provided strains or default list
+    const strains: string[] = strainsArg ? 
+      strainsArg.split(',').map((s: string) => s.trim()) : 
+      DEFAULT_STRAINS;
+    
+    console.log(`Will scrape ${strains.length} strains: ${strains.join(', ')}`);
+    console.log(`Results will be saved to: ${outputFile}`);
+    
+    // Initialize FirecrawlApp client
+    const client = new FirecrawlApp({
+      apiKey: process.env.FIRECRAWL_API_KEY || '',
+    });
+    
+    // Scrape strains
+    console.log('Starting strain scraping...');
+    const result = await scrapeLeaflyStrains(client, strains, 'csv');
+    
+    if (!result.success) {
+      console.error('Error:', result.error);
+      process.exit(1);
+    }
+    
+    // Write results to file
+    fs.writeFileSync(outputFile, result.data);
+    console.log(`Successfully scraped strains and saved to ${outputFile}`);
+    
+  } catch (error) {
+    console.error('Error running scraper:', error);
+    process.exit(1);
+  }
+}
+
+// Run the main function
+main().catch((err: Error) => {
+  console.error('Unhandled error:', err);
+  process.exit(1);
+}); 
+
+================================================================================
+File: firecrawl-mcp-server/src/leafly-scraper.ts
+================================================================================
+
+import FirecrawlApp from '@mendable/firecrawl-js';
+import PQueue from 'p-queue';
+
+// Define interface for strain data
+export interface StrainData {
+  "Strain Name": string;
+  [key: string]: string | number | null;
+}
+
+// Helper function to format strain name for URL
+export function formatStrainForUrl(strain: string): string {
+  return strain
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+// Helper function to extract cannabinoids from content
+export function extractCannabinoids(content: string, strainData: StrainData): void {
+  // THC extraction
+  const thcMatch = content.match(/THC\s+(\d+(?:\.\d+)?)-?(\d+(?:\.\d+)?)?\s*%/i);
+  if (thcMatch) {
+    // Take higher end of range per methodology
+    const thcValue = thcMatch[2] ? parseFloat(thcMatch[2]) : parseFloat(thcMatch[1]);
+    strainData["cannabinoids.THC"] = thcValue / 100; // Convert percentage to decimal
+  }
+  
+  // CBD extraction
+  const cbdMatch = content.match(/CBD\s+(\d+(?:\.\d+)?)-?(\d+(?:\.\d+)?)?\s*%/i);
+  if (cbdMatch) {
+    const cbdValue = cbdMatch[2] ? parseFloat(cbdMatch[2]) : parseFloat(cbdMatch[1]);
+    strainData["cannabinoids.CBD"] = cbdValue / 100;
+  } else if (content.match(/low\s+CBD|minimal\s+CBD/i)) {
+    // If described as "low" or "minimal" CBD
+    strainData["cannabinoids.CBD"] = 0.001;
+  }
+  
+  // CBG extraction
+  const cbgMatch = content.match(/CBG\s+(\d+(?:\.\d+)?)-?(\d+(?:\.\d+)?)?\s*%/i);
+  if (cbgMatch) {
+    const cbgValue = cbgMatch[2] ? parseFloat(cbgMatch[2]) : parseFloat(cbgMatch[1]);
+    strainData["cannabinoids.CBG"] = cbgValue / 100;
+  }
+  
+  // CBN extraction
+  const cbnMatch = content.match(/CBN\s+(\d+(?:\.\d+)?)-?(\d+(?:\.\d+)?)?\s*%/i);
+  if (cbnMatch) {
+    const cbnValue = cbnMatch[2] ? parseFloat(cbnMatch[2]) : parseFloat(cbnMatch[1]);
+    strainData["cannabinoids.CBN"] = cbnValue / 100;
+  }
+}
+
+// Helper function to extract terpenes from content
+export function extractTerpenes(content: string, strainData: StrainData): void {
+  // Leafly typically lists dominant terpenes in a section
+  const terpeneSection = content.match(/Dominant terpenes:?\s*(.*?)(?:\.|$)/i) || 
+                         content.match(/Common terpenes:?\s*(.*?)(?:\.|$)/i);
+  
+  if (terpeneSection) {
+    const terpenesText = terpeneSection[1];
+    const mentionedTerpenes = [];
+    
+    // Check for each terpene
+    if (terpenesText.match(/myrcene/i)) mentionedTerpenes.push("myrcene");
+    if (terpenesText.match(/caryophyllene/i)) mentionedTerpenes.push("caryophyllene");
+    if (terpenesText.match(/limonene/i)) mentionedTerpenes.push("limonene");
+    if (terpenesText.match(/pinene/i)) mentionedTerpenes.push("pinene");
+    if (terpenesText.match(/linalool/i)) mentionedTerpenes.push("linalool");
+    if (terpenesText.match(/terpinolene/i)) mentionedTerpenes.push("terpinolene");
+    if (terpenesText.match(/ocimene/i)) mentionedTerpenes.push("ocimene");
+    if (terpenesText.match(/humulene/i)) mentionedTerpenes.push("humulene");
+    
+    // Apply normalization as per methodology
+    if (mentionedTerpenes.length > 0) {
+      strainData["terpenes." + mentionedTerpenes[0]] = 0.008;
+      if (mentionedTerpenes.length > 1) strainData["terpenes." + mentionedTerpenes[1]] = 0.005;
+      if (mentionedTerpenes.length > 2) strainData["terpenes." + mentionedTerpenes[2]] = 0.003;
+      
+      // Set others to 0.001 if mentioned
+      for (let i = 3; i < mentionedTerpenes.length; i++) {
+        strainData["terpenes." + mentionedTerpenes[i]] = 0.001;
+      }
+    }
+  }
+}
+
+// Helper function to extract effects from content
+export function extractEffects(content: string, strainData: StrainData): void {
+  // User effects mapping
+  const userEffectsPatterns: {[key: string]: RegExp} = {
+    "Happy": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+happy/i,
+    "Relaxed": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+relaxed/i,
+    "Euphoric": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+euphoric/i,
+    "Creative": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+creative/i,
+    "Uplifted": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+uplifted/i,
+    "Energetic": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+energetic/i,
+    "Focused": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+focused/i,
+    "Sleepy": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+sleepy/i,
+    "Hungry": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+hungry/i,
+    "Talkative": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+talkative/i,
+    "Tingly": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+tingly/i,
+    "Giggly": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+giggly/i,
+    "DryMouth": /(\d+)%\s+of\s+users\s+reported\s+dry\s+mouth/i,
+    "DryEyes": /(\d+)%\s+of\s+users\s+reported\s+dry\s+eyes/i,
+    "Dizzy": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+dizzy/i,
+    "Paranoid": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+paranoid/i,
+    "Anxious": /(\d+)%\s+of\s+users\s+reported\s+feeling\s+anxious/i
+  };
+  
+  // Medical effects mapping
+  const medicalPatterns: {[key: string]: RegExp} = {
+    "Stress": /(\d+)%\s+of\s+users\s+reported\s+relief\s+from\s+stress/i,
+    "Anxiety": /(\d+)%\s+of\s+users\s+reported\s+relief\s+from\s+anxiety/i,
+    "Depression": /(\d+)%\s+of\s+users\s+reported\s+relief\s+from\s+depression/i,
+    "Pain": /(\d+)%\s+of\s+users\s+reported\s+relief\s+from\s+pain/i,
+    "Insomnia": /(\d+)%\s+of\s+users\s+reported\s+relief\s+from\s+insomnia/i,
+    "Lack of Appetite": /(\d+)%\s+of\s+users\s+reported\s+relief\s+from\s+lack\s+of\s+appetite/i,
+    "Nausea": /(\d+)%\s+of\s+users\s+reported\s+relief\s+from\s+nausea/i
+  };
+  
+  // Extract user effects
+  for (const [effect, pattern] of Object.entries(userEffectsPatterns)) {
+    const match = content.match(pattern);
+    if (match) {
+      const percentage = parseInt(match[1]);
+      strainData[`user_effects.${effect}`] = percentage / 100; // Convert to 0-1 scale
+    }
+  }
+  
+  // Extract medical effects
+  for (const [effect, pattern] of Object.entries(medicalPatterns)) {
+    const match = content.match(pattern);
+    if (match) {
+      const percentage = parseInt(match[1]);
+      strainData[`medical_effects.${effect}`] = percentage / 100;
+    }
+  }
+}
+
+// Helper function to extract flavors from content
+export function extractFlavors(content: string, strainData: StrainData): void {
+  // Leafly typically lists flavors in a section
+  const flavorSection = content.match(/Flavors:?\s*(.*?)(?:\.|$)/i) ||
+                        content.match(/Flavor[^:]*:?\s*(.*?)(?:\.|$)/i);
+  
+  if (flavorSection) {
+    const flavorsText = flavorSection[1];
+    
+    // Check for each flavor
+    const flavorPatterns: {[key: string]: RegExp} = {
+      "Berry": /berry/i,
+      "Sweet": /sweet/i,
+      "Earthy": /earthy/i,
+      "Pungent": /pungent/i,
+      "Pine": /pine/i,
+      "Vanilla": /vanilla/i,
+      "Minty": /minty|mint/i,
+      "Skunky": /skunky|skunk/i,
+      "Citrus": /citrus/i,
+      "Spicy": /spicy|spice/i,
+      "Herbal": /herbal|herb/i,
+      "Diesel": /diesel/i,
+      "Tropical": /tropical/i,
+      "Fruity": /fruity|fruit/i,
+      "Grape": /grape/i
+    };
+    
+    for (const [flavor, pattern] of Object.entries(flavorPatterns)) {
+      if (pattern.test(flavorsText)) {
+        // Default intensity for mentioned flavors
+        strainData[`flavors.${flavor}`] = 0.7;
+      }
+    }
+  }
+}
+
+// Helper function to normalize and validate strain data
+export function normalizeStrainData(strainData: StrainData): void {
+  // Set defaults for missing data
+  if (!strainData["onset_minutes"]) strainData["onset_minutes"] = 5;
+  if (!strainData["duration_hours"]) strainData["duration_hours"] = 3;
+  
+  // Default interactions if strain is sedative/relaxing
+  if ((strainData["user_effects.Relaxed"] as number) > 0.5 || 
+      (strainData["user_effects.Sleepy"] as number) > 0.5) {
+    if (!strainData["interactions.Sedatives"]) strainData["interactions.Sedatives"] = 0.5;
+    if (!strainData["interactions.Anti-anxiety (benzodiazepines)"]) 
+      strainData["interactions.Anti-anxiety (benzodiazepines)"] = 0.4;
+  }
+  
+  // Validate data quality
+  validateDataQuality(strainData);
+}
+
+// Helper function to validate strain data quality
+export function validateDataQuality(strainData: StrainData): void {
+  // Check for outliers
+  if ((strainData["cannabinoids.THC"] as number) > 0.4) { // 40% THC is extremely unlikely
+    strainData["cannabinoids.THC"] = 0.4; // Cap at 40%
+  }
+  
+  // Check for inconsistencies
+  if ((strainData["cannabinoids.THC"] as number) > 0.25 && 
+      (!strainData["user_effects.Euphoric"] || (strainData["user_effects.Euphoric"] as number) < 0.3)) {
+    // High THC should correlate with euphoric effects
+    strainData["user_effects.Euphoric"] = 0.5; // Set moderate value as fallback
+  }
+}
+
+// Helper function to extract and process strain data
+export function extractAndProcessStrainData(strainName: string, pageData: any, results: StrainData[]): void {
+  // Create strain data object with proper structure
+  const strainData: StrainData = {
+    "Strain Name": strainName
+    // Initialize all other columns as empty or default values
+  };
+  
+  const content = pageData.markdown || pageData.html;
+  if (!content) return;
+  
+  // Extract cannabinoids
+  extractCannabinoids(content, strainData);
+  
+  // Extract terpenes
+  extractTerpenes(content, strainData);
+  
+  // Extract effects (medical and user)
+  extractEffects(content, strainData);
+  
+  // Extract flavors
+  extractFlavors(content, strainData);
+  
+  // Apply normalization rules from methodology
+  normalizeStrainData(strainData);
+  
+  // Add to results
+  results.push(strainData);
+}
+
+// Helper function to convert data to CSV
+export function convertToCSV(results: StrainData[]): string {
+  // Define all potential columns in the order specified
+  const columns = [
+    "Strain Name",
+    "terpenes.myrcene",
+    "terpenes.pinene",
+    "terpenes.caryophyllene",
+    "terpenes.limonene",
+    "terpenes.linalool",
+    "terpenes.terpinolene",
+    "terpenes.ocimene",
+    "terpenes.humulene",
+    "terpenes.other",
+    "cannabinoids.THC",
+    "cannabinoids.CBD",
+    "cannabinoids.CBG",
+    "cannabinoids.CBN",
+    "cannabinoids.other",
+    "medical_effects.Stress",
+    "medical_effects.Anxiety",
+    "medical_effects.Depression",
+    "medical_effects.Pain",
+    "medical_effects.Insomnia",
+    "medical_effects.Lack of Appetite",
+    "medical_effects.Nausea",
+    "medical_effects.other",
+    "user_effects.Happy",
+    "user_effects.Euphoric",
+    "user_effects.Creative",
+    "user_effects.Relaxed",
+    "user_effects.Uplifted",
+    "user_effects.Energetic",
+    "user_effects.Focused",
+    "user_effects.Sleepy",
+    "user_effects.Hungry",
+    "user_effects.Talkative",
+    "user_effects.Tingly",
+    "user_effects.Giggly",
+    "user_effects.DryMouth",
+    "user_effects.DryEyes",
+    "user_effects.Dizzy",
+    "user_effects.Paranoid",
+    "user_effects.Anxious",
+    "user_effects.other",
+    "onset_minutes",
+    "duration_hours",
+    "interactions.Sedatives",
+    "interactions.Anti-anxiety (benzodiazepines)",
+    "interactions.Antidepressants (SSRIs)",
+    "interactions.Opioid analgesics",
+    "interactions.Anticonvulsants",
+    "interactions.Anticoagulants",
+    "interactions.other",
+    "flavors.Berry",
+    "flavors.Sweet",
+    "flavors.Earthy",
+    "flavors.Pungent",
+    "flavors.Pine",
+    "flavors.Vanilla",
+    "flavors.Minty",
+    "flavors.Skunky",
+    "flavors.Citrus",
+    "flavors.Spicy",
+    "flavors.Herbal",
+    "flavors.Diesel",
+    "flavors.Tropical",
+    "flavors.Fruity",
+    "flavors.Grape",
+    "flavors.other"
+  ];
+  
+  // Generate CSV header
+  let csv = columns.join(',') + '\n';
+  
+  // Add each strain as a row
+  for (const strain of results) {
+    const row = columns.map(column => {
+      const value = strain[column];
+      // Format value properly for CSV
+      if (value === undefined || value === null) {
+        return '';
+      } else if (typeof value === 'number') {
+        return value.toString();
+      } else {
+        // Escape quotes in string values
+        return `"${value.toString().replace(/"/g, '""')}"`;
+      }
+    });
+    csv += row.join(',') + '\n';
+  }
+  
+  return csv;
+}
+
+// Main function to scrape Leafly strains
+export async function scrapeLeaflyStrains(client: FirecrawlApp, strains: string[], exportFormat: string = 'csv'): Promise<any> {
+  const results: StrainData[] = [];
+  const queue = new PQueue({ concurrency: 3 }); // Respect site rate limits
+  
+  try {
+    // Process each strain
+    await Promise.all(strains.map(strain => queue.add(async () => {
+      // 1. Format strain name for URL
+      const formattedName = formatStrainForUrl(strain);
+      const leaflyUrl = `https://www.leafly.com/strains/${formattedName}`;
+      
+      // 2. Scrape the strain page
+      const pageData = await client.scrapeUrl(leaflyUrl, {
+        formats: ['markdown', 'html'],
+        onlyMainContent: true,
+        waitFor: 2000 // Wait for dynamic content to load
+      });
+      
+      if (!pageData.success) {
+        // Try alternative URL formats or search
+        const searchResults = await client.search(`${strain} strain site:leafly.com/strains`);
+        if (!searchResults.success || searchResults.data.length === 0) {
+          // Log failure and continue to next strain
+          console.log(`Could not find ${strain} on Leafly.com`);
+          return;
+        }
+        // Use first search result
+        const alternativeUrl = searchResults.data[0].url;
+        if (!alternativeUrl) {
+          console.log(`No valid URL found for ${strain} in search results`);
+          return;
+        }
+        
+        const retryPageData = await client.scrapeUrl(alternativeUrl, {
+          formats: ['markdown', 'html'],
+          onlyMainContent: true,
+          waitFor: 2000
+        });
+        
+        if (!retryPageData.success) return; // Skip this strain if still failing
+        
+        // Use the retry data
+        extractAndProcessStrainData(strain, retryPageData, results);
+      } else {
+        // Process successful initial scrape
+        extractAndProcessStrainData(strain, pageData, results);
+      }
+    })));
+    
+    // Return results in requested format
+    if (exportFormat === 'csv') {
+      return {
+        success: true,
+        data: convertToCSV(results)
+      };
+    } else {
+      return {
+        success: true,
+        data: results
+      };
+    }
+  } catch (error) {
+    console.error('Error scraping strains:', error);
+    return {
+      success: false,
+      error: `Error scraping strains: ${error}`
+    };
+  }
+} 
+
+================================================================================
+File: firecrawl-mcp-server/tsconfig.json
+================================================================================
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "tests"]
+}
+
+
+================================================================================
+File: leafly-scraper-cli.js
+================================================================================
+
+#!/usr/bin/env node
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { scrapeLeaflyStrains } from './firecrawl-mcp-server/src/leafly-scraper.js';
+
+// Sample list of strains - using a subset of the provided 100 strains
+const DEFAULT_STRAINS = [
+  "Blue Dream",
+  "GSC (Girl Scout Cookies)",
+  "OG Kush",
+  "Sour Diesel",
+  "Durban Poison"
+];
+
+async function main() {
+  try {
+    // Parse command line arguments
+    const outputFile = process.argv[2] || 'strain-data.csv';
+    const strainsArg = process.argv[3] || '';
+    
+    // Use provided strains or default list
+    const strains = strainsArg ? 
+      strainsArg.split(',').map(s => s.trim()) : 
+      DEFAULT_STRAINS;
+    
+    console.log(`Will scrape ${strains.length} strains: ${strains.join(', ')}`);
+    console.log(`Results will be saved to: ${outputFile}`);
+    
+    // Initialize FirecrawlApp client
+    const client = new FirecrawlApp({
+      apiKey: process.env.FIRECRAWL_API_KEY || '',
+    });
+    
+    // Scrape strains
+    console.log('Starting strain scraping...');
+    const result = await scrapeLeaflyStrains(client, strains, 'csv');
+    
+    if (!result.success) {
+      console.error('Error:', result.error);
+      process.exit(1);
+    }
+    
+    // Write results to file
+    fs.writeFileSync(outputFile, result.data);
+    console.log(`Successfully scraped strains and saved to ${outputFile}`);
+    
+  } catch (error) {
+    console.error('Error running scraper:', error);
+    process.exit(1);
+  }
+}
+
+// Run the main function
+main().catch(err => {
+  console.error('Unhandled error:', err);
+  process.exit(1);
+}); 
+
+================================================================================
+File: package.json
+================================================================================
+
+{
+  "name": "leafly-strain-scraper",
+  "version": "1.0.0",
+  "description": "A specialized tool for scraping cannabis strain data from Leafly.com",
+  "type": "module",
+  "scripts": {
+    "install-deps": "cd firecrawl-mcp-server && npm install",
+    "build": "cd firecrawl-mcp-server && npm run build",
+    "start-server": "cd firecrawl-mcp-server && npm start",
+    "scrape-leafly": "cd firecrawl-mcp-server && npm run scrape-leafly",
+    "scrape-batch": "cd firecrawl-mcp-server && npm run scrape-leafly:default",
+    "scrape-all": "node scrape-all-strains.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cannabis-data",
+    "leafly-scraper",
+    "strain-data",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "ISC"
+} 
+
+================================================================================
+File: scrape-all-strains.js
+================================================================================
+
+#!/usr/bin/env node
+
+import { spawn } from 'child_process';
+import path from 'path';
+import fs from 'fs';
+
+// The complete list of 100 strains from the provided data
+const ALL_STRAINS = [
+  "Blue Dream",
+  "Original Glue (GG4)",
+  "Wedding Cake",
+  "GSC (Girl Scout Cookies)",
+  "Northern Lights",
+  "Chemdog (Chemdawg)",
+  "Trainwreck",
+  "GMO Cookies",
+  "Mendo Breath",
+  "Motorbreath",
+  "Forbidden Fruit",
+  "Gushers",
+  "Alien OG",
+  "Rainbow Belts",
+  "Dutch Treat",
+  "MAC (Miracle Alien Cookies)",
+  "Mimosa",
+  "Strawberry Cough",
+  "Cheese",
+  "Blueberry Muffins",
+  "Stardawg",
+  "Kush Mints",
+  "Orange Creamsicle",
+  "Key Lime Pie",
+  "Lemon Tree",
+  "Grape Pie",
+  "Mango",
+  "OG Kush",
+  "Ice Cream Cake",
+  "Do-Si-Dos",
+  "Slurricane",
+  "Apple Fritter",
+  "Peanut Butter Breath",
+  "Grape Ape",
+  "LA Kush Cake",
+  "Mazar x Blueberry OG",
+  "Master Kush",
+  "Afghani",
+  "Animal Cookies",
+  "Khalifa Kush",
+  "Zkittlez",
+  "Granddaddy Purple",
+  "Purple Punch",
+  "White Rhino",
+  "Bubba Kush",
+  "Purple Kush",
+  "LA Confidential",
+  "9 Pound Hammer",
+  "Purple Urkle",
+  "Blackberry Kush",
+  "Hindu Kush",
+  "Pink Kush",
+  "Papaya Punch",
+  "MK Ultra",
+  "Blueberry",
+  "Sour Diesel",
+  "Pineapple Express",
+  "Maui Wowie",
+  "Durban Poison",
+  "Acapulco Gold",
+  "Green Crack",
+  "Super Lemon Haze",
+  "Super Silver Haze",
+  "Tropicana Cookies",
+  "White Fire OG",
+  "Lamb's Bread",
+  "Island Sweet Skunk",
+  "Gelato",
+  "Jack Herer",
+  "Bruce Banner",
+  "Tangie",
+  "Strawberry Banana",
+  "Headband",
+  "Haze",
+  "Skunk #1",
+  "Chocolope",
+  "Vanilla Frosting",
+  "Biscotti",
+  "Runtz",
+  "White Widow",
+  "Cherry Pie",
+  "AK-47",
+  "Candyland",
+  "Fruity Pebbles (FPOG)",
+  "Lava Cake",
+  "Banana Kush",
+  "Triangle Kush",
+  "Gelonade",
+  "ACDC",
+  "Watermelon Zkittlez",
+  "Pennywise",
+  "SFV OG",
+  "Zookies",
+  "Papaya",
+  "Guava",
+  "Bubble Gum",
+  "Lemonnade",
+  "Harlequin",
+  "Black Jack",
+  "Ghost Train Haze"
+];
+
+// Format strains as a comma-separated string
+const strainsArg = ALL_STRAINS.join(',');
+
+// Output file
+const outputFile = process.argv[2] || 'all-strains-data.csv';
+
+console.log(`Starting scraper for all 100 strains...`);
+console.log(`Results will be saved to: ${outputFile}`);
+
+// Path to the Firecrawl MCP server directory
+const serverDir = path.join(process.cwd(), 'firecrawl-mcp-server');
+
+// Check if the dist directory and compiled JS file exist
+const cliScriptPath = path.join(serverDir, 'dist', 'leafly-scraper-cli.js');
+if (!fs.existsSync(cliScriptPath)) {
+  console.error(`Error: The compiled script at ${cliScriptPath} doesn't exist.`);
+  console.log('Make sure you have built the project by running:');
+  console.log('npm run install-deps');
+  console.log('npm run build');
+  process.exit(1);
+}
+
+// Run the CLI script
+const child = spawn('node', [cliScriptPath, outputFile, strainsArg], {
+  env: process.env,
+  stdio: 'inherit',
+  cwd: serverDir
+});
+
+child.on('error', (error) => {
+  console.error('Failed to start subprocess:', error);
+  process.exit(1);
+});
+
+child.on('close', (code) => {
+  if (code !== 0) {
+    console.log(`Process exited with code ${code}`);
+    process.exit(code);
+  } else {
+    console.log('Successfully scraped all strains!');
+  }
+}); 

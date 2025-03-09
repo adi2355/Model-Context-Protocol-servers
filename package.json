@@ -1,0 +1,28 @@
+{
+  "name": "leafly-strain-scraper",
+  "version": "1.0.0",
+  "description": "A specialized tool for scraping cannabis strain data from Leafly.com",
+  "type": "module",
+  "scripts": {
+    "install-deps": "cd firecrawl-mcp-server && npm install",
+    "build": "cd firecrawl-mcp-server && npm run build",
+    "start-server": "cd firecrawl-mcp-server && npm start",
+    "scrape-leafly": "cd firecrawl-mcp-server && npm run scrape-leafly",
+    "scrape-batch": "cd firecrawl-mcp-server && npm run scrape-leafly:default",
+    "scrape-all": "node scrape-all-strains.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cannabis-data",
+    "leafly-scraper",
+    "strain-data",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mendable/firecrawl-js": "^1.19.0"
+  }
+}
