@@ -302,7 +302,7 @@ The server provides the following tools:
 - **/file/list**: List saved files
 - **/file/read/{filename}**: Read saved file contents
 
-## 4. JSON MCP Server
+## 4. JSON Manager MCP Server
 
 This MCP server provides advanced JSON querying and manipulation capabilities.
 
